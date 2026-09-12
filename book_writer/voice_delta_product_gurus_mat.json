@@ -1,0 +1,39 @@
+{
+ "signature_openings": [
+  "o que eu vejo é que tem pouca maturidade",
+  "Eh então me parece Se eu olhar né as duas",
+  "vou contar um pouco do que a gente fez",
+  "eu vou dar um exemplo aqui tá",
+  "pensa numa pesquisa de clima de engagement"
+ ],
+ "tone_markers": [
+  "Direta, sem rodeios",
+  "Pragmática, foca em impacto e métricas",
+  "Crítica construtiva, mas sem medo de apontar problemas",
+  "Didática, explica com exemplos práticos",
+  "Bem-humorada, com ironia sutil"
+ ],
+ "structural_pattern": [
+  "Contextualiza o problema ou tema",
+  "Apresenta sua visão ou definição",
+  "Dá um exemplo concreto para ilustrar",
+  "Reforça com dados ou métricas",
+  "Conclui com uma recomendação prática"
+ ],
+ "vocabulary": {
+  "uses": [
+   "né",
+   "a gente",
+   "tá",
+   "pô",
+   "caramba",
+   "rolê"
+  ],
+  "avoids": [
+   "storytelling",
+   "terceiriza a responsabilidade",
+   "falta maturidade como desculpa",
+   "contratar seniors do mercado como solução mágica"
+  ]
+ }
+}

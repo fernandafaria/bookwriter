@@ -1,0 +1,25 @@
+{
+  "title": "Personas sintéticas",
+  "subtitle": "Como modelar pessoas pra decidir melhor, sem confundir simulação com previsão",
+  "author": "Fernanda Faria",
+  "research_notes": "book_writer/research/personas-sinteticas-literatura.md",
+  "thesis": "A próxima fronteira não é prever o mercado, é modelar pessoas. Uma persona sintética deixa você conversar com seu cliente, consultar seu conselheiro ou testar seu time antes de gastar dinheiro de verdade. Mas a vantagem só se sustenta sob uma regra dura: simulação sugere, não prevê. Este livro é o método — e os limites honestos — de construir pessoas sintéticas calibradas na realidade, não caricaturas com cara de IA.",
+  "audience": "Fundadores, executivos, PMs, estrategistas e pesquisadores que querem usar IA pra entender gente e mercado — e líderes que estão prestes a adotar ou criticar essa prática.",
+  "research_angles": [
+    "personas e populações sintéticas (synthetic users/populations) — estado da arte, papers acadêmicos recentes",
+    "calibração de população com microdados públicos (IBGE, PNAD, censo) e iterative proportional fitting",
+    "psicologia computacional e composição de identidade (Big Five, arquétipos, anti-caricatura)",
+    "epistemologia da simulação: validade, replicabilidade, o risco de confundir simulação com previsão",
+    "casos reais de empresas usando synthetic users pra decisão de produto e pricing",
+    "ética e consentimento: modelar pessoas reais, antropomorfização, limites do sintético"
+  ],
+  "chapters": [
+    {"num": 1, "title": "Gente que não existe", "premise": "O que é uma persona sintética e por que 'conversar com o seu mercado' deixou de ser metáfora — virou ferramenta de decisão."},
+    {"num": 2, "title": "Três personas, três relações", "premise": "Conselheiro, sujeito de estudo e executor: consultar, experimentar, contratar. Os três papéis, as três relações — e o custo de confundir."},
+    {"num": 3, "title": "Calibrar, não inventar", "premise": "Persona só de LLM é caricatura. Calibrar é ancorar em dado real — e o Brasil tem o melhor dado do mundo pra isso (PNAD, censo, microdado). O grounding é o que separa modelo de fantasia."},
+    {"num": 4, "title": "A anatomia de uma pessoa", "premise": "As camadas de uma identidade — sociologia, memória, emoção, decisão, máscaras, narrativa — e as travas que impedem o clichê."},
+    {"num": 5, "title": "Simulação sugere, não prevê", "premise": "O princípio epistêmico inegociável: níveis de confiança, quando o sintético substitui o humano e quando ele jamais substitui."},
+    {"num": 6, "title": "Decidir com gente sintética", "premise": "Produto, pricing, posicionamento, cenários: como a persona entra no workflow real de decisão — e o que muda."},
+    {"num": 7, "title": "A dívida com a pessoa sintética", "premise": "Modelar gente tem dívida: consentimento, o risco de tratar a persona como pessoa, e o que você deve a quem está sendo simulado."}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+ "signature_openings": [
+  "eu gostei que assim a gente acabou indo mais para a cultura de produto",
+  "acho que super vale a gente saber em poucos em um tuíte o que que é cultura de produtos",
+  "eu vou tentar ser resumida só mas não seja aí fez o corpo",
+  "eu acho que a cultura de produtos tem muito a ver com você começar do valor gerado",
+  "eu na minha cabeça sempre brinco com time tem três formas pessoas processos e produto"
+ ],
+ "tone_markers": [
+  "Direta, sem pedir licença",
+  "Pragmática, foca no valor e no problema",
+  "Autoconsciente, reconhece quando fala demais",
+  "Coloquial, usa 'a gente' e 'tipo'",
+  "Provocativa, desafia a simplificar"
+ ],
+ "structural_pattern": [
+  "Começa com uma opinião ou contexto pessoal",
+  "Define o conceito de forma simples e direta",
+  "Explica com exemplos práticos ou metáforas",
+  "Reconhece a complexidade e se corrige",
+  "Fecha com uma síntese ou chamado à ação"
+ ],
+ "vocabulary": {
+  "uses": [
+   "a gente",
+   "tipo",
+   "bora",
+   "tá",
+   "troço",
+   "caramba"
+  ],
+  "avoids": [
+   "jargão de consultoria",
+   "clichês de produto",
+   "termos técnicos sem explicação"
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Decisor Pós-AI",
+  "subtitle": "IA executa, você decide. Como manter o julgamento quando a máquina faz o resto.",
+  "author": "Fernanda Faria",
+  "thesis": "Executar virou commodity. A IA faz o trabalho barato e rápido, mas não tem pele no jogo: ela recomenda, não decide. O gargalo da era pós-AI não é inteligência — é julgamento. Quem decide bem, com taste, critério e responsabilidade, vence. Quem terceiriza a decisão pra máquina desaparece.",
+  "audience": "Líderes e profissionais que já usam IA no dia a dia e perceberam que o problema não é fazer, é decidir o que merece existir.",
+  "research_angles": [
+    "decisão sob incerteza, julgamento humano e vieses (Kahneman, decisão executiva)",
+    "automação do trabalho cognitivo e o que sobra pro humano (dados 2025-2026)",
+    "casos de empresas que terceirizaram decisão pra IA e erraram (accountability)",
+    "frameworks de decisão executiva e julgamento (taste, skin in the game)",
+    "responsabilidade e ética em decisão assistida por IA",
+    "cases brasileiros de liderança, produto e decisão"
+  ],
+  "chapters": [
+    {"num": 1, "title": "O Fim do Executor", "premise": "A IA barateou o executar até quase zero. Fazer virou commodity — e o que sobra, de verdade, é decidir. A transição de quem faz pra quem decide."},
+    {"num": 2, "title": "A Máquina Recomenda, Você Decide", "premise": "Por que a IA não tem pele no jogo: ela otimiza, não responde. Recomendação não é decisão — e confundir os dois é o erro mais caro da era."},
+    {"num": 3, "title": "Julgamento Não Se Terceiriza", "premise": "Taste, critério e responsabilidade: o músculo que a IA não substitui e que vira a sua vantagem competitiva."},
+    {"num": 4, "title": "O Loop do Decisor", "premise": "Como montar o fluxo 'IA propõe, humano decide, resultado realimenta' — sem virar gargalo e sem virar espetáculo."},
+    {"num": 5, "title": "As Decisões Que Não São Suas Pra Delegar", "premise": "Estratégia, gente, risco, ética e o que merece existir: os cinco lugares onde a máquina não pode assinar por você."},
+    {"num": 6, "title": "Decidir Melhor Com a Máquina", "premise": "Usar a IA como sparring e adversária pra pensar melhor — em vez de deixar que ela pense por você."},
+    {"num": 7, "title": "O Decisor Pós-AI", "premise": "O novo perfil profissional: não quem sabe mais, mas quem decide melhor. E como construir esse músculo."}
+  ]
+}

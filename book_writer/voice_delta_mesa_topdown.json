@@ -1,0 +1,43 @@
+{
+ "signature_openings": [
+  "vamos falar sobre terapia cara",
+  "eu acho que é você não pode meinar confiança na liderança",
+  "tem hora que a gente vai discordar mas a gente vai ter que seguir o jogo",
+  "engole o choro e segue o jogo",
+  "eu corri o risco eu falei eu entendo minha posição na empresa"
+ ],
+ "tone_markers": [
+  "Direta, sem pedir licença",
+  "Pragmática, foca no que funciona",
+  "Autoconsciente, reconhece as próprias falhas",
+  "Irônica, zoa sem perder o respeito",
+  "Empática, entende o lado do time"
+ ],
+ "structural_pattern": [
+  "Contextualiza o problema com um exemplo concreto",
+  "Apresenta a tensão ou dilema",
+  "Dá a opinião direta, sem rodeios",
+  "Oferece uma solução prática ou estratégia",
+  "Fecha com uma máxima ou lição"
+ ],
+ "vocabulary": {
+  "uses": [
+   "cara",
+   "tá",
+   "a gente",
+   "top down",
+   "escrotisse",
+   "maluquice",
+   "bater o pé",
+   "engolir o choro",
+   "merda",
+   "saquinho de ideia merda"
+  ],
+  "avoids": [
+   "jargão de consultoria",
+   "clichê motivacional",
+   "toxicidade",
+   "falar que tá comprada sem questionar"
+  ]
+ }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capa B — Arquitetura Tropical</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1a1815;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; padding: 40px;
+  }
+
+  .cover {
+    width: 480px; height: 680px;
+    background: #FAF7F2;
+    position: relative; overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+
+  /* Bloco geométrico superior — concreto */
+  .geo-top {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 55%;
+    background: #2D2A26;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+
+  /* Linha vermelha — argila */
+  .red-line {
+    position: absolute;
+    top: 52%; left: 0; right: 0;
+    height: 4px;
+    background: #C44536;
+    z-index: 2;
+  }
+
+  /* Círculo — sol/lua tropical */
+  .circle {
+    position: absolute;
+    top: 18%; right: 12%;
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.12);
+  }
+
+  .content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+    padding: 48px 40px 36px;
+    z-index: 3;
+  }
+
+  .top-section {
+    position: absolute; top: 40px; left: 40px; right: 40px;
+  }
+
+  .label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.35em; text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 54px; font-weight: 900;
+    line-height: 1.02;
+    color: #FAF7F2;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+  }
+
+  .title-bottom {
+    color: #2D2A26;
+  }
+
+  .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 400;
+    line-height: 1.6;
+    color: #5A5652;
+    max-width: 300px;
+    margin-top: 16px;
+    letter-spacing: 0.01em;
+  }
+
+  .author-block {
+    display: flex; align-items: center; gap: 12px;
+    margin-top: 32px;
+  }
+
+  .author-line {
+    width: 32px; height: 1.5px;
+    background: #C44536;
+  }
+
+  .author {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.25em; text-transform: uppercase;
+    color: #2D2A26;
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="geo-top"></div>
+  <div class="red-line"></div>
+  <div class="circle"></div>
+  <div class="content">
+    <div class="top-section">
+      <div class="label">produto · liderança · ia</div>
+      <div class="title">
+        <div>Liderando</div>
+        <div>na Era dos</div>
+        <div>Agentes</div>
+      </div>
+    </div>
+    <div>
+      <div class="title-bottom" style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:500;color:#2D2A26;margin-bottom:6px;">O manual de liderança de produto para a era da IA</div>
+      <div class="subtitle">Por quem opera a transformação —<br>com as mãos sujas, os erros reais, e as<br>decisões que não têm resposta certa.</div>
+      <div class="author-block">
+        <div class="author-line"></div>
+        <div class="author">Fernanda Faria</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

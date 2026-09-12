@@ -1,0 +1,21 @@
+{
+  "title": "A Economia da Atenção na Era da IA",
+  "subtitle": "Como decidir o que vale a pena automatizar e o que vale a pena preservar como humano",
+  "author": "Fernanda Faria",
+  "thesis": "Na era da IA, o recurso escasso não é inteligência — é atenção e julgamento. Quem decide o que automatizar (e o que preservar) vence.",
+  "audience": "Líderes de produto e negócio que já usam IA e querem parar de perseguir hype pra focar no que gera valor real.",
+  "research_angles": [
+    "economia da atenção e design comportamental",
+    "casos reais de empresas que automatizaram demais e perderam o usuário",
+    "dados de retenção e engajamento em produtos com IA (fontes 2025-2026)",
+    "frameworks de decisão: o que automatizar vs o que preservar como humano",
+    "cases brasileiros de produto e atenção"
+  ],
+  "chapters": [
+    {"num": 1, "title": "O Recurso Escasso", "premise": "Atenção é o novo petróleo. A IA multiplica conteúdo, mas não multiplica atenção — e quem não entende isso queima orçamento sem perceber."},
+    {"num": 2, "title": "Automação sem Direção", "premise": "Velocidade sem direção é só ruído. O custo oculto de automatizar o que não devia — e como isso aparece no P&L."},
+    {"num": 3, "title": "Julgamento como Vantagem", "premise": "Taste importa mais que frameworks na era da IA. Como construir o músculo de decidir o que merece existir."},
+    {"num": 4, "title": "Design de Atenção", "premise": "Como desenhar produtos que respeitam a atenção em vez de explorá-la — e por que isso vira retenção, não só ética."},
+    {"num": 5, "title": "O Humano que Fica", "premise": "O trabalho que a máquina torna possível mas não pode fazer sozinha: sentir, conectar, decidir o que vale a pena."}
+  ]
+}

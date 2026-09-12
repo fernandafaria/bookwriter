@@ -1,0 +1,34 @@
+{
+ "signature_openings": [
+  "Eu acho que já estão, sei lá, essa seria a minha resposta inicial, né?",
+  "Acho que, né, falando um pouco do momento que eu tô no Zé Delivery",
+  "Eu acredito muito na liderança, por exemplo, né?",
+  "Gosto muito de pensar na interação humana e a inicialmente você ganha muita produtividade"
+ ],
+ "tone_markers": [
+  "Direta, sem rodeios: 'essa seria a minha resposta inicial'",
+  "Pragmática, foca em resultado: 'aumentou a minha capacidade de entrega'",
+  "Empática, acolhe o medo: 'também não acolher esse medo também é muito ruim como liderança'",
+  "Provocativa, questiona o status quo: 'você provavelmente já tá ficando para trás'"
+ ],
+ "structural_pattern": [
+  "Começa com uma opinião forte e direta",
+  "Contextualiza com um exemplo prático do dia a dia",
+  "Reforça o papel do líder como facilitador e acolhedor",
+  "Conclui com uma visão de futuro e impacto no negócio"
+ ],
+ "vocabulary": {
+  "uses": [
+   "tá",
+   "né",
+   "cara",
+   "putz",
+   "a gente",
+   "coisa"
+  ],
+  "avoids": [
+   "jargão de consultoria",
+   "clichê de inovação"
+  ]
+ }
+}

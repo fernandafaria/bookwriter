@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figma Mockup — Capa Liderando na Era dos Agentes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Inter:wght@400;500;600&display=swap');
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body { background:#1E1E1E; font-family:'Inter',sans-serif; min-height:100vh; display:flex; }
+
+  /* ── Left panel (layers) ── */
+  .layers {
+    width:220px; background:#2C2C2C; color:#CCCCCC;
+    font-size:11px; padding:12px 0; flex-shrink:0;
+    border-right:1px solid #3C3C3C;
+  }
+  .layers-title {
+    padding:0 12px 8px; font-weight:600; font-size:10px;
+    text-transform:uppercase; letter-spacing:.1em; color:#888;
+  }
+  .layer {
+    padding:4px 12px 4px 20px; cursor:default;
+    display:flex; align-items:center; gap:6px;
+  }
+  .layer:hover { background:#383838; }
+  .layer-icon { width:14px; height:14px; border-radius:2px; flex-shrink:0; }
+  .layer-icon.frame { border:1.5px solid #8B5CF6; }
+  .layer-icon.group { border:1.5px solid #3B82F6; }
+  .layer-icon.text { border:1.5px solid #10B981; }
+  .layer-icon.rect { border:1.5px solid #F59E0B; }
+  .layer-icon.circle { border:1.5px solid #EF4444; border-radius:50%; }
+  .layer-name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .layer-tag { font-size:9px; color:#666; margin-left:auto; }
+
+  /* ── Canvas ── */
+  .canvas-wrap { flex:1; overflow:auto; position:relative; }
+  .canvas {
+    width:1200px; height:900px; position:relative;
+    background:#1E1E1E;
+    background-image:
+      radial-gradient(circle, #2a2a2a 1px, transparent 1px);
+    background-size:20px 20px;
+    margin:40px auto;
+  }
+
+  /* ── Book cover frame ── */
+  .book-group {
+    position:absolute; top:60px; left:150px;
+    display:flex;
+  }
+
+  .cover-frame {
+    width:420px; height:600px;
+    background:#FAF7F2;
+    position:relative; overflow:hidden;
+    box-shadow:0 8px 40px rgba(0,0,0,0.5);
+  }
+
+  /* Geo block */
+  .geo {
+    position:absolute; top:0; left:0; right:0; height:58%;
+    background:#2D2A26;
+    clip-path:polygon(0 0,100% 0,100% 82%,0 100%);
+  }
+  .geo::after {
+    content:''; position:absolute; inset:0;
+    background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(255,255,255,0.015) 3px,rgba(255,255,255,0.015) 6px);
+  }
+
+  /* Red line */
+  .red-line { position:absolute; top:54.5%; left:0; right:0; height:3px; background:#C44536; z-index:3; }
+
+  /* Circles */
+  .circle1 { position:absolute; top:16%; right:10%; width:100px; height:100px; border-radius:50%; border:1.5px solid rgba(255,255,255,0.1); z-index:2; }
+  .circle2 { position:absolute; top:24%; right:18%; width:40px; height:40px; border-radius:50%; border:1px solid rgba(255,255,255,0.08); z-index:2; }
+
+  /* Content */
+  .content { position:absolute; inset:0; display:flex; flex-direction:column; padding:42px 36px 32px; z-index:4; }
+  .c-top { flex:1; }
+  .c-label { font-family:'DM Sans'; font-size:9px; font-weight:500; letter-spacing:.4em; text-transform:uppercase; color:rgba(255,255,255,0.45); margin-bottom:48px; }
+  .c-title { font-family:'DM Sans'; font-size:52px; font-weight:900; line-height:1.0; color:#FAF7F2; letter-spacing:-0.03em; }
+  .c-subtitle { font-family:'DM Sans'; font-size:14px; font-weight:400; line-height:1.5; color:#5A5652; margin-bottom:20px; max-width:280px; }
+  .c-author { display:flex; align-items:center; gap:10px; }
+  .c-author-line { width:28px; height:1.5px; background:#C44536; }
+  .c-author-name { font-family:'DM Sans'; font-size:11px; font-weight:500; letter-spacing:.25em; text-transform:uppercase; color:#2D2A26; }
+
+  /* Spine */
+  .spine-frame {
+    width:32px; height:600px; background:#2D2A26;
+    display:flex; flex-direction:column; align-items:center; justify-content:space-between;
+    padding:40px 0; box-shadow:4px 0 20px rgba(0,0,0,0.3);
+  }
+  .spine-dot { width:4px; height:4px; border-radius:50%; background:#C44536; margin:12px 0; }
+  .spine-title { writing-mode:vertical-rl; font-family:'DM Sans'; font-size:13px; font-weight:700; color:#FAF7F2; letter-spacing:.08em; flex:1; display:flex; align-items:center; }
+  .spine-author { writing-mode:vertical-rl; font-family:'DM Sans'; font-size:9px; font-weight:400; letter-spacing:.15em; color:rgba(255,255,255,0.5); text-transform:uppercase; }
+
+  /* Back */
+  .back-frame {
+    width:420px; height:600px; background:#FAF7F2;
+    padding:48px 36px; display:flex; flex-direction:column; justify-content:center;
+    position:relative; box-shadow:8px 8px 40px rgba(0,0,0,0.5);
+  }
+  .back-frame::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:#C44536; }
+  .b-title { font-family:'DM Sans'; font-size:18px; font-weight:700; color:#2D2A26; margin-bottom:20px; line-height:1.3; }
+  .b-text { font-family:'DM Sans'; font-size:13px; line-height:1.7; color:#5A5652; margin-bottom:28px; }
+  .b-text em { color:#C44536; font-style:italic; }
+  .b-bullets { font-family:'DM Sans'; font-size:12px; line-height:1.8; color:#5A5652; margin-bottom:32px; list-style:none; }
+  .b-bullets li::before { content:'—'; color:#C44536; margin-right:8px; }
+  .b-footer { font-family:'DM Sans'; font-size:9px; color:#8A857E; letter-spacing:.05em; margin-top:auto; }
+
+  /* ── Measurements ── */
+  .measure {
+    position:absolute; font-family:'Inter',monospace; font-size:10px; color:#8B5CF6;
+    display:flex; align-items:center; gap:4px;
+    pointer-events:none;
+  }
+  .measure::before { content:''; background:#8B5CF6; }
+  .measure.h { flex-direction:column; }
+  .measure.h::before { width:1px; height:12px; }
+  .measure.v { flex-direction:row; }
+  .measure.v::before { width:12px; height:1px; }
+
+  .m-top { top:44px; left:130px; }
+  .m-bottom { bottom:44px; right:auto; left:130px; }
+  .m-height-l { left:130px; top:60px; bottom:60px; display:flex; flex-direction:column; justify-content:center; }
+  .m-height-r { right:auto; left:590px; top:60px; bottom:60px; display:flex; flex-direction:column; justify-content:center; }
+
+  /* ── Specs panel ── */
+  .specs {
+    position:absolute; top:60px; right:40px;
+    background:#2C2C2C; border-radius:8px; padding:16px;
+    font-size:10px; color:#CCC; width:220px;
+    border:1px solid #3C3C3C;
+  }
+  .specs-title { font-weight:600; font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:#888; margin-bottom:10px; }
+  .spec-row { display:flex; justify-content:space-between; padding:3px 0; }
+  .spec-val { color:#FAF7F2; }
+  .spec-swatch { display:inline-block; width:12px; height:12px; border-radius:2px; margin-right:4px; vertical-align:middle; }
+</style>
+</head>
+<body>
+
+<!-- Layers Panel -->
+<div class="layers">
+  <div class="layers-title">Layers</div>
+  <div class="layer"><div class="layer-icon frame"></div><span class="layer-name">📘 Capa Completa</span></div>
+  <div class="layer"><div class="layer-icon" style="margin-left:12px;"></div><span class="layer-name" style="padding-left:16px;">▸ Frente</span><span class="layer-tag">Frame</span></div>
+  <div class="layer"><div class="layer-icon rect" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Geo Block</span></div>
+  <div class="layer"><div class="layer-icon rect" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Red Line</span></div>
+  <div class="layer"><div class="layer-icon circle" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Circle 1</span></div>
+  <div class="layer"><div class="layer-icon circle" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Circle 2</span></div>
+  <div class="layer"><div class="layer-icon text" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Label</span></div>
+  <div class="layer"><div class="layer-icon text" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Title</span></div>
+  <div class="layer"><div class="layer-icon text" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Subtitle</span></div>
+  <div class="layer"><div class="layer-icon text" style="margin-left:24px;"></div><span class="layer-name" style="padding-left:28px;">Author</span></div>
+  <div class="layer"><div class="layer-icon" style="margin-left:12px;"></div><span class="layer-name" style="padding-left:16px;">▸ Lombada</span><span class="layer-tag">Frame</span></div>
+  <div class="layer"><div class="layer-icon" style="margin-left:12px;"></div><span class="layer-name" style="padding-left:16px;">▸ Verso</span><span class="layer-tag">Frame</span></div>
+</div>
+
+<!-- Canvas -->
+<div class="canvas-wrap">
+<div class="canvas">
+
+  <!-- Book group -->
+  <div class="book-group">
+    <div class="back-frame">
+      <div class="b-title">O manual de liderança de<br>produto para a <em>era da IA</em></div>
+      <div class="b-text">Em 2026, o mercado está cheio de livros sobre AI Product Management. O problema: foram escritos por consultores e acadêmicos.<br><br><em>Este livro é diferente.</em> Ele foi escrito por quem <em>opera</em> a transformação — com as mãos sujas, os erros reais, e as decisões que não têm resposta certa.</div>
+      <ul class="b-bullets">
+        <li>Descubra em que nível de maturidade sua área está</li>
+        <li>Aprenda a decidir entre build, buy ou borrow</li>
+        <li>Redesenhe times com o PM Brain OS</li>
+        <li>Implemente rituais e governança para agentes</li>
+        <li>Leve o Custo Real Calculator pro seu CFO</li>
+      </ul>
+      <div class="b-footer">Fernanda Faria lidera produtos e times de tecnologia há mais de uma década. Foi executiva em plataformas de escala global e operou a transformação de times tradicionais em organizações AI-native.</div>
+    </div>
+
+    <div class="spine-frame">
+      <div class="spine-dot"></div>
+      <div class="spine-title">Liderando na Era dos Agentes</div>
+      <div class="spine-author">Fernanda Faria</div>
+      <div class="spine-dot"></div>
+    </div>
+
+    <div class="cover-frame">
+      <div class="geo"></div>
+      <div class="red-line"></div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="content">
+        <div class="c-top">
+          <div class="c-label">produto · liderança · ia</div>
+          <div class="c-title">
+            <div>Liderando</div>
+            <div>na Era dos</div>
+            <div>Agentes</div>
+          </div>
+        </div>
+        <div>
+          <div class="c-subtitle">O manual de liderança de produto para a era da IA — por quem opera a transformação</div>
+          <div class="c-author">
+            <div class="c-author-line"></div>
+            <div class="c-author-name">Fernanda Faria</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Measurements -->
+  <div style="position:absolute; left:90px; top:60px; display:flex; flex-direction:column; justify-content:space-between; height:600px;">
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">← 28mm →</div>
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">600px</div>
+  </div>
+  <div style="position:absolute; left:150px; top:40px; right:auto; width:872px; display:flex; justify-content:space-between;">
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">420px</div>
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">32px</div>
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">420px</div>
+  </div>
+  <div style="position:absolute; left:150px; top:660px; right:auto; width:872px; display:flex; justify-content:space-between;">
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">← frente 160×230mm →</div>
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">lombada</div>
+    <div style="font-size:9px;color:#8B5CF6;font-family:Inter;">← verso 160×230mm →</div>
+  </div>
+
+</div>
+</div>
+
+<!-- Specs Panel -->
+<div style="position:absolute; top:0; right:0; width:100%; height:100%; pointer-events:none;">
+  <div style="position:absolute; right:40px; top:60px; background:#2C2C2C; border-radius:8px; padding:14px 16px; border:1px solid #3C3C3C; pointer-events:auto;">
+    <div style="font-weight:600; font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:#888; margin-bottom:8px;">🎨 Style Guide</div>
+    <div style="font-family:Inter; font-size:10px; color:#CCC; line-height:1.6;">
+      <div><span class="spec-swatch" style="background:#FAF7F2;"></span> Papel <span style="color:#888">#FAF7F2</span></div>
+      <div><span class="spec-swatch" style="background:#2D2A26;"></span> Concreto <span style="color:#888">#2D2A26</span></div>
+      <div><span class="spec-swatch" style="background:#C44536;"></span> Argila <span style="color:#888">#C44536</span></div>
+      <div style="margin-top:6px;"><span style="color:#888;">Título</span> DM Sans 900 52px</div>
+      <div><span style="color:#888;">Corpo</span> DM Sans 400 11-14px</div>
+      <div><span style="color:#888;">Label</span> DM Sans 500 9px +0.4em</div>
+      <div style="margin-top:6px;"><span style="color:#888;">Formato</span> 16 × 23 cm</div>
+      <div><span style="color:#888;">Lombada</span> 32px (~320pp)</div>
+      <div><span style="color:#888;">Clip-path</span> 0→82% / 0→100%</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

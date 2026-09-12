@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capa C — Concreto e Dados</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=JetBrains+Mono:wght@300;400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1a1815;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; padding: 40px;
+  }
+
+  .cover {
+    width: 480px; height: 680px;
+    background: #E8E2D7;
+    position: relative; overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+
+  /* Padrão de dados — grade sutil */
+  .data-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(45,42,38,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(45,42,38,0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+    opacity: 0.6;
+  }
+
+  /* Bloco preto com os dados "vazando" */
+  .dark-block {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 52%;
+    background: #2D2A26;
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+  }
+
+  /* Elementos de dados decorativos */
+  .data-point {
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: rgba(45,42,38,0.25);
+    letter-spacing: 0.05em;
+  }
+  .dp1 { top: 8%; right: 12%; }
+  .dp2 { top: 16%; left: 8%; }
+  .dp3 { top: 72%; right: 10%; color: rgba(250,247,242,0.25); }
+
+  /* Barra vermelha de destaque */
+  .accent-bar {
+    position: absolute;
+    top: 0; left: 0;
+    width: 6px; height: 100%;
+    background: #C44536;
+    z-index: 3;
+  }
+
+  .content {
+    position: absolute; inset: 0;
+    padding: 40px 40px 36px 28px;
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+  }
+
+  .top-meta {
+    display: flex; justify-content: space-between; align-items: flex-start;
+  }
+
+  .label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8px; font-weight: 500;
+    letter-spacing: 0.4em; text-transform: uppercase;
+    color: #8A857E;
+  }
+
+  .edition {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: #8A857E;
+  }
+
+  .title-block {
+    margin-top: 60px;
+  }
+
+  .title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px; font-weight: 700;
+    line-height: 1.04;
+    color: #2D2A26;
+    letter-spacing: -0.02em;
+  }
+
+  .title-em {
+    color: #C44536;
+  }
+
+  .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 400;
+    color: #6B6560;
+    margin-top: 14px;
+    max-width: 300px;
+    line-height: 1.5;
+  }
+
+  .bottom-block {
+    color: #FAF7F2;
+  }
+
+  .hook {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(250,247,242,0.6);
+    margin-bottom: 16px;
+  }
+
+  .stats-line {
+    display: flex; gap: 24px;
+  }
+
+  .stat {
+    font-family: 'DM Sans', sans-serif;
+  }
+  .stat-num {
+    font-size: 28px; font-weight: 700;
+    color: #C44536;
+  }
+  .stat-label {
+    font-size: 9px; font-weight: 400;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: rgba(250,247,242,0.5);
+  }
+
+  .author-line {
+    margin-top: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: rgba(250,247,242,0.7);
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="data-grid"></div>
+  <div class="dark-block"></div>
+  <div class="accent-bar"></div>
+
+  <div class="data-point dp1">N1→N5  ·  B³  ·  THA</div>
+  <div class="data-point dp2">L0→L4  ·  O1→O5</div>
+  <div class="data-point dp3">PM Brain OS  ·  ESCALA</div>
+
+  <div class="content">
+    <div>
+      <div class="top-meta">
+        <div class="label">manual de liderança</div>
+        <div class="edition">1ª ed · 2026</div>
+      </div>
+      <div class="title-block">
+        <div class="title">
+          <div>Liderando</div>
+          <div>na <span class="title-em">Era dos</span></div>
+          <div>Agentes</div>
+        </div>
+        <div class="subtitle">O manual de liderança de produto<br>para a era da IA — por quem opera<br>a transformação</div>
+      </div>
+    </div>
+
+    <div class="bottom-block">
+      <div class="hook">O que fazer quando a IA muda seu time, seu produto e sua carreira</div>
+      <div class="stats-line">
+        <div class="stat">
+          <div class="stat-num">8</div>
+          <div class="stat-label">ferramentas<br>práticas</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">4</div>
+          <div class="stat-label">partes<br>diagnóstico → operação</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">30</div>
+          <div class="stat-label">dias<br>plano de ação</div>
+        </div>
+      </div>
+      <div class="author-line">Fernanda Faria</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

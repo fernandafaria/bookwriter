@@ -1,0 +1,24 @@
+{
+  "title": "O Executivo na Era dos Agentes",
+  "subtitle": "Como líderes de alta performance decidem o que merece existir quando a máquina faz o resto",
+  "author": "Fernanda Faria",
+  "thesis": "A IA barateou a execução, mas não resolveu o problema do executivo: decidir o que merece existir e montar um sistema que decide bem mais rápido que o concorrente. Alta performance deixou de ser produzir mais e virou decidir melhor em escala. O executivo que terceiriza o julgamento — o próprio ou o do time — desaparece. O que constrói o músculo de decisão na organização vence.",
+  "audience": "C-level, VPs e diretores de alta performance que já têm times usando IA e sentem que o gargalo mudou: não é mais produzir, é decidir.",
+  "research_angles": [
+    "high-performance teams e design de organização (Claire Vo, EPD, org design)",
+    "operating model para times humano+agente (rituais, accountability, métricas)",
+    "casos de executivos e empresas que reorganizaram para IA e acertaram ou erraram",
+    "dados de produtividade executiva e de times com IA (fontes 2025-2026)",
+    "frameworks de decisão executiva em escala (taste, skin in the game, delegação)",
+    "cases brasileiros de liderança e alta performance"
+  ],
+  "chapters": [
+    {"num": 1, "title": "A Alavanca Mudou", "premise": "Coordenar execução virou commodity. A alavanca do executivo migra de 'saber e direcionar' para 'decidir o que merece existir' e montar o sistema que decide bem."},
+    {"num": 2, "title": "Times Híbridos de Alta Performance", "premise": "Como montar, medir e liderar times humano+agente — o que sobra e o que muda no desenho do time quando a máquina executa."},
+    {"num": 3, "title": "O Operating Model dos Agentes", "premise": "Rituais, accountability e métricas de um sistema que decide e executa com máquinas — sem virar caos nem espetáculo."},
+    {"num": 4, "title": "Julgamento em Escala", "premise": "Como o critério de um executivo vira padrão replicável no time, em vez de virar gargalo: delegação sem terceirização do julgamento."},
+    {"num": 5, "title": "As Decisões Que São Suas", "premise": "Gente, estratégia, risco e ética: os lugares onde o executivo não pode assinar embaixo de uma recomendação da máquina."},
+    {"num": 6, "title": "Ritmo É Direção", "premise": "Velocidade sem direção é ruído. As métricas que separam alta performance de teatro de produtividade na era dos agentes."},
+    {"num": 7, "title": "O Executivo Pós-AI", "premise": "O novo perfil de alta performance: não quem sabe mais ou entrega mais, mas quem constrói a organização que decide melhor — e como desenvolver esse músculo."}
+  ]
+}

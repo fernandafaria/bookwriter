@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capa B — Arquitetura Tropical (Refinada)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1a1815;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 100vh; padding: 40px;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .book {
+    display: flex;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+  }
+
+  /* ── Capa completa (frente + lombada + verso) ── */
+  .front { width: 420px; height: 600px; position: relative; overflow: hidden; }
+  .spine { width: 32px; height: 600px; }
+  .back  { width: 420px; height: 600px; }
+
+  /* ── CAPA FRENTE ── */
+  .front {
+    background: #FAF7F2;
+  }
+
+  /* Bloco geométrico superior */
+  .geo {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 58%;
+    background: #2D2A26;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+  }
+
+  /* Textura sutil no bloco escuro */
+  .geo::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      0deg, transparent, transparent 3px,
+      rgba(255,255,255,0.015) 3px, rgba(255,255,255,0.015) 6px
+    );
+  }
+
+  /* Linha vermelha */
+  .red-line {
+    position: absolute; top: 54.5%; left: 0; right: 0;
+    height: 3px; background: #C44536; z-index: 3;
+  }
+
+  /* Círculo superior direito */
+  .circle {
+    position: absolute;
+    top: 16%; right: 10%;
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(255,255,255,0.1);
+    z-index: 2;
+  }
+
+  /* Círculo menor */
+  .circle-sm {
+    position: absolute;
+    top: 24%; right: 18%;
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.08);
+    z-index: 2;
+  }
+
+  /* Conteúdo da frente */
+  .front-content {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    padding: 42px 36px 32px;
+    z-index: 4;
+  }
+
+  .front-top { flex: 1; }
+
+  .label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.4em; text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 48px;
+  }
+
+  .title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 52px; font-weight: 900;
+    line-height: 1.0;
+    color: #FAF7F2;
+    letter-spacing: -0.03em;
+  }
+
+  .title-line { display: block; }
+
+  .front-bottom {
+    color: #2D2A26;
+  }
+
+  .front-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 400;
+    line-height: 1.5;
+    color: #5A5652;
+    margin-bottom: 20px;
+    max-width: 280px;
+  }
+
+  .front-author {
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .front-author-line {
+    width: 28px; height: 1.5px; background: #C44536;
+  }
+
+  .front-author-name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 0.25em; text-transform: uppercase;
+    color: #2D2A26;
+  }
+
+  /* ── LOMBADA ── */
+  .spine {
+    background: #2D2A26;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: space-between;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  .spine-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 700;
+    color: #FAF7F2;
+    letter-spacing: 0.08em;
+    flex: 1;
+    display: flex; align-items: center;
+  }
+
+  .spine-author {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px; font-weight: 400;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+  }
+
+  .spine-dot {
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: #C44536;
+    margin: 12px 0;
+  }
+
+  /* ── VERSO ── */
+  .back {
+    background: #FAF7F2;
+    padding: 48px 36px;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .back::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 3px;
+    background: #C44536;
+  }
+
+  .back-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px; font-weight: 700;
+    color: #2D2A26;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+
+  .back-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 400;
+    line-height: 1.7;
+    color: #5A5652;
+    margin-bottom: 28px;
+  }
+
+  .back-text em {
+    font-style: italic;
+    color: #C44536;
+  }
+
+  .back-bullets {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 400;
+    line-height: 1.8;
+    color: #5A5652;
+    margin-bottom: 32px;
+    list-style: none;
+  }
+
+  .back-bullets li::before {
+    content: '—';
+    color: #C44536;
+    margin-right: 8px;
+  }
+
+  .back-footer {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px; font-weight: 400;
+    color: #8A857E;
+    letter-spacing: 0.05em;
+    margin-top: auto;
+  }
+
+  /* ── Zoom / detalhe ── */
+  .label-note {
+    margin-top: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: #8A857E;
+    text-align: center;
+    max-width: 900px;
+  }
+</style>
+</head>
+<body>
+<div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+<div class="book">
+  <!-- FRENTE -->
+  <div class="front">
+    <div class="geo"></div>
+    <div class="red-line"></div>
+    <div class="circle"></div>
+    <div class="circle-sm"></div>
+
+    <div class="front-content">
+      <div class="front-top">
+        <div class="label">produto · liderança · ia</div>
+        <div class="title">
+          <span class="title-line">Liderando</span>
+          <span class="title-line">na Era dos</span>
+          <span class="title-line">Agentes</span>
+        </div>
+      </div>
+
+      <div class="front-bottom">
+        <div class="front-subtitle">
+          O manual de liderança de produto<br>
+          para a era da IA — por quem opera<br>
+          a transformação
+        </div>
+        <div class="front-author">
+          <div class="front-author-line"></div>
+          <div class="front-author-name">Fernanda Faria</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOMBADA -->
+  <div class="spine">
+    <div class="spine-dot"></div>
+    <div class="spine-text">Liderando na Era dos Agentes</div>
+    <div class="spine-author">Fernanda Faria</div>
+    <div class="spine-dot"></div>
+  </div>
+
+  <!-- VERSO -->
+  <div class="back">
+    <div class="back-title">
+      O manual de liderança de produto<br>
+      para a <em>era da IA</em>
+    </div>
+
+    <div class="back-text">
+      Em 2026, o mercado está cheio de livros sobre<br>
+      AI Product Management. O problema: foram<br>
+      escritos por consultores e acadêmicos.<br><br>
+
+      <em>Este livro é diferente.</em> Ele foi escrito por quem<br>
+      <em>opera</em> a transformação — com as mãos sujas,<br>
+      os erros reais, e as decisões que não têm<br>
+      resposta certa.
+    </div>
+
+    <ul class="back-bullets">
+      <li>Descubra em que nível de maturidade sua área está</li>
+      <li>Aprenda a decidir entre build, buy ou borrow</li>
+      <li>Redesenhe times com o PM Brain OS</li>
+      <li>Implemente rituais e governança para agentes</li>
+      <li>Leve o Custo Real Calculator pro seu CFO</li>
+    </ul>
+
+    <div class="back-footer">
+      Fernanda Faria lidera produtos e times de tecnologia<br>
+      há mais de uma década. Foi executiva em plataformas de<br>
+      escala global e operou a transformação de times<br>
+      tradicionais em organizações AI-native.
+    </div>
+  </div>
+</div>
+<div class="label-note">Capa B · Arquitetura Tropical · Formato 16×23cm · Lombada 3.2cm (~320 páginas)</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+ "signature_openings": [
+  "Tem um paradoxo bizarro no meio dessa transformação digital",
+  "Toda semana cai na minha caixa um fornecedor prometendo um 'agente de IA autônomo'",
+  "No fim de semana do feriado eu sentei por dois dias num curso live.",
+  "Antes de entrar no tema técnico de hoje, queria puxar um fio",
+  "Nesses últimos 15 dias eu fui a um campeonato de Lorcana",
+  "Se 2025 foi o ano em que todo mundo virou especialista em IA no LinkedIn"
+ ],
+ "tone_markers": [
+  "Direta, sem pedir licença",
+  "Provocativa, cutuca o leitor",
+  "Pragmática, foca no que funciona",
+  "Pessoal, usa histórias próprias",
+  "Crítica, desmonta discursos prontos",
+  "Incentivadora, puxa pra ação"
+ ],
+ "structural_pattern": [
+  "Abre com uma história pessoal ou observação do cotidiano",
+  "Apresenta um problema ou paradoxo",
+  "Dá dados ou exemplos concretos",
+  "Oferece um framework ou passo a passo",
+  "Fecha com uma reflexão ou chamado para ação"
+ ],
+ "vocabulary": {
+  "uses": [
+   "a gente",
+   "tá",
+   "bora",
+   "troço",
+   "fogo de palha",
+   "barato saiu caro",
+   "ralo de dinheiro",
+   "puxar pra frente",
+   "destrinchar",
+   "real talk"
+  ],
+  "avoids": [
+   "jargão de consultoria",
+   "clichê de inovação",
+   "discurso de autonomia total",
+   "hype",
+   "métrica de vaidade"
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "scores": {
+  "tese": 9,
+  "estrutura": 9,
+  "voz_autoral": 9,
+  "concretude": 8,
+  "atribuicao": 9,
+  "adesao_brief": 9,
+  "rigor_factual": 7,
+  "aplicabilidade": 9,
+  "originalidade": 9,
+  "concisao": 9
+ },
+ "total": 87,
+ "verdict": "REVISE",
+ "top_problems": [
+  {
+   "quote": "Caso real: uma empresa brasileira de tecnologia financeira",
+   "problem": "O trecho é chamado de 'caso real', mas ao final é marcado como 'caso ilustrativo composto'. A contradição enfraquece a credibilidade factual do exemplo."
+  },
+  {
+   "quote": "PepsiCo do Brasil havia ampliado de 5 para 17 aplicações",
+   "problem": "A fonte citada é 'Valor Econômico, 18/08/2026' — data futura e sem link/edição verificável, o que compromete o rigor factual."
+  },
+  {
+   "quote": "77% dos desafios de implementação de IA são não técnicos",
+   "problem": "Atribuição vaga ('Stanford HAI, 2026') sem estudo específico; número estatístico sem verificação independente."
+  }
+ ],
+ "summary": "Capítulo tem tese forte e guia prático útil, mas peca em rigor factual (data futura, casos contraditórios) e precisa revisar marcações de casos reais vs. compostos."
+}
