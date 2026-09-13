@@ -1,32 +1,32 @@
 {
  "scores": {
   "voz_autoral": 7,
-  "rigor_factual": 4,
-  "concretude": 4,
+  "rigor_factual": 7,
+  "concretude": 7,
   "relevancia": 8,
-  "clareza": 6,
+  "clareza": 7,
   "aplicabilidade": 8,
-  "anti_hype": 7
+  "anti_hype": 9
  },
- "total": 44,
- "verdict": "REJECT",
+ "total": 53,
+ "verdict": "REVISE",
  "top_problems": [
   {
-   "quote": "NPS do agente: Mede satisfação com a interação",
-   "problem": "NPS não é escala 1–5; meta 'acima de 4.0' mistura NPS com CSAT e quebra o rigor."
+   "quote": "Chamo de Culture-Ethics, um framework de 8 componentes",
+   "problem": "Acrônimo forçado (CULTURET, U e T repetidos) e oito blocos idênticos 'o que é / por que importa / como implementar' têm cara de GPT/consultoria, não da frase curta da Fernanda."
   },
   {
-   "quote": "(caso ilustrativo)",
-   "problem": "Todos os cases são genéricos e confessadamente fictícios; zero empresa nomeada."
+   "quote": "U, Unambiguous Metrics",
+   "problem": "Rótulos em inglês no miolo PT-BR (Learning Rituais, Ethical Escalation, Time Rotation, harness, slop, evals) quebram voz e clareza para executivo brasileiro."
   },
   {
-   "quote": "segundo dados da Gartner (2025)",
-   "problem": "Queda de 60% no tempo de recuperação com rotação parece número fabricado, fonte não verificável."
+   "quote": "Essa pergunta apareceu em todas as empresas que visitei",
+   "problem": "Afirmação ampla sem nomear nenhuma empresa brasileira; sintomas e guia (crédito, fraude, recomendação) ficam genéricos e soam inventados."
   },
   {
-   "quote": "artigo da Folha de S.Paulo sobre IA no varejo (2024)",
-   "problem": "Cena ficcional citada como fato jornalístico, sem título nem data checável."
+   "quote": "derrubou o copiloto da Kavak",
+   "problem": "Causalidade nítida demais e números redondos (90%, um ano parado, 28% McKinsey) com fonte só de podcast/relatório; o rigor não segura a afirmação."
   }
  ],
- "summary": "Há voz em trechos e um 30/60/90 acionável para o decisor, mas o texto não publica: cases ilustrativos sem nome, NPS trocado com nota 1–5, e Gartner/Folha usados como muleta factual. Reescrever com cases reais e checagem antes de qualquer revisão de estilo."
+ "summary": "Relevante e acionável, com anti-hype honesto e plano 90 dias útil. A voz escorrega no framework CULTURET em inglês e nos blocos formulaicos; faltam casos brasileiros nomeados e há causalidade/números mais assertivos do que a evidência."
 }
