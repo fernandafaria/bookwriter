@@ -1,0 +1,474 @@
+[
+ {
+  "kind": "fonte_line",
+  "source": "Zillow 10-K Filing 2021; The Wall Street Journal, \"Zillow's Algorithm Couldn't Predict Home Prices\", novembro 2021",
+  "context": "Fonte: Zillow 10-K Filing 2021; The Wall Street Journal, \"Zillow's Algorithm Couldn't Predict Home Prices\", novembro 2021",
+  "query": "Zillow 10-K Filing 2021; The Wall Street Journal, \"Zillow's Algorithm Couldn't Predict Home Prices\", novembro 2021",
+  "years": [
+   2021
+  ]
+ },
+ {
+  "kind": "fonte_line",
+  "source": "Stat News, \"IBM's Watson recommended 'unsafe and incorrect' cancer treatments\", julho 2018; The Wall Street Journal, \"IBM's Watson Health Struggles With Data, Doctors\", 2021; STAT News, \"IBM's Watson Health is over. What's next?\", 2022; Texas Medical Center, \"MD Anderson and IBM Watson: A Case Study\", 2017",
+  "context": "Fonte: Stat News, \"IBM's Watson recommended 'unsafe and incorrect' cancer treatments\", julho 2018; The Wall Street Journal, \"IBM's Watson Health Struggles With Data, Doctors\", 2021; STAT News, \"IBM's Watson Health is over. What's next?\", 2022; Texas Medical Center, \"MD Anderson and IBM Watson: A Case Study\", 2017",
+  "query": "Stat News, \"IBM's Watson recommended 'unsafe and incorrect' cancer treatments\", julho 2018; The Wall Street Journal, \"IBM's Watson Health Struggles With Data, Doctors\", 2021; STAT News, \"IBM's Watson Health is over. What's next?\", 2022; Texas Medical Center, \"MD Anderson and IBM Watson: A Case Study\", 2017",
+  "years": [
+   2017,
+   2018,
+   2021,
+   2022
+  ]
+ },
+ {
+  "kind": "fonte_line",
+  "source": "Case documentado internamente e apresentado no evento \"AI Product Summit Brasil\", 2025",
+  "context": "Fonte: Case documentado internamente e apresentado no evento \"AI Product Summit Brasil\", 2025",
+  "query": "Case documentado internamente e apresentado no evento \"AI Product Summit Brasil\", 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "fonte_line",
+  "source": "iFood, \"AI and the Future of Delivery\", apresentação no evento \"AI Summit Brazil\", 2024; iFood, Relatório de Sustentabilidade 2024",
+  "context": "Fonte: iFood, \"AI and the Future of Delivery\", apresentação no evento \"AI Summit Brazil\", 2024; iFood, Relatório de Sustentabilidade 2024",
+  "query": "iFood, \"AI and the Future of Delivery\", apresentação no evento \"AI Summit Brazil\", 2024; iFood, Relatório de Sustentabilidade 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "fonte: McKinsey Global Survey on AI, 2025, disponível em mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+  "context": "AI 2025\" da McKinsey, 78% das empresas da Fortune 500 adotaram IA em pelo menos uma função de negócio, mas apenas 18% reportam impacto significativo no negócio (fonte: McKinsey Global Survey on AI, 2025, disponível em mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai). As empresas estão investindo, mas não",
+  "query": "fonte: McKinsey Global Survey on AI, 2025, disponível em mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: case público Loggi, 2022. Dados atualizados em 2025 indicam que a empresa expandiu o uso de IA para outras áreas, como previsão de demanda e otimização de frota. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação",
+  "context": "o de roteirização. **Resultados:** Redução de 20% no tempo de entrega. Aumento de 15% na produtividade dos motoristas. O modelo foi lançado em 4 meses, não 8. (Fonte: case público Loggi, 2022. Dados atualizados em 2025 indicam que a empresa expandiu o uso de IA para outras áreas, como previsão de demanda e otimização de frota. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação.) ### Caso 3: Nubank, Nível 4 (Usar), IA",
+  "query": "Fonte: case público Loggi, 2022. Dados atualizados em 2025 indicam que a empresa expandiu o uso de IA para outras áreas, como previsão de demanda e otimização de frota. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação",
+  "years": [
+   2022,
+   2025,
+   2026
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: case público Nubank, 2023. Dados atualizados em 2025 indicam que a empresa refinou o modelo para incluir análise de comportamento de gastos, aumentando a precisão das aprovações. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação",
+  "context": "*Resultados:** Tempo de aprovação caiu de 3 dias para 15 minutos. Taxa de inadimplência não aumentou. O time sabia exatamente quando o modelo errava e por quê. (Fonte: case público Nubank, 2023. Dados atualizados em 2025 indicam que a empresa refinou o modelo para incluir análise de comportamento de gastos, aumentando a precisão das aprovações. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação.) --- ## SEÇÃO 5: SCRIPTS, COMO VENDER",
+  "query": "Fonte: case público Nubank, 2023. Dados atualizados em 2025 indicam que a empresa refinou o modelo para incluir análise de comportamento de gastos, aumentando a precisão das aprovações. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação",
+  "years": [
+   2023,
+   2025,
+   2026
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Product Compass, 2024",
+  "context": "so, existe um framework que mapeia os 5 níveis que toda área atravessa. Ele se chama MATURE — uma adaptação do Product Excellence Maturity Model de Pawel Huryn (Product Compass, 2024) para a realidade de times brasileiros",
+  "query": "Product Compass, 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "McKinsey Global AI Survey, 2023",
+  "context": "a com uma startup de IA. São pelo menos cinco caminhos, não dois. **O custo invisível.** Em 2023, 89% das empresas Fortune 500 já tinham projetos ativos de IA (McKinsey Global AI Survey, 2023). A taxa de sucesso em larga escala cont",
+  "query": "McKinsey Global AI Survey, 2023",
+  "years": [
+   2023
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Peng, S. et al., \"The Impact of AI on Developer Productivity\", Microsoft Research, 2022",
+  "context": "r MVP ficou mais rápido. Um estudo da Microsoft Research com 95 desenvolvedores mostrou que aqueles que usam GitHub Copilot completam tarefas 55,8% mais rápido (Peng, S. et al., \"The Impact of AI on Developer Productivity\", Microsoft Research, 2022). Mas 55% de ganho de velocidade não sig",
+  "query": "Peng, S. et al., \"The Impact of AI on Developer Productivity\", Microsoft Research, 2022",
+  "years": [
+   2022
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "BCG, 2023",
+  "context": "d. Nuvem é commodity. Análise de crédito é diferencial. **Dado:** Empresas que constroem core competency em IA têm 2x mais chance de liderar mercado em 3 anos (BCG, 2023). **2. Velocidade de Mercado: Quão rápi",
+  "query": "BCG, 2023",
+  "years": [
+   2023
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Pesquisa Datafolha/Bain, 2023",
+  "context": "e. Depois que o produto provou valor, começaram a migrar partes para solução própria. **Dado:** 78% dos consumidores brasileiros usaram IA nos últimos 6 meses (Pesquisa Datafolha/Bain, 2023). A janela de oportunidade é curta. Espe",
+  "query": "Pesquisa Datafolha/Bain, 2023",
+  "years": [
+   2023
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Grand View Research, 2023",
+  "context": "entende de câmbio, esse parágrafo é seu argumento. **Dado:** O mercado global de IA era de US$ 207,9 bilhões em 2023, com projeção de US$ 1,8 trilhão em 2030 (Grand View Research, 2023). O custo de ficar de fora também é real",
+  "query": "Grand View Research, 2023",
+  "years": [
+   2023
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "McKinsey & Company, \"The State of AI in 2024\", maio de 2024",
+  "context": "a em 2025. Ele tinha razão em se preocupar. De acordo com a McKinsey, em 2024, apenas 15% das empresas usam IA em múltiplas áreas de negócio de forma integrada (McKinsey & Company, \"The State of AI in 2024\", maio de 2024). O resto está no escuro. O problema se",
+  "query": "McKinsey & Company, \"The State of AI in 2024\", maio de 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Google AI, \"Production ML Degradation Patterns\", 2024",
+  "context": "de 2024 da Google mostrou que modelos de ML perdem em média 15-25% de performance quando saem de laboratório para produção, com piores casos ultrapassando 30% (Google AI, \"Production ML Degradation Patterns\", 2024). A taxa de degradação é a métrica que n",
+  "query": "Google AI, \"Production ML Degradation Patterns\", 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "2024-2025",
+  "context": "Watson Health is over. What's next?\", 2022; Texas Medical Center, \"MD Anderson and IBM Watson: A Case Study\", 2017. ### Caso 3: Nubank e a virada de métricas (2024-2025) **Situação inicial:** Lembra da Maria",
+  "query": "2024-2025",
+  "years": [
+   2024,
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "2023-2024",
+  "context": "or de negócio. Fonte: Case documentado internamente e apresentado no evento \"AI Product Summit Brasil\", 2025. ### Caso 4: iFood e o custo da otimização míope (2023-2024) **Situação inicial:** O iFood, maior p",
+  "query": "2023-2024",
+  "years": [
+   2023,
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Anthropic, \"Claude 3.5 Sonnet Model Card\", março de 2024",
+  "context": "e traduzir negócio para tech. IA faz isso em segundos. Modelos como Claude 3.5 Sonnet são capazes de gerar documentos estruturados a partir de prompts simples (Anthropic, \"Claude 3.5 Sonnet Model Card\", março de 2024). Se seu diferencial é \"saber escrever d",
+  "query": "Anthropic, \"Claude 3.5 Sonnet Model Card\", março de 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "publicado em outubro de 2024",
+  "context": "isponível mais recente: 58% dos PMs em empresas de tecnologia usam IA generativa semanalmente, segundo o Product School State of Product Management Report 2024 (publicado em outubro de 2024). O relatório de 2025 ainda não foi publ",
+  "query": "publicado em outubro de 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "publicado em janeiro de 2025",
+  "context": "orque o contexto de negócio fala mais alto. Vagas para AI Product Manager cresceram 82% ao ano entre 2023 e 2024, segundo o LinkedIn Global Talent Trends 2025 (publicado em janeiro de 2025). Dados para 2025 ou 2026 não estão disp",
+  "query": "publicado em janeiro de 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Shopify Engineering Blog, \"Using AI to Analyze Customer Support Patterns\", 2024",
+  "context": "que pedidos com 3 ou mais itens tinham 40% menos reclamações que pedidos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (Shopify Engineering Blog, \"Using AI to Analyze Customer Support Patterns\", 2024). O agente não sabia o que fazer com es",
+  "query": "Shopify Engineering Blog, \"Using AI to Analyze Customer Support Patterns\", 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Anthropic, \"Agentic Workflows for Customer Support Analysis\", blog post de outubro de 2024",
+  "context": "onfigurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (Anthropic, \"Agentic Workflows for Customer Support Analysis\", blog post de outubro de 2024). Uma limitação comum é que muitos padrõ",
+  "query": "Anthropic, \"Agentic Workflows for Customer Support Analysis\", blog post de outubro de 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Martin Casado, \"The End of Software\", a16z blog, 2024",
+  "context": "6z, em seu post de 2024: \"Em um mundo onde todos têm acesso aos mesmos modelos de IA, o diferencial não é a tecnologia, mas o julgamento sobre o que construir\" (Martin Casado, \"The End of Software\", a16z blog, 2024). Exemplo real: o PM do banco digital q",
+  "query": "Martin Casado, \"The End of Software\", a16z blog, 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Slack Design Blog, \"Why We Removed 30% of Settings\", 2024",
+  "context": "dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (Slack Design Blog, \"Why We Removed 30% of Settings\", 2024). --- ### Componente 3: O Sintetizador",
+  "query": "Slack Design Blog, \"Why We Removed 30% of Settings\", 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "99 Tech Blog, \"Using AI to Understand Ride Cancellation Patterns\", 2025",
+  "context": "*Dado sobre eficácia do formato híbrido:** A startup de mobilidade urbana 99 implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (99 Tech Blog, \"Using AI to Understand Ride Cancellation Patterns\", 2025). Um estudo interno da empresa mostrou q",
+  "query": "99 Tech Blog, \"Using AI to Understand Ride Cancellation Patterns\", 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "99 Tech Blog, 2025",
+  "context": "acerto subiu de 34% para 67%. Os PMs reportaram que \"o agente nos força a pensar melhor\": porque eles precisavam preparar perguntas, não apenas ler relatórios (99 Tech Blog, 2025). --- ### Caso 3: Hospital Israelita A",
+  "query": "99 Tech Blog, 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Hospital Israelita Albert Einstein, \"AI in Emergency Triage: A Case Study\", 2024, disponível em einstein.br/tech-blog",
+  "context": "tados:** NPS subiu de 2.3 para 4.5 em 4 meses. Taxa de abandono caiu de 18% para 5%. O médico reportou que \"os pacientes chegam mais calmos para o atendimento\" (Hospital Israelita Albert Einstein, \"AI in Emergency Triage: A Case Study\", 2024, disponível em einstein.br/tech-blog). --- ## Seção 5: O gerente-informante",
+  "query": "Hospital Israelita Albert Einstein, \"AI in Emergency Triage: A Case Study\", 2024, disponível em einstein.br/tech-blog",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Stack Overflow, 2024, \"2024 Developer Survey Results\", https://survey.stackoverflow.co/2024/",
+  "context": "ão conseguia acompanhar. Segundo a Stack Overflow Developer Survey 2024, 76% dos desenvolvedores já usam ou planejam usar ferramentas de IA no desenvolvimento (Stack Overflow, 2024, \"2024 Developer Survey Results\", https://survey.stackoverflow.co/2024/). Pesquisa exploratória não publicada co",
+  "query": "Stack Overflow, 2024, \"2024 Developer Survey Results\", https://survey.stackoverflow.co/2024/",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "publicado originalmente em 2023",
+  "context": "asos-limite e falhas. A etapa **Escalar** expande a solução. O OS entra com **Iterate (O5)** para garantir melhoria contínua. O *AI Maturity Model* do Gartner (publicado originalmente em 2023) continua sendo o framework de referênci",
+  "query": "publicado originalmente em 2023",
+  "years": [
+   2023
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "2024",
+  "context": "a. Eles não esperam o usuário reclamar. Eles monitoram o comportamento do usuário em relação ao agente. Esse case, documentado na base de conhecimento do livro (2024), mostra como o Schedule transforma moni",
+  "query": "2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "case documentado na base de conhecimento do livro, 2024",
+  "context": "**Validar:** O erro diminuiu? A satisfação melhorou? **Exemplo completo: E-commerce brasileiro com recomendação de produtos** Um grande e-commerce brasileiro (case documentado na base de conhecimento do livro, 2024) enfrentava o problema: o algoritmo de r",
+  "query": "case documentado na base de conhecimento do livro, 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: base de conhecimento do livro, 2024",
+  "context": "CTR para NPS de recomendação 5. **Validar:** NPS de recomendação subiu 18 pontos. Usuários relataram \"descoberta\" de novos produtos. Ticket médio aumentou 7%. (Fonte: base de conhecimento do livro, 2024) **A armadilha:** Times que iteram apen",
+  "query": "Fonte: base de conhecimento do livro, 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: case interno documentado na base de conhecimento do livro, 2024",
+  "context": "subiu de 1.8 para 4.2. A taxa de usuários que pediam para falar com humano caiu de 89% para 34%. O tempo médio de resolução caiu de 12 minutos para 4 minutos. (Fonte: case interno documentado na base de conhecimento do livro, 2024) --- **Caso 2: Nubank. Governança de c",
+  "query": "Fonte: case interno documentado na base de conhecimento do livro, 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: Nubank Investor Relations, 2025",
+  "context": "ixo mas bom comportamento) **Resultados:** Redução de 40% nas reclamações de limite. Clientes com recurso aprovado tinham 12% menos inadimplência que a média. (Fonte: Nubank Investor Relations, 2025) --- **Caso 3: iFood. Recomendação com",
+  "query": "Fonte: Nubank Investor Relations, 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Fonte: iFood Tech Blog, 2025",
+  "context": "lorar novos restaurantes **Resultados:** NPS de recomendação subiu 18 pontos. Usuários relataram \"descoberta\" de novos restaurantes. Ticket médio aumentou 7%. (Fonte: iFood Tech Blog, 2025) --- ### 5. Guia Prático: 30/60/90 dia",
+  "query": "Fonte: iFood Tech Blog, 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "maio de 2024",
+  "context": "omo no case da varejista. O board não perguntou sobre viés porque não sabia que deveria perguntar. A pesquisa mais recente disponível da McKinsey sobre o tema (maio de 2024) indica que apenas 21% das empresas com",
+  "query": "maio de 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "McKinsey, \"The state of AI in early 2024\", página 28",
+  "context": "a mais recente disponível da McKinsey sobre o tema (maio de 2024) indica que apenas 21% das empresas com programas de IA possuem métricas formais de governança (McKinsey, \"The state of AI in early 2024\", página 28). Dados mais recentes podem estar dispon",
+  "query": "McKinsey, \"The state of AI in early 2024\", página 28",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Gartner, \"Building Resilient AI Teams\", 2025, página 12",
+  "context": "pesquisa da Gartner de 2025 mostrou que times que implementam rotação de responsabilidades reduzem em 60% o tempo de recuperação de falhas em modelos críticos (Gartner, \"Building Resilient AI Teams\", 2025, página 12). **Product Compass:** O framework Cult",
+  "query": "Gartner, \"Building Resilient AI Teams\", 2025, página 12",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Nubank Engineering Blog, \"How we scale ML at Nubank\", 2024",
+  "context": "cidentes éticos relacionados a viés algorítmico nos 18 meses seguintes à implementação do framework. A rotatividade no time de dados caiu 40% entre 2022 e 2024 (Nubank Engineering Blog, \"How we scale ML at Nubank\", 2024). **Lição:** Cultura de IA não se const",
+  "query": "Nubank Engineering Blog, \"How we scale ML at Nubank\", 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "Magazine Luiza Tech Talks, \"IA em Produto\", 2024",
+  "context": "inhamento, métricas acordadas e revisões quinzenais de progresso. **Resultados:** Em 12 meses, a taxa de modelos que chegavam à produção subiu de 20% para 65% (Magazine Luiza Tech Talks, \"IA em Produto\", 2024). O time de dados passou a ser visto com",
+  "query": "Magazine Luiza Tech Talks, \"IA em Produto\", 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "iFood Tech Blog, \"Ética em IA no iFood\", 2025",
+  "context": "utro, o sistema alertava o time antes do impacto se tornar significativo. **Resultados:** O iFood identificou e corrigiu vieses em 12 modelos críticos em 2024 (iFood Tech Blog, \"Ética em IA no iFood\", 2025). A satisfação dos entregadores subiu 15",
+  "query": "iFood Tech Blog, \"Ética em IA no iFood\", 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "paren_citation",
+  "source": "2025",
+  "context": "6 meses, como no case do Magazine Luiza. 3. **Tempo de recuperação de falhas:** Deveria cair 60% com a rotação de responsabilidades, segundo dados da Gartner (2025). 4. **Rotatividade no time de dados:**",
+  "query": "2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "quoted_title",
+  "source": "The State of AI 2025",
+  "context": "com casos de borda imprevistos, ele quebra. E ninguém planejou para isso. O dado de choque: De acordo com o relatório \"The State of AI 2025\" da McKinsey, 78% das empresas da Fortune 500 adotaram IA em",
+  "query": "The State of AI 2025",
+  "years": [
+   2025
+  ]
+ },
+ {
+  "kind": "quoted_title",
+  "source": "Precisamos seguir o framework MATURE. Vocês estão no nível 1",
+  "context": "ão animados com IA, e ouvir \"vamos fazer discovery primeiro\" soa como \"vamos burocratizar a inovação\". **❌ NÃO DIGA:** \"Precisamos seguir o framework MATURE. Vocês estão no nível 1.\" (Seu time ouviu: \"Vocês são imaturos.\" Perdeu o time.) **✅",
+  "query": "Precisamos seguir o framework MATURE. Vocês estão no nível 1",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "The State of AI in 2024",
+  "context": "cKinsey, em 2024, apenas 15% das empresas usam IA em múltiplas áreas de negócio de forma integrada (McKinsey & Company, \"The State of AI in 2024\", maio de 2024). O resto está no escuro. O problema se cham",
+  "query": "The State of AI in 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "quoted_title",
+  "source": "Production ML Degradation Patterns",
+  "context": "em média 15-25% de performance quando saem de laboratório para produção, com piores casos ultrapassando 30% (Google AI, \"Production ML Degradation Patterns\", 2024). A taxa de degradação é a métrica que ninguém monito",
+  "query": "Production ML Degradation Patterns",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "MD Anderson and IBM Watson: A Case Study",
+  "context": "truggles With Data, Doctors\", 2021; STAT News, \"IBM's Watson Health is over. What's next?\", 2022; Texas Medical Center, \"MD Anderson and IBM Watson: A Case Study\", 2017. ### Caso 3: Nubank e a virada de métricas (2024-202",
+  "query": "MD Anderson and IBM Watson: A Case Study",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "Using AI to Analyze Customer Support Patterns",
+  "context": "didos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (Shopify Engineering Blog, \"Using AI to Analyze Customer Support Patterns\", 2024). O agente não sabia o que fazer com esses padrões",
+  "query": "Using AI to Analyze Customer Support Patterns",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "Using AI to Understand Ride Cancellation Patterns",
+  "context": "mobilidade urbana 99 implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (99 Tech Blog, \"Using AI to Understand Ride Cancellation Patterns\", 2025). Um estudo interno da empresa mostrou que decisões t",
+  "query": "Using AI to Understand Ride Cancellation Patterns",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "AI in Emergency Triage: A Case Study",
+  "context": "ara 5%. O médico reportou que \"os pacientes chegam mais calmos para o atendimento\" (Hospital Israelita Albert Einstein, \"AI in Emergency Triage: A Case Study\", 2024, disponível em einstein.br/tech-blog). --- ## Seção",
+  "query": "AI in Emergency Triage: A Case Study",
+  "years": []
+ },
+ {
+  "kind": "quoted_title",
+  "source": "2024 Developer Survey Results",
+  "context": "rvey 2024, 76% dos desenvolvedores já usam ou planejam usar ferramentas de IA no desenvolvimento (Stack Overflow, 2024, \"2024 Developer Survey Results\", https://survey.stackoverflow.co/2024/). Pesquisa explorató",
+  "query": "2024 Developer Survey Results",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "quoted_title",
+  "source": "The state of AI in early 2024",
+  "context": "maio de 2024) indica que apenas 21% das empresas com programas de IA possuem métricas formais de governança (McKinsey, \"The state of AI in early 2024\", página 28). Dados mais recentes podem estar disponíveis em",
+  "query": "The state of AI in early 2024",
+  "years": [
+   2024
+  ]
+ },
+ {
+  "kind": "quoted_title",
+  "source": "Building Resilient AI Teams",
+  "context": "implementam rotação de responsabilidades reduzem em 60% o tempo de recuperação de falhas em modelos críticos (Gartner, \"Building Resilient AI Teams\", 2025, página 12). **Product Compass:** O framework Cultur",
+  "query": "Building Resilient AI Teams",
+  "years": []
+ }
+]

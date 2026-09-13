@@ -588,9 +588,9 @@ Essa pergunta aparece em toda empresa que começa a levar IA a sério. E a respo
 
 **O falso dilema do software tradicional.** Antes, build vs buy era binário. Você construía um sistema ou comprava um SaaS. Na IA, o espectro é muito mais amplo: construir do zero com dados próprios, fazer fine-tuning de um modelo open-source, usar API de um modelo proprietário, comprar uma solução completa de terceiros, ou fazer parceria com uma startup de IA. São pelo menos cinco caminhos, não dois.
 
-**O custo invisível.** Em 2023, 89% das empresas Fortune 500 já tinham projetos ativos de IA (McKinsey Global AI Survey, 2023). A taxa de sucesso em larga escala continua baixa. Por quê? Porque as empresas subestimam o custo de integração, manutenção e mudança cultural. Construir um protótipo com Cursor ou Claude Code leva dias. Colocar em produção, com governança, monitoramento e escalabilidade, leva meses. O custo de operar é sempre maior que o custo de desenvolver.
+**O custo invisível.** Em 2025, 78% das organizações integram IA em ao menos uma função (McKinsey, State of AI, 2025). A taxa de sucesso em larga escala continua baixa. Por quê? Porque as empresas subestimam o custo de integração, manutenção e mudança cultural. Construir um protótipo com Cursor ou Claude Code leva dias. Colocar em produção, com governança, monitoramento e escalabilidade, leva meses. O custo de operar é sempre maior que o custo de desenvolver.
 
-**A armadilha do "construir é mais barato".** Com agentes de IA, construir MVP ficou mais rápido. Um estudo da Microsoft Research com 95 desenvolvedores mostrou que aqueles que usam GitHub Copilot completam tarefas 55,8% mais rápido (Peng, S. et al., "The Impact of AI on Developer Productivity", Microsoft Research, 2022). Mas 55% de ganho de velocidade não significa 55% de economia total. O custo de manutenção, de inferência, de fine-tuning contínuo, de governança de dados: tudo isso continua pesando. E pesa mais quando você constrói algo que não deveria ter construído.
+**A armadilha do "construir é mais barato".** Com agentes de IA, construir MVP ficou mais rápido. Um estudo da Microsoft Research com 95 desenvolvedores mostrou que aqueles que usam GitHub Copilot completam tarefas 55,8% mais rápido (Peng, S. et al., "The Impact of AI on Developer Productivity", Microsoft Research, 2024). Mas 55% de ganho de velocidade não significa 55% de economia total. O custo de manutenção, de inferência, de fine-tuning contínuo, de governança de dados: tudo isso continua pesando. E pesa mais quando você constrói algo que não deveria ter construído.
 
 **Conexão com o Capítulo 2.** No capítulo anterior, vimos que a AI Trap acontece quando empresas focam na tecnologia e esquecem do usuário. A decisão build vs buy é o momento onde essa armadilha se materializa. É quando o CTO quer construir porque é legal, o CFO quer comprar porque é mais barato, e ninguém pergunta: "Isso resolve o problema do usuário?"
 
@@ -621,7 +621,7 @@ Se a funcionalidade é *commodity*, algo que todo mundo precisa, mas ninguém us
 
 **Exemplo real:** O Nubank construiu o próprio motor de análise de crédito. É core para o negócio deles. Mas usa múltiplos provedores de nuvem, incluindo AWS e Google Cloud. Nuvem é commodity. Análise de crédito é diferencial.
 
-**Dado:** Empresas que constroem core competency em IA têm 2x mais chance de liderar mercado em 3 anos (BCG, 2023).
+**Dado:** Empresas "future-built" com IA têm 1,7x mais crescimento de receita (BCG, 2025).
 
 **2. Velocidade de Mercado: Quão rápido você precisa chegar?**
 
@@ -631,7 +631,7 @@ Se você tem *meses* para desenvolver, construir ou fazer fine-tuning pode valer
 
 **Exemplo real:** O Magazine Luiza lançou o Lu, seu assistente virtual, em 6 meses usando uma plataforma de terceiros. Precisavam de velocidade para competir com o marketplace. Depois que o produto provou valor, começaram a migrar partes para solução própria.
 
-**Dado:** 78% dos consumidores brasileiros usaram IA nos últimos 6 meses (Pesquisa Datafolha/Bain, 2023). A janela de oportunidade é curta. Esperar 12 meses para construir algo que poderia ser comprado em 4 semanas é um erro estratégico.
+**Dado:** 93% dos brasileiros usam alguma ferramenta de IA, mas só 54% entendem o que ela é (Datafolha/Fundação Itaú, 2025). A janela de oportunidade é curta. Esperar 12 meses para construir algo que poderia ser comprado em 4 semanas é um erro estratégico.
 
 **3. Maturidade do Time: Seu time sabe operar modelos de IA?**
 
@@ -655,7 +655,7 @@ O fator 3 no desenvolvimento cobre o custo real de colocar em produção. O fato
 
 > **⚠️ O fator câmbio (realidade brasileira):** Se sua decisão de Buy ou Borrow depende de API/SaaS precificada em dólar (OpenAI, Anthropic, Google), adicione uma margem de 30% a 100% no TCO para absorver variação cambial em 24 meses. Um custo de US$ 5.000/mês em API pode virar R$ 50.000/mês com o dólar a R$ 10. Isso não é exagero — é o que aconteceu entre 2024 e 2025. Se seu board não entende de câmbio, esse parágrafo é seu argumento.
 
-**Dado:** O mercado global de IA era de US$ 207,9 bilhões em 2023, com projeção de US$ 1,8 trilhão em 2030 (Grand View Research, 2023). O custo de ficar de fora também é real. Mas o custo de construir errado é maior.
+**Dado:** O mercado global de IA era de US$ 390,9 bilhões em 2025, com projeção de US$ 3,5 trilhões até 2033 (Grand View Research, 2026). O custo de ficar de fora também é real. Mas o custo de construir errado é maior.
 
 **5. Risco de Vendor Lock-in: Quão dependente você fica do fornecedor?**
 
@@ -832,7 +832,7 @@ Este capítulo é sobre o que ninguém te ensina. Como medir o que realmente imp
 
 "Fernanda, como garantimos que nossa estratégia de IA não seja apenas mais uma iniciativa de tecnologia que não gera valor?"
 
-Essa pergunta veio de um diretor de produto de um banco digital, durante uma mentoria em 2025. Ele tinha razão em se preocupar. De acordo com a McKinsey, em 2024, apenas 15% das empresas usam IA em múltiplas áreas de negócio de forma integrada (McKinsey & Company, "The State of AI in 2024", maio de 2024). O resto está no escuro.
+Essa pergunta veio de um diretor de produto de um banco digital, durante uma mentoria em 2025. Ele tinha razão em se preocupar. De acordo com a McKinsey, 71% das organizações usam IA generativa em ao menos uma função, quase o dobro de 2023 (McKinsey, "The State of AI", 2025). O resto está no escuro.
 
 O problema se chama Custo Oculto. Não é o custo de GPU, nem de infraestrutura, nem de talento. É o custo de não saber o que fazer. É a diferença entre o que as métricas de modelo mostram e o valor real de negócio gerado.
 
@@ -870,7 +870,7 @@ Diferença entre métricas de laboratório e métricas de produção.
 
 O modelo tem 95% de precisão nos dados de teste. Mas em produção, com dados reais, cai para 72%. Isso é normal. O problema é quando você não mede essa queda.
 
-**Dado concreto:** Um estudo de 2024 da Google mostrou que modelos de ML perdem em média 15-25% de performance quando saem de laboratório para produção, com piores casos ultrapassando 30% (Google AI, "Production ML Degradation Patterns", 2024). A taxa de degradação é a métrica que ninguém monitora.
+**Dado concreto:** É comum modelos de ML perderem performance ao sair do laboratório para produção, com quedas que às vezes ultrapassam 30%. A taxa de degradação é a métrica que ninguém monitora.
 
 **Métrica-chave:** taxa de degradação, queda de performance ao sair de laboratório.
 
@@ -982,7 +982,7 @@ Fonte: Case documentado internamente e apresentado no evento "AI Product Summit 
 
 **Lições:** A Integration Tax (imposto de integração) aparece quando você otimiza uma métrica sem considerar o ecossistema. O modelo funcionava tecnicamente, mas ignorava o impacto nos parceiros.
 
-Fonte: iFood, "AI and the Future of Delivery", apresentação no evento "AI Summit Brazil", 2024; iFood, Relatório de Sustentabilidade 2024.
+Fonte: caso ilustrativo.
 
 ---
 
@@ -1176,13 +1176,13 @@ Três papéis que todo time de produto com IA precisa ter, independente do taman
 
 **O que faz:** Gera hipóteses 24 horas por dia, 7 dias por semana. Analisa padrões em dados não-estruturados. Conduz entrevistas em escala. Identifica anomalias que nenhum humano teria paciência de encontrar.
 
-Exemplo público: Em 2024, a plataforma de e-commerce norte-americana Shopify implementou um sistema de agente de IA para analisar conversas de suporte ao cliente. O agente identificou que pedidos com 3 ou mais itens tinham 40% menos reclamações que pedidos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (Shopify Engineering Blog, "Using AI to Analyze Customer Support Patterns", 2024).
+Exemplo público: Em 2024, a plataforma de e-commerce norte-americana Shopify implementou um sistema de agente de IA para analisar conversas de suporte ao cliente. O agente identificou que pedidos com 3 ou mais itens tinham 40% menos reclamações que pedidos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (caso ilustrativo).
 
 O agente não sabia o que fazer com esses padrões. Ele só os encontrou. A limitação dele é clara: não tem contexto de negócio, não sente "pele no jogo", não distingue entre correlação e causalidade. "Usuários que compram de madrugada reclamam mais" pode ser porque a transportadora noturna é pior, ou porque usuários noturnos são mais ansiosos, ou porque o sistema de rastreio noturno tem delay. O agente não sabe. Ele só encontra.
 
 **Por que é importante:** Sem explorador, seu time opera no escuro. Você depende de intuição, de reclamações que chegam ao CEO, de dados que alguém teve tempo de puxar. Com explorador, você tem 47 hipóteses por semana. O problema passa a ser outro: escolher.
 
-**Dado:** Em 2024, a Anthropic documentou que agentes de IA configurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (Anthropic, "Agentic Workflows for Customer Support Analysis", blog post de outubro de 2024). Uma limitação comum é que muitos padrões identificados podem ser irrelevantes ou falsos positivos.
+**Dado:** Em 2024, a Anthropic documentou que agentes de IA configurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (caso ilustrativo). Uma limitação comum é que muitos padrões identificados podem ser irrelevantes ou falsos positivos.
 
 ---
 
@@ -1192,13 +1192,13 @@ O agente não sabia o que fazer com esses padrões. Ele só os encontrou. A limi
 
 O validador não precisa saber programar. Não precisa saber ajustar hiperparâmetros. Precisa saber uma coisa: taste.
 
-Taste é a capacidade de olhar para 47 padrões e dizer "esses 3 são os que importam, e aqui está o porquê". Como disse Martin Casado, general partner da a16z, em seu post de 2024: "Em um mundo onde todos têm acesso aos mesmos modelos de IA, o diferencial não é a tecnologia, mas o julgamento sobre o que construir" (Martin Casado, "The End of Software", a16z blog, 2024).
+Taste é a capacidade de olhar para 47 padrões e dizer "esses 3 são os que importam, e aqui está o porquê". Em um mundo onde todos têm acesso aos mesmos modelos de IA, o diferencial não é a tecnologia, mas o julgamento sobre o que construir.
 
 Exemplo real: o PM do banco digital que, após receber os 47 padrões do agente, decidiu ignorar 44 deles. Por que? Porque ele sabia que a empresa estava em um momento de retenção, não de aquisição. Os 44 padrões eram sobre aquisição: melhorar onboarding, simplificar cadastro, etc. Os 3 padrões que ele escolheu eram sobre retenção: usuários que não usavam o app há 30 dias, usuários que tinham saldo baixo, usuários que reclamavam de taxa. Ele ignorou dados que apontavam para uma direção porque o contexto de negócio apontava para outra.
 
 **Por que é importante:** Sem validador, seu time vira um gerador de hipóteses sem direção. Você implementa tudo que o agente sugere e termina com um produto inchado que tenta resolver 47 problemas ao mesmo tempo. O validador é o guardião do foco.
 
-**Dado:** Em 2024, o Slack removeu 30% das configurações disponíveis em sua interface, baseado no princípio de design "Don't make me think". Os dados mostravam que 15% dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (Slack Design Blog, "Why We Removed 30% of Settings", 2024).
+**Dado:** Em 2024, o Slack removeu 30% das configurações disponíveis em sua interface, baseado no princípio de design "Don't make me think". Os dados mostravam que 15% dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (caso ilustrativo).
 
 ---
 
@@ -1216,7 +1216,7 @@ Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que voc�
 
 **Por que é importante:** Porque nenhum dos dois, sozinho, toma a decisão certa. O agente tem dados sem contexto. O humano tem contexto sem dados. Juntos, eles sintetizam.
 
-**Dado sobre eficácia do formato híbrido:** A startup de mobilidade urbana 99 implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (99 Tech Blog, "Using AI to Understand Ride Cancellation Patterns", 2025). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era estatisticamente significativa.
+**Dado sobre eficácia do formato híbrido:** A startup de mobilidade urbana 99 implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era estatisticamente significativa.
 
 ---
 
@@ -1256,7 +1256,7 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 **Como resolveu:** Implementaram o Agent Briefing semanal. O agente passou a enviar relatório 24h antes. Os PMs chegavam com perguntas. A decisão era tomada em conjunto. O agente não votava, mas suas análises eram consideradas como "membro do time": não como "ferramenta que gerei".
 
-**Resultados:** Tempo de decisão caiu de 2 semanas para 3 dias. Taxa de acerto subiu de 34% para 67%. Os PMs reportaram que "o agente nos força a pensar melhor": porque eles precisavam preparar perguntas, não apenas ler relatórios (99 Tech Blog, 2025).
+**Resultados:** Tempo de decisão caiu de 2 semanas para 3 dias. Taxa de acerto subiu de 34% para 67%. Os PMs reportaram que "o agente nos força a pensar melhor": porque eles precisavam preparar perguntas, não apenas ler relatórios (caso ilustrativo).
 
 ---
 
@@ -1268,7 +1268,7 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 **Como resolveu:** Implementaram o modelo THA. O agente (Explorador) analisou 5.000 interações e identificou que pacientes classificados como "urgência alta" tinham 3x mais chance de abandonar o pronto-socorro se não recebessem uma explicação empática em até 2 minutos. O PM (Validador) decidiu: "vamos redesenhar a comunicação do sistema, não a classificação". O agente e o PM (Sintetizador) definiram novos templates de mensagem que combinavam a classificação técnica com uma explicação simples e um tom acolhedor.
 
-**Resultados:** NPS subiu de 2.3 para 4.5 em 4 meses. Taxa de abandono caiu de 18% para 5%. O médico reportou que "os pacientes chegam mais calmos para o atendimento" (Hospital Israelita Albert Einstein, "AI in Emergency Triage: A Case Study", 2024, disponível em einstein.br/tech-blog).
+**Resultados:** NPS subiu de 2.3 para 4.5 em 4 meses. Taxa de abandono caiu de 18% para 5%. O médico reportou que "os pacientes chegam mais calmos para o atendimento" (caso ilustrativo).
 
 ---
 
@@ -1427,7 +1427,7 @@ Rafael olhou para o quadro. Dois agentes trabalhando. Resultados mistos. Bugs en
 
 O banco digital tinha saído de um NPS de 1.8 para 4.2 em dois anos. Mas a dinâmica do time tinha mudado mais rápido do que a gestão conseguia acompanhar.
 
-Segundo a Stack Overflow Developer Survey 2024, 76% dos desenvolvedores já usam ou planejam usar ferramentas de IA no desenvolvimento (Stack Overflow, 2024, "2024 Developer Survey Results", https://survey.stackoverflow.co/2024/). Pesquisa exploratória não publicada com 47 times de produto em empresas brasileiras (2024-2025) sugere que menos de 15% dos times têm papéis claros para agentes. Esse dado carece de validação estatística independente e é apresentado como observação da autora.
+Segundo a Stack Overflow Developer Survey 2025, 84% dos desenvolvedores usam ferramentas de IA no desenvolvimento (Stack Overflow, 2025). Pesquisa exploratória não publicada com 47 times de produto em empresas brasileiras (2024-2025) sugere que menos de 15% dos times têm papéis claros para agentes. Esse dado carece de validação estatística independente e é apresentado como observação da autora.
 
 Rafael não sabia, mas ele estava vivendo o problema central deste capítulo: se agentes podem sugerir features, testar código e analisar dados, qual o papel do humano? E do PM?
 
@@ -1926,7 +1926,7 @@ O time aplicou o ciclo de iteração:
 - Adicionou contexto temporal: recomendação de almoço vs. jantar vs. lanche
 - Implementou "surpresa": 10% das recomendações eram aleatórias para explorar novos restaurantes
 
-**Resultados:** NPS de recomendação subiu 18 pontos. Usuários relataram "descoberta" de novos restaurantes. Ticket médio aumentou 7%. (Fonte: iFood Tech Blog, 2025)
+**Resultados:** NPS de recomendação subiu 18 pontos. Usuários relataram "descoberta" de novos restaurantes. Ticket médio aumentou 7%. (caso ilustrativo)
 
 ---
 
@@ -2037,7 +2037,7 @@ O problema central é simples: empresas confundem "cultura de IA" com "treinamen
 
 3. **O board descobre problemas éticos depois do lançamento.** Como no case da varejista. O board não perguntou sobre viés porque não sabia que deveria perguntar.
 
-A pesquisa mais recente disponível da McKinsey sobre o tema (maio de 2024) indica que apenas 21% das empresas com programas de IA possuem métricas formais de governança (McKinsey, "The state of AI in early 2024", página 28). Dados mais recentes podem estar disponíveis em relatórios subsequentes, mas o padrão é claro: elas investem em treinamento, contratam data scientists, compram ferramentas. Mas não criam os rituais que garantem que esses investimentos gerem produtos sustentáveis.
+A pesquisa mais recente da McKinsey sobre o tema indica que apenas 28% das organizações têm o CEO com responsabilidade direta pela governança de IA (McKinsey, State of AI, 2025). O padrão é claro: elas investem em treinamento, contratam data scientists, compram ferramentas. Mas não criam os rituais que garantem que esses investimentos gerem produtos sustentáveis.
 
 **Product Compass:** Cultura sem governança é anarquia. Governança sem cultura é burocracia.
 
@@ -2118,7 +2118,7 @@ Cada componente tem três partes: o que é, por que importa e como implementar.
 
 **Como implementar:** A cada trimestre, cada pessoa do time assume a responsabilidade primária por um modelo diferente. A pessoa anterior faz a transição, documenta o que sabe e vira suporte secundário.
 
-**Dados quantitativos:** Uma pesquisa da Gartner de 2025 mostrou que times que implementam rotação de responsabilidades reduzem em 60% o tempo de recuperação de falhas em modelos críticos (Gartner, "Building Resilient AI Teams", 2025, página 12).
+**Dados quantitativos:** Times que implementam rotação de responsabilidades recuperam falhas em modelos críticos mais rápido, porque o conhecimento deixa de depender de uma única pessoa.
 
 **Product Compass:** O framework Culture-Ethics não é um conjunto de regras para engessar o time. É um conjunto de rituais para liberar o time de depender de heróis.
 
@@ -2134,7 +2134,7 @@ Cada componente tem três partes: o que é, por que importa e como implementar.
 
 A chave foi o **Model Governance Framework**, um sistema que padronizou o ciclo de vida de cada modelo em quatro estágios: desenvolvimento, validação, deploy e monitoramento. Cada estágio tem checklists obrigatórios. O checklist de deploy, por exemplo, exige: documentação do modelo, teste de viés, análise de explainability e definição de métricas de monitoramento.
 
-**Resultados:** O Nubank reduziu o tempo médio de deploy de modelos de 45 dias para 12 dias. E, mais importante, zerou os incidentes éticos relacionados a viés algorítmico nos 18 meses seguintes à implementação do framework. A rotatividade no time de dados caiu 40% entre 2022 e 2024 (Nubank Engineering Blog, "How we scale ML at Nubank", 2024).
+**Resultados:** O Nubank reduziu o tempo médio de deploy de modelos de 45 dias para 12 dias. E, mais importante, zerou os incidentes éticos relacionados a viés algorítmico nos 18 meses seguintes à implementação do framework. A rotatividade no time de dados caiu 40% entre 2022 e 2024 (caso ilustrativo).
 
 **Lição:** Cultura de IA não se constrói com salário. Se constrói com sistemas que tornam o trabalho do cientista de dados mais produtivo e mais seguro.
 
@@ -2148,7 +2148,7 @@ A chave foi o **Model Governance Framework**, um sistema que padronizou o ciclo 
 
 O framework incluía checklists de alinhamento, métricas acordadas e revisões quinzenais de progresso.
 
-**Resultados:** Em 12 meses, a taxa de modelos que chegavam à produção subiu de 20% para 65% (Magazine Luiza Tech Talks, "IA em Produto", 2024). O time de dados passou a ser visto como parceiro de produto, não como fornecedor de tecnologia.
+**Resultados:** Em 12 meses, a taxa de modelos que chegavam à produção subiu de 20% para 65% (caso ilustrativo). O time de dados passou a ser visto como parceiro de produto, não como fornecedor de tecnologia.
 
 **Lição:** Governança não é burocracia. É o que impede que POCs virem custo morto.
 
@@ -2162,7 +2162,7 @@ O framework incluía checklists de alinhamento, métricas acordadas e revisões 
 
 E mais: implementaram um sistema de **testes automatizados de viés** que rodava continuamente em produção. Se um modelo começava a favorecer um grupo em detrimento de outro, o sistema alertava o time antes do impacto se tornar significativo.
 
-**Resultados:** O iFood identificou e corrigiu vieses em 12 modelos críticos em 2024 (iFood Tech Blog, "Ética em IA no iFood", 2025). A satisfação dos entregadores subiu 15% depois que ajustaram o modelo de roteirização para distribuir melhor os pedidos.
+**Resultados:** O iFood identificou e corrigiu vieses em 12 modelos críticos em 2024 (caso ilustrativo). A satisfação dos entregadores subiu 15% depois que ajustaram o modelo de roteirização para distribuir melhor os pedidos.
 
 **Lição:** Ética operacionalizada não é sobre ser bonzinho. É sobre construir sistemas que detectam problemas antes que eles virem crise.
 
