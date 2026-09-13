@@ -163,25 +163,25 @@ Três empresas brasileiras. Três níveis diferentes de maturidade. Três result
 
 **Resultados:** NPS do atendimento subiu de 62 para 78 em 6 meses. Custo de atendimento caiu 34%. O time gastou R$ 200 mil, não R$ 3 milhões.
 
-### Caso 2: Loggi, Nível 3 (Testar), IA com propósito
+### Caso 2: Uma empresa de logística, Nível 3 (Testar), IA com propósito
 
-**Situação Inicial:** A Loggi estava no nível 3. Processos estruturados. Experimentação frequente. Time de produto maduro.
+**Situação Inicial:** A empresa de logística estava no nível 3. Processos estruturados. Experimentação frequente. Time de produto maduro.
 
 **O que estava errado:** A roteirização de entregas era feita manualmente. Motoristas perdiam tempo. Clientes recebiam entregas fora do horário prometido.
 
 **Como resolveu:** O time não começou com "vamos usar IA para roteirizar". Começou com "qual o maior problema de eficiência?". Descobriu que era a alocação de rotas. Testou soluções não-IA primeiro. Só depois de validar que o problema era real e que IA era a melhor ferramenta, construiu o modelo de roteirização.
 
-**Resultados:** Redução de 20% no tempo de entrega. Aumento de 15% na produtividade dos motoristas. O modelo foi lançado em 4 meses, não 8. (Fonte: case público Loggi, 2022. Dados atualizados em 2025 indicam que a empresa expandiu o uso de IA para outras áreas, como previsão de demanda e otimização de frota. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação.)
+**Resultados:** Redução de 20% no tempo de entrega. Aumento de 15% na produtividade dos motoristas. O modelo foi lançado em 4 meses, não 8. (caso ilustrativo)
 
-### Caso 3: Nubank, Nível 4 (Usar), IA como augmentação
+### Caso 3: Banco digital, Nível 4 (Usar), IA como augmentação
 
-**Situação Inicial:** O Nubank estava no nível 4. *Product Trio* em fluxo contínuo. Experimentação diária. Cultura de produto forte.
+**Situação Inicial:** O banco digital estava no nível 4. *Product Trio* em fluxo contínuo. Experimentação diária. Cultura de produto forte.
 
 **O que estava errado:** O processo de análise de crédito era lento. Clientes esperavam dias por aprovação.
 
 **Como resolveu:** O time não construiu um sistema de IA para substituir o analista. Construiu um sistema para augmentar o analista. A IA gerava uma pré-análise. O analista revisava e tomava a decisão final. O modelo era monitorado por taxa de aprovação correta, não por accuracy.
 
-**Resultados:** Tempo de aprovação caiu de 3 dias para 15 minutos. Taxa de inadimplência não aumentou. O time sabia exatamente quando o modelo errava e por quê. (Fonte: case público Nubank, 2023. Dados atualizados em 2025 indicam que a empresa refinou o modelo para incluir análise de comportamento de gastos, aumentando a precisão das aprovações. Para dados precisos de 2025/2026, recomenda-se consultar o relatório anual da empresa ou contatar o time de comunicação.)
+**Resultados:** Tempo de aprovação caiu de 3 dias para 15 minutos. Taxa de inadimplência não aumentou. O time sabia exatamente quando o modelo errava e por quê. (caso ilustrativo)
 
 ---
 
@@ -246,7 +246,7 @@ Seus engenheiros são competentes, estão animados com IA, e ouvir "vamos fazer 
 "Vocês são o melhor time que eu poderia ter para esse desafio. E é exatamente por isso que eu quero que a gente acerte o alvo. Imagina gastar 6 meses construindo algo que ninguém usa. Vocês merecem trabalhar em coisas que os clientes amam. Me deem 2 semanas para eu trazer os clientes para a mesa. Depois disso, vocês constroem."
 
 **Estrutura da dinâmica (workshop de 2 horas):**
-- Minuto 0-15: Apresentar 3 cases de times que construíram sem discovery (incluir Carlos/Banco Nova, Loggi antes da correção).
+- Minuto 0-15: Apresentar 3 cases de times que construíram sem discovery (incluir Carlos/Banco Nova, a empresa de logística antes da correção).
 - Minuto 15-60: Time entrevista 3 clientes (sim, durante o workshop, prepare as entrevistas antes).
 - Minuto 60-90: Time mapeia: o que ouvimos que contradiz nossas hipóteses?
 - Minuto 90-120: Definir 1 experimento para a próxima sprint. Não 5. Um.
@@ -273,7 +273,7 @@ Como saber se você saiu da *AI Trap*? Três categorias de métricas.
 ### Valor para Usuário
 
 - **NPS do canal com IA vs. sem IA.** Se o NPS caiu, a IA está destruindo valor. Exemplo: Banco Nova tinha NPS 1.8 com IA vs. 74 sem IA. Depois da correção, NPS subiu para 78.
-- **Tempo de resolução.** A IA está acelerando ou atrasando? Loggi reduziu o tempo de entrega em 20%.
+- **Tempo de resolução.** A IA está acelerando ou atrasando? a empresa de logística reduziu o tempo de entrega em 20%.
 - **Taxa de escalonamento para humano.** Quanto mais o usuário precisa de ajuda humana, pior a IA. Ideal: menos de 20% de escalonamento.
 
 ### Valor para Negócio
@@ -285,8 +285,8 @@ Como saber se você saiu da *AI Trap*? Três categorias de métricas.
 ### Qualidade de Implementação
 
 - **Percentual de projetos de IA que chegam a produção.** Se é menor que 50%, algo está errado no processo.
-- **Tempo médio de desenvolvimento.** De discovery a produção. Quanto mais rápido, melhor o processo. Loggi fez em 4 meses, não 8.
-- **Taxa de erros em produção.** Não accuracy. Erros reais. O que acontece quando o modelo erra? Nubank tinha uma taxa de aprovação correta de 92% com revisão humana.
+- **Tempo médio de desenvolvimento.** De discovery a produção. Quanto mais rápido, melhor o processo. a empresa de logística fez em 4 meses, não 8.
+- **Taxa de erros em produção.** Não accuracy. Erros reais. O que acontece quando o modelo erra? um banco digital tinha uma taxa de aprovação correta de 92% com revisão humana.
 
 ---
 
@@ -354,9 +354,9 @@ Três sinais de que você está diagnosticando errado:
 
 O framework AI Trap, apresentado no Capítulo 1, mostrou o problema. Este capítulo mostra como medi-lo. Porque sem diagnóstico, qualquer mapa serve.
 
-Para isso, existe um framework que mapeia os 5 níveis que toda área atravessa. Ele se chama MATURE — uma adaptação do Product Excellence Maturity Model de Pawel Huryn (Product Compass, 2024) para a realidade de times brasileiros.
+Para isso, existe um framework que mapeia os 5 níveis que toda área atravessa. Ele se chama MATURE — uma adaptação do Product Excellence Maturity Model de Pawel Huryn para a realidade de times brasileiros.
 
-Pawel Huryn, autor do Product Compass, define o Product Operating Model como “um sistema onde times empowered descobrem e entregam soluções que resolvem problemas reais dos usuários”. A maioria das empresas está em Feature Factory (Nível 2) mas acha que está em Product Operating Model (Nível 4). A diferença? Feature Factory entrega o que pediram. Product Operating Model entrega o que resolve.
+Pawel Huryn define o Product Operating Model como “um sistema onde times empowered descobrem e entregam soluções que resolvem problemas reais dos usuários”. A maioria das empresas está em Feature Factory (Nível 2) mas acha que está em Product Operating Model (Nível 4). A diferença? Feature Factory entrega o que pediram. Product Operating Model entrega o que resolve.
 
 ## 3. FRAMEWORK / COMPONENTES
 
@@ -619,7 +619,7 @@ Essa pergunta separa PMs de verdade de quem só empurra slide. Se a funcionalida
 
 Se a funcionalidade é *commodity*, algo que todo mundo precisa, mas ninguém usa como diferencial, compre. Use API. Não perca tempo construindo algo que não vai te diferenciar.
 
-**Exemplo real:** O Nubank construiu o próprio motor de análise de crédito. É core para o negócio deles. Mas usa múltiplos provedores de nuvem, incluindo AWS e Google Cloud. Nuvem é commodity. Análise de crédito é diferencial.
+**Exemplo real:** O banco digital construiu o próprio motor de análise de crédito. É core para o negócio deles. Mas usa múltiplos provedores de nuvem, incluindo AWS e Google Cloud. Nuvem é commodity. Análise de crédito é diferencial.
 
 **Dado:** Empresas "future-built" com IA têm 1,7x mais crescimento de receita (BCG, 2025).
 
@@ -629,7 +629,7 @@ Se você precisa de uma solução em *semanas*, não construa. Compre ou use API
 
 Se você tem *meses* para desenvolver, construir ou fazer fine-tuning pode valer a pena. Mas só se os outros eixos também apontarem nessa direção.
 
-**Exemplo real:** O Magazine Luiza lançou o Lu, seu assistente virtual, em 6 meses usando uma plataforma de terceiros. Precisavam de velocidade para competir com o marketplace. Depois que o produto provou valor, começaram a migrar partes para solução própria.
+**Exemplo real:** Um grande varejista lançou um assistente virtual, em 6 meses usando uma plataforma de terceiros. Precisavam de velocidade para competir com o marketplace. Depois que o produto provou valor, começaram a migrar partes para solução própria.
 
 **Dado:** 93% dos brasileiros usam alguma ferramenta de IA, mas só 54% entendem o que ela é (Datafolha/Fundação Itaú, 2025). A janela de oportunidade é curta. Esperar 12 meses para construir algo que poderia ser comprado em 4 semanas é um erro estratégico.
 
@@ -691,7 +691,7 @@ Depois de avaliar os 5 eixos, você escolhe um caminho:
 - Quando: Diferenciação média, velocidade média, time com capacidade de adaptação.
 - Exemplo: Fazer fine-tuning de Llama para um caso de uso específico de uma empresa de logística. Você não constrói do zero, mas também não compra caixa-preta.
 
-**Integração com Product Compass:** Use o Product Compass para mapear o impacto de cada eixo no roadmap. Por exemplo, se a diferenciação é alta, o compasso aponta para build. Se a urgência é alta, aponta para buy.
+**Integração com o roadmap:** Use o mapa de oportunidades para avaliar o impacto de cada eixo no roadmap. Por exemplo, se a diferenciação é alta, o compasso aponta para build. Se a urgência é alta, aponta para buy.
 
 ---
 
@@ -808,7 +808,7 @@ Agora que você sabe o que construir, como garantir que o time está pronto para
 
 ## Seção 1: Cena de Abertura
 
-Era uma terça-feira de março de 2025, e Maria Silva, PM sênior no Nubank, estava apresentando o dashboard do modelo de detecção de fraude. O slide mostrava números impressionantes: acurácia de 99,2%, precisão de 97,8%, recall de 94,5%.
+Era uma terça-feira de março de 2025, e Maria Silva, PM sênior num banco digital, estava apresentando o dashboard do modelo de detecção de fraude. O slide mostrava números impressionantes: acurácia de 99,2%, precisão de 97,8%, recall de 94,5%.
 
 O VP de Produto, sentado na ponta da mesa, esperou ela terminar. Depois perguntou: "E quanto isso reduziu de chargebacks?"
 
@@ -956,9 +956,9 @@ Fonte: Zillow 10-K Filing 2021; The Wall Street Journal, "Zillow's Algorithm Cou
 
 Fonte: Stat News, "IBM's Watson recommended 'unsafe and incorrect' cancer treatments", julho 2018; The Wall Street Journal, "IBM's Watson Health Struggles With Data, Doctors", 2021; STAT News, "IBM's Watson Health is over. What's next?", 2022; Texas Medical Center, "MD Anderson and IBM Watson: A Case Study", 2017.
 
-### Caso 3: Nubank e a virada de métricas (2024-2025)
+### Caso 3: Um banco digital e a virada de métricas (2024-2025)
 
-**Situação inicial:** Lembra da Maria Silva, nossa PM do Nubank na abertura do capítulo? Depois da reunião com o VP, o time fez algo que a maioria dos times de IA não faz: parou de otimizar o modelo e começou a medir o problema real.
+**Situação inicial:** Lembra da Maria Silva, nossa PM de um banco digital na abertura do capítulo? Depois da reunião com o VP, o time fez algo que a maioria dos times de IA não faz: parou de otimizar o modelo e começou a medir o problema real.
 
 **O que estava errado:** O time descobriu que o tempo médio entre a detecção de uma transação suspeita e a ação de bloqueio era de 72 horas. O modelo era rápido (latência de 200ms), mas o processo humano depois dele era lento.
 
@@ -970,9 +970,9 @@ Fonte: Stat News, "IBM's Watson recommended 'unsafe and incorrect' cancer treatm
 
 Fonte: Case documentado internamente e apresentado no evento "AI Product Summit Brasil", 2025.
 
-### Caso 4: iFood e o custo da otimização míope (2023-2024)
+### Caso 4: Um app de delivery e o custo da otimização míope (2023-2024)
 
-**Situação inicial:** O iFood, maior plataforma de delivery da América Latina, usava IA para otimizar o tempo de entrega. O modelo priorizava rotas mais curtas e restaurantes próximos.
+**Situação inicial:** Um app de delivery, a maior plataforma do tipo na América Latina, usava IA para otimizar o tempo de entrega. O modelo priorizava rotas mais curtas e restaurantes próximos.
 
 **O que estava errado:** O modelo otimizava o tempo de entrega, mas não considerava a satisfação do restaurante. Restaurantes com alta demanda eram sobrecarregados, enquanto outros ficavam ociosos. A taxa de cancelamento de pedidos subiu 12% em 6 meses.
 
@@ -1176,13 +1176,13 @@ Três papéis que todo time de produto com IA precisa ter, independente do taman
 
 **O que faz:** Gera hipóteses 24 horas por dia, 7 dias por semana. Analisa padrões em dados não-estruturados. Conduz entrevistas em escala. Identifica anomalias que nenhum humano teria paciência de encontrar.
 
-Exemplo público: Em 2024, a plataforma de e-commerce norte-americana Shopify implementou um sistema de agente de IA para analisar conversas de suporte ao cliente. O agente identificou que pedidos com 3 ou mais itens tinham 40% menos reclamações que pedidos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (caso ilustrativo).
+Exemplo ilustrativo: Em 2024, uma plataforma de e-commerce norte-americana implementou um sistema de agente de IA para analisar conversas de suporte ao cliente. O agente identificou que pedidos com 3 ou mais itens tinham 40% menos reclamações que pedidos com 1 item, um padrão que o time humano não havia detectado em meses de análise manual (caso ilustrativo).
 
 O agente não sabia o que fazer com esses padrões. Ele só os encontrou. A limitação dele é clara: não tem contexto de negócio, não sente "pele no jogo", não distingue entre correlação e causalidade. "Usuários que compram de madrugada reclamam mais" pode ser porque a transportadora noturna é pior, ou porque usuários noturnos são mais ansiosos, ou porque o sistema de rastreio noturno tem delay. O agente não sabe. Ele só encontra.
 
 **Por que é importante:** Sem explorador, seu time opera no escuro. Você depende de intuição, de reclamações que chegam ao CEO, de dados que alguém teve tempo de puxar. Com explorador, você tem 47 hipóteses por semana. O problema passa a ser outro: escolher.
 
-**Dado:** Em 2024, a Anthropic documentou que agentes de IA configurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (caso ilustrativo). Uma limitação comum é que muitos padrões identificados podem ser irrelevantes ou falsos positivos.
+**Dado:** Agentes de IA configurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (caso ilustrativo). Uma limitação comum é que muitos padrões identificados podem ser irrelevantes ou falsos positivos.
 
 ---
 
@@ -1198,7 +1198,7 @@ Exemplo real: o PM do banco digital que, após receber os 47 padrões do agente,
 
 **Por que é importante:** Sem validador, seu time vira um gerador de hipóteses sem direção. Você implementa tudo que o agente sugere e termina com um produto inchado que tenta resolver 47 problemas ao mesmo tempo. O validador é o guardião do foco.
 
-**Dado:** Em 2024, o Slack removeu 30% das configurações disponíveis em sua interface, baseado no princípio de design "Don't make me think". Os dados mostravam que 15% dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (caso ilustrativo).
+**Dado:** Em 2024, uma empresa de software removeu 30% das configurações disponíveis em sua interface, baseado no princípio de design "Don't make me think". Os dados mostravam que 15% dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (caso ilustrativo).
 
 ---
 
@@ -1216,7 +1216,7 @@ Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que voc�
 
 **Por que é importante:** Porque nenhum dos dois, sozinho, toma a decisão certa. O agente tem dados sem contexto. O humano tem contexto sem dados. Juntos, eles sintetizam.
 
-**Dado sobre eficácia do formato híbrido:** A startup de mobilidade urbana 99 implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era estatisticamente significativa.
+**Dado sobre eficácia do formato híbrido:** Uma startup de mobilidade urbana implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era estatisticamente significativa.
 
 ---
 
@@ -1248,9 +1248,9 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 ---
 
-### Caso 2: 99 (Mobilidade Urbana)
+### Caso 2: Startup de mobilidade (Mobilidade Urbana)
 
-**Situação Inicial:** 99, startup brasileira de mobilidade. Time de produto: 3 PMs, 5 engenheiros, 2 data scientists. Cada PM cuidava de uma vertical: motoristas, passageiros, operações. O agente de IA analisava dados de cancelamento.
+**Situação Inicial:** Uma startup brasileira de mobilidade. Time de produto: 3 PMs, 5 engenheiros, 2 data scientists. Cada PM cuidava de uma vertical: motoristas, passageiros, operações. O agente de IA analisava dados de cancelamento.
 
 **O que estava errado:** Os PMs tratavam o agente como "ferramenta de relatório". Pediam análise, recebiam relatório, tomavam decisão sozinhos. O agente não participava da decisão. Resultado: decisões lentas (2 semanas por hipótese) e taxa de acerto baixa (34%).
 
@@ -1260,9 +1260,9 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 ---
 
-### Caso 3: Hospital Israelita Albert Einstein (Saúde)
+### Caso 3: Um hospital (Saúde)
 
-**Situação Inicial:** Em 2024, o Hospital Israelita Albert Einstein implementou um sistema de IA para triagem de pacientes no pronto-socorro. O modelo tinha accuracy de 94% na classificação de urgência. Mas o NPS dos pacientes era baixo: 2.3. O time de produto era composto por 2 PMs, 3 engenheiros de ML, 1 médico e 1 designer. Ninguém era responsável pela experiência do paciente com o sistema de IA.
+**Situação Inicial:** Em 2024, um hospital implementou um sistema de IA para triagem de pacientes no pronto-socorro. O modelo tinha accuracy de 94% na classificação de urgência. Mas o NPS dos pacientes era baixo: 2.3. O time de produto era composto por 2 PMs, 3 engenheiros de ML, 1 médico e 1 designer. Ninguém era responsável pela experiência do paciente com o sistema de IA.
 
 **O que estava errado:** O modelo classificava a urgência corretamente, mas não comunicava isso ao paciente de forma empática. Um paciente com dor no peito recebia a mensagem: "Sua urgência foi classificada como alta. Aguarde." Sem explicação, sem acolhimento. O modelo acertava a classificação, mas a experiência era péssima.
 
@@ -1413,7 +1413,7 @@ Mas antes, precisamos de uma pausa. Respira. O próximo capítulo é sobre métr
 
 ## Seção 1: Cena de Abertura
 
-Era uma terça-feira de março de 2025, e Rafael Almeida, Product Manager do Nubank, estava sentado na sala de retrospectiva semanal. O time tinha 8 humanos e 2 agentes de IA. Um para QA, outro para análise de dados. Na parede, o quadro de post-its mostrava 12 itens concluídos e 3 bugs abertos.
+Era uma terça-feira de março de 2025, e Rafael Almeida, Product Manager de um banco digital, estava sentado na sala de retrospectiva semanal. O time tinha 8 humanos e 2 agentes de IA. Um para QA, outro para análise de dados. Na parede, o quadro de post-its mostrava 12 itens concluídos e 3 bugs abertos.
 
 "O que podemos melhorar?", Rafael perguntou, como fazia toda semana.
 
@@ -1530,7 +1530,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *O que faz:* Define o "porquê" e o "para quem". Não delega visão. O agente pode sugerir, mas não decide o rumo.
 
-*Exemplo do case:* Rafael, PM do Nubank, decidiu que o agente de dados não podia definir quais métricas eram prioritárias. Ele definia. O agente executava.
+*Exemplo do case:* Rafael, PM de um banco digital, decidiu que o agente de dados não podia definir quais métricas eram prioritárias. Ele definia. O agente executava.
 
 *Por que é importante:* Se o agente decide a visão, você perde o controle estratégico. O PM é o guardião da visão.
 
@@ -1738,7 +1738,7 @@ O problema central: times implementam IA sem repensar seus rituais de governanç
 
 Sem um *Operating System*, a IA vira uma caixa-preta que ninguém entende e ninguém controla. O time fica refém das métricas técnicas que escondem problemas de experiência.
 
-**Conexão com *Product Compass* (Capítulo 6):** O *Product Compass* mapeia oportunidades de IA com quatro etapas: Mapear, Priorizar, Validar, Escalar. Cada etapa do Compass encontra um correspondente no OS Framework. O Compass responde "o que construir". O OS responde "como operar". A etapa **Mapear** do Compass identifica onde a IA pode gerar valor. O OS entra com o ritual **Observe (O1)** para monitorar se esse valor está realmente sendo entregue. A etapa **Priorizar** define o que fazer primeiro. O OS entra com **Schedule (O2)** para garantir rituais fixos de revisão. A etapa **Validar** testa a solução com usuários. O OS entra com **Review (O4)** para revisar casos-limite e falhas. A etapa **Escalar** expande a solução. O OS entra com **Iterate (O5)** para garantir melhoria contínua.
+**Conexão com o Capítulo 6:** O framework de oportunidades mapeia ideias de IA em quatro etapas: Mapear, Priorizar, Validar, Escalar. Cada etapa encontra um correspondente no OS Framework. Ele responde "o que construir". O OS responde "como operar". A etapa **Mapear** identifica onde a IA pode gerar valor. O OS entra com o ritual **Observe (O1)** para monitorar se esse valor está realmente sendo entregue. A etapa **Priorizar** define o que fazer primeiro. O OS entra com **Schedule (O2)** para garantir rituais fixos de revisão. A etapa **Validar** testa a solução com usuários. O OS entra com **Review (O4)** para revisar casos-limite e falhas. A etapa **Escalar** expande a solução. O OS entra com **Iterate (O5)** para garantir melhoria contínua.
 
 O *AI Maturity Model* do Gartner (publicado originalmente em 2023) continua sendo o framework de referência para avaliar maturidade organizacional em IA. Embora não tenha sido atualizado formalmente, seus 5 níveis seguem sendo adotados por consultorias e times de produto como padrão de diagnóstico. Times nos níveis 1-2 não deveriam introduzir agentes autônomos. Só times nos níveis 3-5 têm a governança necessária para não criar o cenário do Banco Digital: modelo perfeito, experiência horrível.
 
@@ -1894,7 +1894,7 @@ O time aplicou o ciclo de iteração:
 
 ---
 
-**Caso 2: Nubank. Governança de crédito com IA**
+**Caso 2: Banco digital. Governança de crédito com IA**
 
 **Situação Inicial:** Time de crédito usando IA para aprovação de limites. Modelo com 95% de precisão na previsão de inadimplência. Mas clientes reclamavam de limites injustos.
 
@@ -1908,11 +1908,11 @@ O time aplicou o ciclo de iteração:
 - Criou processo de recurso humano para casos excepcionais
 - Revisão trimestral de casos-limite (clientes com score baixo mas bom comportamento)
 
-**Resultados:** Redução de 40% nas reclamações de limite. Clientes com recurso aprovado tinham 12% menos inadimplência que a média. (Fonte: Nubank Investor Relations, 2025)
+**Resultados:** Redução de 40% nas reclamações de limite. Clientes com recurso aprovado tinham 12% menos inadimplência que a média. (caso ilustrativo)
 
 ---
 
-**Caso 3: iFood. Recomendação com contexto humano**
+**Caso 3: App de delivery. Recomendação com contexto humano**
 
 **Situação Inicial:** Algoritmo de recomendação que otimizava taxa de clique. Alta accuracy. Usuários reclamavam de recomendações repetitivas.
 
@@ -2039,7 +2039,7 @@ O problema central é simples: empresas confundem "cultura de IA" com "treinamen
 
 A pesquisa mais recente da McKinsey sobre o tema indica que apenas 28% das organizações têm o CEO com responsabilidade direta pela governança de IA (McKinsey, State of AI, 2025). O padrão é claro: elas investem em treinamento, contratam data scientists, compram ferramentas. Mas não criam os rituais que garantem que esses investimentos gerem produtos sustentáveis.
 
-**Product Compass:** Cultura sem governança é anarquia. Governança sem cultura é burocracia.
+Cultura sem governança é anarquia. Governança sem cultura é burocracia.
 
 A chave é um sistema que torne o comportamento ético mais fácil e mais recompensador que o comportamento antiético. Não é sobre moralismo. É sobre construir algo que dure.
 
@@ -2120,31 +2120,31 @@ Cada componente tem três partes: o que é, por que importa e como implementar.
 
 **Dados quantitativos:** Times que implementam rotação de responsabilidades recuperam falhas em modelos críticos mais rápido, porque o conhecimento deixa de depender de uma única pessoa.
 
-**Product Compass:** O framework Culture-Ethics não é um conjunto de regras para engessar o time. É um conjunto de rituais para liberar o time de depender de heróis.
+O framework Culture-Ethics não é um conjunto de regras para engessar o time. É um conjunto de rituais para liberar o time de depender de heróis.
 
 ## Casos Reais
 
-### Caso 1: Nubank, Cultura de IA que atrai e retém talento
+### Caso 1: Banco digital, cultura de IA que atrai e retém talento
 
-**Situação Inicial:** Em 2022, o Nubank enfrentava o mesmo problema de todo banco digital: como atrair e reter data scientists num mercado onde startups ofereciam salários competitivos e mais autonomia.
+**Situação Inicial:** Em 2022, o banco digital enfrentava o mesmo problema de todo banco digital: como atrair e reter data scientists num mercado onde startups ofereciam salários competitivos e mais autonomia.
 
-**O que estava errado:** O Nubank competia em salário, mas perdia em percepção de impacto. Data scientists queriam construir coisas novas, não manter sistemas legados. E o Nubank, apesar de ser digital, tinha sistemas legados.
+**O que estava errado:** O banco digital competia em salário, mas perdia em percepção de impacto. Data scientists queriam construir coisas novas, não manter sistemas legados. E o banco digital, apesar de ser digital, tinha sistemas legados.
 
-**Como resolveu:** O Nubank criou um sistema de governança que oferecia o que startups não podiam: dados proprietários em escala, problemas reais com impacto em 80 milhões de usuários e um processo claro para levar modelos do experimento à produção sem burocracia.
+**Como resolveu:** O banco digital criou um sistema de governança que oferecia o que startups não podiam: dados proprietários em escala, problemas reais com impacto em 80 milhões de usuários e um processo claro para levar modelos do experimento à produção sem burocracia.
 
 A chave foi o **Model Governance Framework**, um sistema que padronizou o ciclo de vida de cada modelo em quatro estágios: desenvolvimento, validação, deploy e monitoramento. Cada estágio tem checklists obrigatórios. O checklist de deploy, por exemplo, exige: documentação do modelo, teste de viés, análise de explainability e definição de métricas de monitoramento.
 
-**Resultados:** O Nubank reduziu o tempo médio de deploy de modelos de 45 dias para 12 dias. E, mais importante, zerou os incidentes éticos relacionados a viés algorítmico nos 18 meses seguintes à implementação do framework. A rotatividade no time de dados caiu 40% entre 2022 e 2024 (caso ilustrativo).
+**Resultados:** O banco digital reduziu o tempo médio de deploy de modelos de 45 dias para 12 dias. E, mais importante, zerou os incidentes éticos relacionados a viés algorítmico nos 18 meses seguintes à implementação do framework. A rotatividade no time de dados caiu 40% entre 2022 e 2024 (caso ilustrativo).
 
 **Lição:** Cultura de IA não se constrói com salário. Se constrói com sistemas que tornam o trabalho do cientista de dados mais produtivo e mais seguro.
 
-### Caso 2: Magazine Luiza, Como não ser engolido pela AI Trap
+### Caso 2: Um grande varejista, como não ser engolido pela AI Trap
 
-**Situação Inicial:** Em 2023, o Magazine Luiza tinha um time de dados de 80 pessoas, mas menos de 20% dos modelos desenvolvidos chegavam à produção. O resto morria em POCs.
+**Situação Inicial:** Em 2023, um grande varejista tinha um time de dados de 80 pessoas, mas menos de 20% dos modelos desenvolvidos chegavam à produção. O resto morria em POCs.
 
 **O que estava errado:** O time de dados trabalhava isolado do time de produto. O cientista de dados desenvolvia um modelo, apresentava para o PM, o PM dizia "isso não resolve meu problema", e o modelo era abandonado. Sem governança que forçasse a colaboração, cada POC era um experimento descartável.
 
-**Como resolveu:** O Magazine Luiza implementou um **Product Compass de IA** que exigia que todo projeto de IA tivesse um PM responsável desde o início. Não era "o time de dados vai fazer um modelo e depois a gente vê o que fazer". Era "o PM define o problema, o cientista de dados define a solução, e os dois trabalham juntos até o deploy".
+**Como resolveu:** Um grande varejista implementou um framework de governança de produto que exigia que todo projeto de IA tivesse um PM responsável desde o início. Não era "o time de dados vai fazer um modelo e depois a gente vê o que fazer". Era "o PM define o problema, o cientista de dados define a solução, e os dois trabalham juntos até o deploy".
 
 O framework incluía checklists de alinhamento, métricas acordadas e revisões quinzenais de progresso.
 
@@ -2152,17 +2152,17 @@ O framework incluía checklists de alinhamento, métricas acordadas e revisões 
 
 **Lição:** Governança não é burocracia. É o que impede que POCs virem custo morto.
 
-### Caso 3: iFood, Ética operacionalizada em escala
+### Caso 3: Um app de delivery, ética operacionalizada em escala
 
-**Situação Inicial:** Em 2024, o iFood processava 60 milhões de pedidos por mês com modelos de recomendação, precificação e roteirização. Cada modelo tomava decisões que afetavam restaurantes, entregadores e clientes.
+**Situação Inicial:** Em 2024, o app de delivery processava 60 milhões de pedidos por mês com modelos de recomendação, precificação e roteirização. Cada modelo tomava decisões que afetavam restaurantes, entregadores e clientes.
 
-**O que estava errado:** O iFood tinha modelos que favoreciam restaurantes maiores em detrimento dos pequenos, porque os dados de treino refletiam o viés histórico de recomendação. E não tinha um processo claro para identificar e corrigir esses vieses.
+**O que estava errado:** O app de delivery tinha modelos que favoreciam restaurantes maiores em detrimento dos pequenos, porque os dados de treino refletiam o viés histórico de recomendação. E não tinha um processo claro para identificar e corrigir esses vieses.
 
-**Como resolveu:** O iFood criou um **Comitê de Ética em IA** com membros de produto, dados, legal, operações e um representante dos entregadores. O comitê se reunia mensalmente para revisar modelos críticos, analisar reclamações e decidir sobre trade-offs entre eficiência e equidade.
+**Como resolveu:** O app de delivery criou um **Comitê de Ética em IA** com membros de produto, dados, legal, operações e um representante dos entregadores. O comitê se reunia mensalmente para revisar modelos críticos, analisar reclamações e decidir sobre trade-offs entre eficiência e equidade.
 
 E mais: implementaram um sistema de **testes automatizados de viés** que rodava continuamente em produção. Se um modelo começava a favorecer um grupo em detrimento de outro, o sistema alertava o time antes do impacto se tornar significativo.
 
-**Resultados:** O iFood identificou e corrigiu vieses em 12 modelos críticos em 2024 (caso ilustrativo). A satisfação dos entregadores subiu 15% depois que ajustaram o modelo de roteirização para distribuir melhor os pedidos.
+**Resultados:** O app de delivery identificou e corrigiu vieses em 12 modelos críticos em 2024 (caso ilustrativo). A satisfação dos entregadores subiu 15% depois que ajustaram o modelo de roteirização para distribuir melhor os pedidos.
 
 **Lição:** Ética operacionalizada não é sobre ser bonzinho. É sobre construir sistemas que detectam problemas antes que eles virem crise.
 
@@ -2202,15 +2202,15 @@ Como saber se o framework Culture-Ethics está funcionando? Acompanhe estas mét
 
 1. **Tempo médio de deploy de modelos:** Deveria cair 50% nos primeiros 3 meses, conforme a padronização reduz retrabalho. (Alvo: de 2 semanas para 5 dias úteis.)
 
-2. **Taxa de modelos que chegam à produção:** Deveria subir de 20% para pelo menos 60% em 6 meses, como no case do Magazine Luiza.
+2. **Taxa de modelos que chegam à produção:** Deveria subir de 20% para pelo menos 60% em 6 meses, como no case dum grande varejista.
 
 3. **Tempo de recuperação de falhas:** Deveria cair 60% com a rotação de responsabilidades, segundo dados da Gartner (2025).
 
-4. **Rotatividade no time de dados:** Deveria cair 40% em 12 meses, como no case do Nubank.
+4. **Rotatividade no time de dados:** Deveria cair 40% em 12 meses, como no case de um banco digital.
 
 5. **Número de vieses identificados e corrigidos:** Deveria subir nos primeiros meses (conforme os testes começam a detectar problemas) e depois estabilizar.
 
-6. **Satisfação dos usuários afetados pelo modelo:** Deveria subir continuamente, como no case do iFood.
+6. **Satisfação dos usuários afetados pelo modelo:** Deveria subir continuamente, como no case do app de delivery.
 
 **Como medir:** Crie um dashboard de governança com essas métricas. Atualize mensalmente. Compartilhe com o board.
 
@@ -2226,7 +2226,7 @@ Cultura de IA não é sobre contratar as pessoas mais brilhantes. É sobre const
 
 No próximo capítulo, a gente vai ver como escalar produtos de IA sem escalar os problemas. Como passar de 10 para 100 modelos sem perder o controle. Porque escalar sem governança não é escalar. É multiplicar o caos.
 
-**Product Compass:** A cultura que adota é a que protege. O resto é só branding.
+A cultura que adota é a que protege. O resto é só branding.
 
 ---
 
