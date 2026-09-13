@@ -1,32 +1,32 @@
 {
  "scores": {
-  "voz_autoral": 6,
+  "voz_autoral": 7,
   "rigor_factual": 4,
-  "concretude": 6,
-  "relevancia": 9,
-  "clareza": 7,
+  "concretude": 4,
+  "relevancia": 8,
+  "clareza": 6,
   "aplicabilidade": 8,
-  "anti_hype": 8
+  "anti_hype": 7
  },
- "total": 48,
+ "total": 44,
  "verdict": "REJECT",
  "top_problems": [
   {
-   "quote": "com o dólar a R$ 10. Isso não é exagero, é o que aconteceu",
-   "problem": "Falso: USD/BRL em 2024-2025 ficou ~R$ 5-6,20, nunca R$ 10. Afirmação inventada vendida como fato."
+   "quote": "NPS do agente: Mede satisfação com a interação",
+   "problem": "NPS não é escala 1–5; meta 'acima de 4.0' mistura NPS com CSAT e quebra o rigor."
   },
   {
-   "quote": "NPS de produto: Deve subir de 1.8 para 4.0+",
-   "problem": "NPS aparece em escalas incompatíveis no mesmo texto (1,8/4,0/4,2 vs 72/45/50). Métrica inutilizável."
+   "quote": "(caso ilustrativo)",
+   "problem": "Todos os cases são genéricos e confessadamente fictícios; zero empresa nomeada."
   },
   {
-   "quote": "Conversão de 0,8% para 8,4%",
-   "problem": "Salto de 10x sem empresa nomeada, no mesmo padrão dos outros 'exemplos reais' anônimos. Parece fabricado."
+   "quote": "segundo dados da Gartner (2025)",
+   "problem": "Queda de 60% no tempo de recuperação com rotação parece número fabricado, fonte não verificável."
   },
   {
-   "quote": "A resposta está na sua relação com dados negativos.",
-   "problem": "Frase colada nos 4 curiosity gaps (Nível 4 e 5 iguais). Cara de GPT e diagnostica errado."
+   "quote": "artigo da Folha de S.Paulo sobre IA no varejo (2024)",
+   "problem": "Cena ficcional citada como fato jornalístico, sem título nem data checável."
   }
  ],
- "summary": "Relevante e acionável para PM brasileiro (matriz B³, 30/60/90), mas o rigor quebra: câmbio falso, NPS em duas escalas e cases anônimos com números improváveis. Voz cai em gaps copiados. Reject."
+ "summary": "Há voz em trechos e um 30/60/90 acionável para o decisor, mas o texto não publica: cases ilustrativos sem nome, NPS trocado com nota 1–5, e Gartner/Folha usados como muleta factual. Reescrever com cases reais e checagem antes de qualquer revisão de estilo."
 }

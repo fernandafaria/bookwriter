@@ -149,7 +149,7 @@ Se você respondeu "sim" para pelo menos dois sintomas, você está na *AI Trap*
 
 ---
 
-## Seção 4: Casos Reais
+## Seção 4: Casos e exemplos
 
 Três empresas brasileiras. Três níveis diferentes de maturidade. Três resultados diferentes com IA.
 
@@ -695,7 +695,7 @@ Depois de avaliar os 5 eixos, você escolhe um caminho:
 
 ---
 
-### Seção 4: Casos Reais
+### Seção 4: Casos e exemplos
 
 #### Caso 1: O banco que construiu o chatbot errado
 
@@ -767,7 +767,7 @@ Depois de avaliar os 5 eixos, você escolhe um caminho:
 | Métrica | O que mede | Benchmark |
 |---|---|---|
 | Tempo de implementação | Dias do go até produção | Build: 3-8 meses. Buy: 1-3 meses |
-| NPS do usuário final | Satisfação com a solução | Meta: > 4,0 |
+| Satisfação do usuário final | Nota de 1 a 5 da experiência | Meta: > 4,0 |
 | TCO (Total Cost of Ownership) | Custo total em 12 meses | Build: 2-5x o custo de buy |
 | Time-to-value | Dias até primeiro valor entregue | Build: 60-90 dias. Buy: 15-30 dias |
 | Taxa de adoção | % do público-alvo usando | Meta: > 60% no 3º mês |
@@ -926,7 +926,7 @@ Ninguém planeja o fim. Mas modelos ficam obsoletos. Dados mudam. Novas técnica
 
 ---
 
-## Seção 4: Casos Reais
+## Seção 4: Casos e exemplos
 
 ### Caso 1: Zillow Offers, o modelo perfeito que quebrou a empresa
 
@@ -1232,7 +1232,7 @@ Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que voc�
 
 ---
 
-## Seção 4: Casos Reais
+## Seção 4: Casos e exemplos
 
 ### Caso 1: Banco Digital
 
@@ -1471,7 +1471,7 @@ Aqui está o que some do seu dia a dia:
 
 **4. Descobrir problemas sozinho.** O agente monitora métricas 24/7, detecta anomalias, sugere hipóteses. Você não precisa mais "descobrir" que o NPS caiu, o agente te avisa. Você para de ser detetive e vira investigador sênior (o agente acha a cena do crime; você resolve o caso).
 
-**5. Escrever tudo do zero.** PRDs, briefings, relatórios de status, e-mails de alinhamento. O agente gera o primeiro draft. Você edita. Seu tempo de escrita cai 70%. Você para de ser redator e vira editor.
+**5. Escrever tudo do zero.** PRDs, briefings, relatórios de status, e-mails de alinhamento. O agente gera o primeiro draft. Você edita. Seu tempo de escrita despenca. Você para de ser redator e vira editor.
 
 Se você se reconheceu em 3 ou mais desses itens: seu trabalho já mudou. Você só não percebeu ainda.
 
@@ -1586,7 +1586,7 @@ O HAT Model não é teoria abstrata. É conhecimento prático baseado em impleme
 
 ---
 
-## Seção 4: Casos Reais
+## Seção 4: Casos e exemplos
 
 ### Caso 1: Banco Digital, satisfação de 1.8 para 4.2
 
@@ -1871,7 +1871,7 @@ O time aplicou o ciclo de iteração:
 
 ---
 
-### 4. Casos Reais
+### 4. Casos e exemplos
 
 **Caso 1: Banco Digital Brasileiro. Do satisfação 1.8 ao 4.2**
 
@@ -1973,7 +1973,7 @@ Com base na experiência da autora em mais de 20 implementações de IA em produ
 
 **Valor para Usuário**
 
-- **NPS do agente:** Mede satisfação com a interação. Meta: acima de 4.0.
+- **Satisfação do agente:** Mede a experiência do usuário com a interação. Meta: acima de 4,0.
 - **Taxa de escalação para humano:** Quanto menor, melhor. Mas não zero. Meta: entre 10% e 30%.
 - **Tempo médio de resolução:** Tempo até o problema ser resolvido. Meta: redução de 40% em 90 dias.
 
@@ -2009,7 +2009,7 @@ Ricardo balançou a cabeça. "Carlos, você sabe como funciona. Se a gente não 
 
 Carlos fechou o laptop. "Corrigir depois de lançar um modelo com viés não é corrigir. É apagar incêndio."
 
-O modelo foi para produção na sexta-feira sem os testes de viés. Na segunda-feira seguinte, o SAC registrou um volume anormal de reclamações de fornecedores que estavam sendo sistematicamente preteridos nas recomendações. O board pediu explicações. O caso foi documentado internamente e posteriormente citado em um artigo da Folha de S.Paulo sobre IA no varejo (2024).
+O modelo foi para produção na sexta-feira sem os testes de viés. Na segunda-feira seguinte, o SAC registrou um volume anormal de reclamações de fornecedores que estavam sendo sistematicamente preteridos nas recomendações. O board pediu explicações. O caso foi documentado internamente.
 
 Essa empresa tinha dinheiro. Tinha talento. Tinha dados. Mas caiu na *AI Trap* do mesmo jeito. Por quê?
 
@@ -2122,7 +2122,7 @@ Cada componente tem três partes: o que é, por que importa e como implementar.
 
 O framework Culture-Ethics não é um conjunto de regras para engessar o time. É um conjunto de rituais para liberar o time de depender de heróis.
 
-## Casos Reais
+## Casos e exemplos
 
 ### Caso 1: Banco digital, cultura de IA que atrai e retém talento
 
@@ -2204,7 +2204,7 @@ Como saber se o framework Culture-Ethics está funcionando? Acompanhe estas mét
 
 2. **Taxa de modelos que chegam à produção:** Deveria subir de 20% para pelo menos 60% em 6 meses, como no case dum grande varejista.
 
-3. **Tempo de recuperação de falhas:** Deveria cair 60% com a rotação de responsabilidades, segundo dados da Gartner (2025).
+3. **Tempo de recuperação de falhas:** Deveria cair com a rotação de responsabilidades, porque o conhecimento deixa de depender de uma pessoa só.
 
 4. **Rotatividade no time de dados:** Deveria cair 40% em 12 meses, como no case de um banco digital.
 
