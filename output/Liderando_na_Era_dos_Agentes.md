@@ -26,8 +26,6 @@ Em 2026, o mercado está cheio de livros sobre AI Product Management. O problema
 
 # Capítulo 1: A Armadilha de IA e como explicar pro board que 'IA em tudo' é um erro
 
-## Parte 1: Diagnóstico: Onde você está?
-
 ---
 
 ## Seção 1: Cena de Abertura
@@ -308,8 +306,6 @@ Se você ainda não sabe a resposta, não se preocupe. O próximo capítulo vai 
 
 # Capítulo 2: O Mapa de Maturidade, os 5 níveis que toda área atravessa
 
-## Parte 1: Diagnóstico: Onde você está?
-
 ---
 
 ## 1. Cena de Abertura
@@ -384,7 +380,7 @@ Aqui, as decisões são tomadas com base em feeling, intuição ou pressão hier
 
 **Exemplo real:** Uma startup de fintech construiu um sistema de recomendação de investimentos baseado no que o CEO “achava que os jovens queriam”. Gastou R$ 2 milhões em desenvolvimento. Seis meses depois, 94% dos usuários nunca tinham clicado em uma recomendação. Ninguém havia entrevistado um jovem antes de começar.
 
-**Curiosity gap:** Mas como saber se você está no Nível 1 ou no Nível 2? A resposta está na sua relação com dados negativos. Se você ignora evidências de que algo não funciona, está no Nível 1.
+**Curiosity gap:** Mas como saber se você está no Nível 1 ou no Nível 2? A resposta está em como você trata a evidência que contradiz você. Se você a ignora, está no Nível 1.
 
 ### Nível 2: Feature Factory (Avaliar)
 
@@ -396,7 +392,7 @@ O time começa a conversar com clientes. Faz pesquisas, entrevistas, testes. Mas
 
 **Exemplo real:** Um marketplace brasileiro investiu R$ 5 milhões em um sistema de recomendação baseado em machine learning. O time de produto entrevistou 50 vendedores. Todos disseram que o maior problema era a logística, não as recomendações. O time ignorou e construiu o sistema de recomendação. Dois anos depois, o sistema tinha 12% de adoção entre vendedores. O problema de logística nunca foi resolvido.
 
-**Curiosity gap:** Mas como saber se você está no Nível 2 ou no Nível 3? A resposta está na sua relação com dados negativos. Se você coleta dados, mas não age neles, está no Nível 2.
+**Curiosity gap:** Mas como saber se você está no Nível 2 ou no Nível 3? A resposta está no que você faz com o dado que dói. Se você coleta mas não age, está no Nível 2.
 
 ### Nível 3: Data-Informed (Testar)
 
@@ -408,7 +404,7 @@ O time usa múltiplas fontes de dados: pesquisa qualitativa, dados quantitativos
 
 **Exemplo real:** Uma empresa de seguros investiu em um assistente virtual com IA. O time fez testes A/B que mostraram que o assistente reduzia o tempo de atendimento em 40%, mas aumentava o número de reclamações em 25%. O VP de produto decidiu lançar mesmo assim, argumentando que “eficiência é mais importante”. Resultado: NPS caiu de 72 para 45 em três meses.
 
-**Curiosity gap:** Mas como saber se você está no Nível 3 ou no Nível 4? A resposta está na sua relação com dados negativos. Se você age neles, está no Nível 4.
+**Curiosity gap:** Mas como saber se você está no Nível 3 ou no Nível 4? A resposta está em como você reage quando o dado discorda de você. Se você age sobre ele, está no Nível 3.
 
 ### Nível 4: Product Operating Model (Usar)
 
@@ -416,11 +412,11 @@ O Product Trio (Product Manager, Designer, Engenheiro) trabalha em fluxo contín
 
 **O que parece:** “Testamos três abordagens esta semana.” “Os dados mostram que a abordagem B funciona melhor.” “Vamos iterar.”
 
-**Por que é importante:** O time tem autonomia para decidir o que construir. A priorização é baseada em dados de usuário, não em hierarquia. Resultados negativos são celebrados como aprendizado.
+**Por que importa:** O time tem autonomia para decidir o que construir. A priorização é baseada em dados de usuário, não em hierarquia. Resultados negativos são celebrados como aprendizado.
 
 **Exemplo real expandido:** Uma empresa de logística brasileira implementou um sistema de roteirização com IA. O Product Trio passou duas semanas observando motoristas em campo. Descobriram que o maior problema não era a rota, mas a comunicação com o centro de distribuição. O experimento foi simples: em vez de otimizar a rota primeiro, eles testaram um protótipo de chat entre motoristas e centrais. O protótipo foi construído em 3 dias. Em uma semana, 80% dos motoristas relataram melhora na eficiência. O time então redesenhou o sistema para priorizar comunicação, não rota. A eficiência subiu 35% em três meses. O dado mais importante? O time aprendeu mais com o fracasso do protótipo inicial de roteirização do que com o sucesso do chat.
 
-**Curiosity gap:** Mas como saber se você está no Nível 4 ou no Nível 5? A resposta está na sua relação com dados negativos. Se o aprendizado é contínuo e sistêmico, está no Nível 5.
+**Curiosity gap:** Mas como saber se você está no Nível 4 ou no Nível 5? A resposta está no que o time faz com o fracasso. Se o aprendizado é contínuo e sistêmico, está no Nível 5.
 
 ### Nível 5: AI-Native (Refinar)
 
@@ -428,11 +424,11 @@ A empresa inteira entende a estratégia de produto. Qualquer área pode sugerir 
 
 **O que parece:** “O time de marketing sugeriu um experimento.” “O time de RH sugeriu outro.” “Os usuários participam das sprint reviews.”
 
-**Por que é importante:** A cultura de produto permeia a organização. Não é responsabilidade de um time, é responsabilidade de todos. A empresa aprende mais rápido porque mais pessoas estão experimentando.
+**O ponto:** A cultura de produto permeia a organização. Não é responsabilidade de um time, é responsabilidade de todos. A empresa aprende mais rápido porque mais pessoas estão experimentando.
 
 **Exemplo real:** Uma empresa de tecnologia brasileira implementou um programa onde qualquer funcionário pode propor um experimento. O time de facilities sugeriu um chatbot para agendamento de salas de reunião. O time de RH sugeriu um sistema de recomendação de cursos. Ambos foram implementados. O chatbot de salas reduziu o tempo de agendamento em 60% em dois meses. O sistema de recomendação de cursos aumentou a conclusão de treinamentos em 40% em três meses. O dado mais importante? A empresa não precisou de um PM para cada experimento. O time de facilities, com suporte técnico, executou o experimento sozinho.
 
-**Curiosity gap:** Mas como saber se você está no Nível 5 ou apenas fingindo? A resposta está na sua relação com dados negativos. Se o aprendizado é contínuo e sistêmico, está no Nível 5.
+**Curiosity gap:** Mas como saber se você está no Nível 5 ou apenas fingindo? A resposta está no que acontece quando ninguém está olhando. Se o aprendizado é só no discurso, você está fingindo. Se é contínuo e sistêmico, está no Nível 5.
 
 ### Os 3 Pilares que Sustentam Cada Nível
 
@@ -555,8 +551,6 @@ Porque não adianta saber onde você está se você não sabe como evitar o bura
 > *Com o diagnóstico em mãos: construir, comprar, usar API ou open-source? E quanto custa?*
 
 # Capítulo 3: Build, Buy ou Partner? A decisão que define tudo
-
-## Parte 2: Decisão: O que fazer?
 
 ---
 
@@ -1180,7 +1174,7 @@ Exemplo ilustrativo: Em 2024, uma plataforma de e-commerce norte-americana imple
 
 O agente não sabia o que fazer com esses padrões. Ele só os encontrou. A limitação dele é clara: não tem contexto de negócio, não sente "pele no jogo", não distingue entre correlação e causalidade. "Usuários que compram de madrugada reclamam mais" pode ser porque a transportadora noturna é pior, ou porque usuários noturnos são mais ansiosos, ou porque o sistema de rastreio noturno tem delay. O agente não sabe. Ele só encontra.
 
-**Por que é importante:** Sem explorador, seu time opera no escuro. Você depende de intuição, de reclamações que chegam ao CEO, de dados que alguém teve tempo de puxar. Com explorador, você tem 47 hipóteses por semana. O problema passa a ser outro: escolher.
+**O risco:** Sem explorador, seu time opera no escuro. Você depende de intuição, de reclamações que chegam ao CEO, de dados que alguém teve tempo de puxar. Com explorador, você tem 47 hipóteses por semana. O problema passa a ser outro: escolher.
 
 **Dado:** Agentes de IA configurados para análise contínua de logs de suporte reduziram o tempo de identificação de padrões de reclamação de 3 meses para 48 horas em testes controlados (caso ilustrativo). Uma limitação comum é que muitos padrões identificados podem ser irrelevantes ou falsos positivos.
 
@@ -1196,7 +1190,7 @@ Taste é a capacidade de olhar para 47 padrões e dizer "esses 3 são os que imp
 
 Exemplo real: o PM do banco digital que, após receber os 47 padrões do agente, decidiu ignorar 44 deles. Por que? Porque ele sabia que a empresa estava em um momento de retenção, não de aquisição. Os 44 padrões eram sobre aquisição: melhorar onboarding, simplificar cadastro, etc. Os 3 padrões que ele escolheu eram sobre retenção: usuários que não usavam o app há 30 dias, usuários que tinham saldo baixo, usuários que reclamavam de taxa. Ele ignorou dados que apontavam para uma direção porque o contexto de negócio apontava para outra.
 
-**Por que é importante:** Sem validador, seu time vira um gerador de hipóteses sem direção. Você implementa tudo que o agente sugere e termina com um produto inchado que tenta resolver 47 problemas ao mesmo tempo. O validador é o guardião do foco.
+**O que está em jogo:** Sem validador, seu time vira um gerador de hipóteses sem direção. Você implementa tudo que o agente sugere e termina com um produto inchado que tenta resolver 47 problemas ao mesmo tempo. O validador é o guardião do foco.
 
 **Dado:** Em 2024, uma empresa de software removeu 30% das configurações disponíveis em sua interface, baseado no princípio de design "Don't make me think". Os dados mostravam que 15% dos usuários usavam aquelas configurações. O princípio dizia: sim, mas 85% sofrem com a complexidade que elas geram. Julgamento contextual venceu dados brutos (caso ilustrativo).
 
@@ -1214,7 +1208,7 @@ Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que voc�
 
 **Exemplo do banco digital:** O Explorador gerou 12 hipóteses sobre por que a satisfação estava baixa. O Validador testou 4 em produção. O Sintetizador (Rafael) decidiu implementar a hipótese "explicações simples" porque o custo de implementação era baixo e o impacto potencial era alto, mesmo que não fosse a hipótese com maior chance de sucesso. A hipótese com maior chance de sucesso era "escalação inteligente para humanos", mas o custo de implementação era 5x maior. Rafael sabia que o momento era de retenção, não de revolução. Decisão certa: satisfação subiu de 1.8 para 4.2.
 
-**Por que é importante:** Porque nenhum dos dois, sozinho, toma a decisão certa. O agente tem dados sem contexto. O humano tem contexto sem dados. Juntos, eles sintetizam.
+**A armadilha:** Porque nenhum dos dois, sozinho, toma a decisão certa. O agente tem dados sem contexto. O humano tem contexto sem dados. Juntos, eles sintetizam.
 
 **Dado sobre eficácia do formato híbrido:** Uma startup de mobilidade urbana implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era grande o bastante para valer a pena.
 
@@ -1407,8 +1401,6 @@ Mas antes, precisamos de uma pausa. Respira. O próximo capítulo é sobre métr
 
 # Capítulo 6: O PM na Era dos Agentes: o que muda, o que some, o que nasce
 
-## Parte 3: Time: Quem faz?
-
 ---
 
 ## Seção 1: Cena de Abertura
@@ -1532,7 +1524,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *Exemplo do case:* Rafael, PM de um banco digital, decidiu que o agente de dados não podia definir quais métricas eram prioritárias. Ele definia. O agente executava.
 
-*Por que é importante:* Se o agente decide a visão, você perde o controle estratégico. O PM é o guardião da visão.
+*A aposta:* Se o agente decide a visão, você perde o controle estratégico. O PM é o guardião da visão.
 
 **Papel 2: Executor**
 
@@ -1542,7 +1534,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *Exemplo do case:* Agente de QA que encontrou 3 bugs. Trabalho que levaria 2 dias para um humano, o agente fez em 20 minutos.
 
-*Por que é importante:* O agente libera o humano para o que importa. Mas só funciona se o Executor tem limites claros.
+*Por que isso muda o jogo:* O agente libera o humano para o que importa. Mas só funciona se o Executor tem limites claros.
 
 **Papel 3: Validator**
 
@@ -1552,7 +1544,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *Exemplo do case:* Designer do banco digital que revisou recomendações do agente e encontrou 2 sugestões que violavam a identidade visual da marca. Uma sugeria usar vermelho no botão de cancelamento. Outra recomendava um produto que o cliente já tinha.
 
-*Por que é importante:* Sem validação, o agente erra. E quando erra, erra em escala.
+*O custo de errar:* Sem validação, o agente erra. E quando erra, erra em escala.
 
 **Papel 4: Escalator**
 
@@ -1562,7 +1554,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *Exemplo do case:* Motorista da startup de mobilidade que ignorou rota sugerida pelo agente porque sabia que a rua estava em obras.
 
-*Por que é importante:* Nem tudo pode ser automatizado. O Escalator é o ponto de falha seguro.
+*Por que importa:* Nem tudo pode ser automatizado. O Escalator é o ponto de falha seguro.
 
 **Papel 5: Learner**
 
@@ -1572,7 +1564,7 @@ A resposta é o **HAT Model (Human-Agent Team Model)** . HAT significa Human-Age
 
 *Exemplo do case:* Sistema de feedback do banco digital que permitia ao humano marcar sugestões do agente como "úteis" ou "inúteis". Em 3 meses, a precisão do agente subiu 40%.
 
-*Por que é importante:* Time híbrido que não aprende junto é time que estagna.
+*O ponto:* Time híbrido que não aprende junto é time que estagna.
 
 ### Os 3 princípios de funcionamento do HAT Model
 
@@ -1706,8 +1698,6 @@ Se você não sabe a resposta, seu time híbrido está quebrado. E agora você s
 
 # Capítulo 7: O Operating System: rituais, decisões e governança
 
-## Parte 4: Operação: Como fazer rodar?
-
 ### 1. Cena de Abertura
 
 Era uma quinta-feira de janeiro de 2024, e o head de produto do Banco Digital Brasileiro projetou o dashboard na sala de retrospectiva. O silêncio durou 10 segundos. O time inteiro olhava para o número: satisfação de 1.8.
@@ -1803,7 +1793,7 @@ O agente não participa de reuniões. Mas suas decisões precisam ser revisadas.
 
 **Exemplo real:** O time de produto de um grande e-commerce brasileiro revisa semanalmente as recomendações de produtos rejeitadas pelos usuários. Cada rejeição é um dado. Cada padrão de rejeição é uma oportunidade de melhoria. Eles não esperam o usuário reclamar. Eles monitoram o comportamento do usuário em relação ao agente. Esse caso ilustrativo mostra como o Schedule transforma monitoramento reativo em governança proativa.
 
-**Por que é importante:** Sem Schedule, o time só descobre problemas quando o usuário reclama. Ou pior: quando o agente causa um dano irreversível. O Schedule transforma monitoramento reativo em governança proativa.
+**O risco:** Sem Schedule, o time só descobre problemas quando o usuário reclama. Ou pior: quando o agente causa um dano irreversível. O Schedule transforma monitoramento reativo em governança proativa.
 
 ---
 
