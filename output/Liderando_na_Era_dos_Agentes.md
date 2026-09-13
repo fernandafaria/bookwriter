@@ -1,6 +1,6 @@
 # Liderando na Era dos Agentes
 
-*O manual de liderança de produto para a era da IA — por quem opera a transformação*
+*O manual de liderança de produto para a era da IA, por quem opera a transformação*
 
 **Fernanda Faria**
 
@@ -8,7 +8,7 @@
 
 ## Sobre a autora
 
-Fernanda Faria lidera produtos e times de tecnologia há mais de uma década. Foi executiva em plataformas de escala global e operou a transformação de times tradicionais em organizações AI-native. Este livro não é teoria de consultor — é o que ela aprendeu fazendo.
+Fernanda Faria lidera produtos e times de tecnologia há mais de uma década. Foi executiva em plataformas de escala global e operou a transformação de times tradicionais em organizações AI-native. Este livro não é teoria de consultor, é o que ela aprendeu fazendo.
 
 ## Para quem é este livro
 
@@ -16,11 +16,11 @@ Você é VP de Produto, CPTO, Head de Produto, líder de engenharia ou design. V
 
 ## Por que este livro existe
 
-Em 2026, o mercado está cheio de livros sobre AI Product Management. O problema: foram escritos por consultores e acadêmicos. Este livro é diferente. Ele foi escrito por quem *opera* a transformação — com as mãos sujas, os erros reais, e as decisões que não têm resposta certa. Se você está cansado de PowerPoints sobre o futuro da IA e quer um manual de verdade, este livro é pra você.
+Em 2026, o mercado está cheio de livros sobre AI Product Management. O problema: foram escritos por consultores e acadêmicos. Este livro é diferente. Ele foi escrito por quem *opera* a transformação, com as mãos sujas, os erros reais, e as decisões que não têm resposta certa. Se você está cansado de PowerPoints sobre o futuro da IA e quer um manual de verdade, este livro é pra você.
 
 ---
 
-# PARTE I — DIAGNÓSTICO: Onde você está?
+# PARTE I: DIAGNÓSTICO. Onde você está?
 
 > *Antes de decidir o que fazer com IA, você precisa saber onde sua organização está.*
 
@@ -30,13 +30,13 @@ Em 2026, o mercado está cheio de livros sobre AI Product Management. O problema
 
 ---
 
-## SEÇÃO 1: CENA DE ABERTURA
+## Seção 1: Cena de Abertura
 
 Era uma quinta-feira de março de 2025, e Carlos, VP de Produto de um banco digital brasileiro, estava na reunião trimestral de resultados. O board estava tenso. A promessa do trimestre anterior era clara: o chatbot com IA generativa iria revolucionar o atendimento ao cliente.
 
-Carlos projetou o slide com orgulho. "O modelo tem 94% de precisão na classificação de intenções. Batemos o benchmark do mercado nos datasets de validação. Treinado com 2 milhões de conversas históricas, curadas e balanceadas."
+Carlos projetou o slide com orgulho. "O modelo tem 92% de precisão na classificação de intenções. Batemos o benchmark do mercado nos datasets de validação. Treinado com 2 milhões de conversas históricas, curadas e balanceadas."
 
-O CEO não sorriu. "E o NPS?"
+O CEO não sorriu. "E o satisfação?"
 
 Silêncio.
 
@@ -50,13 +50,13 @@ Ele parou. Não sabia o que dizer. Porque não sabia qual era o problema.
 
 O CEO olhou para ele. "Carlos, você acabou de me mostrar que seu time construiu uma Ferrari que ninguém quer dirigir. E gastou 3 milhões nisso. Como chegamos aqui? E mais importante: como sair?"
 
-Essa cena não é ficção. Ela se repete em boards, comitês executivos e reuniões de produto Brasil afora. Empresas com dinheiro, talento e dados investindo milhões em IA que ninguém quer usar. E o pior: times de produto que não conseguem explicar por que a Ferrari não anda.
+Essa cena é ilustrativa, mas o padrão se repete em boards, comitês executivos e reuniões de produto Brasil afora. Empresas com dinheiro, talento e dados investindo milhões em IA que ninguém quer usar. E o pior: times de produto que não conseguem explicar por que a Ferrari não anda.
 
 Eu sei porque já estive na cadeira do Carlos. Em 2018, liderei um projeto de machine learning para predição de churn. O modelo era tecnicamente impecável, as métricas de validação eram as melhores que o time já tinha visto. Mas seis meses depois, a taxa de churn não tinha mexido um milímetro. O problema? O modelo previa churn com precisão, mas o time de operações não tinha processo para agir sobre as predições. A gente entregou um diagnóstico perfeito para um paciente que não tinha médico. Esse erro me custou um trimestre de credibilidade com o CEO, e me ensinou que métrica técnica sem processo de produto é ruído.
 
 ---
 
-## SEÇÃO 2: DEFINIÇÃO DO PROBLEMA
+## Seção 2: Definição do Problema
 
 "Fernanda, como garantimos que nossa estratégia de IA não seja apenas mais uma iniciativa de tecnologia?"
 
@@ -66,19 +66,19 @@ O nome do fenômeno que ele estava vivendo é *AI Trap*. A armadilha de acredita
 
 A *AI Trap* tem três sintomas clássicos:
 
-1. **Obsessão por métricas técnicas.** Accuracy, precision, recall. Números que impressionam o time de engenharia mas não dizem nada sobre valor para o usuário. Carlos tinha 92% de accuracy e NPS 1.8. As duas métricas coexistiram perfeitamente.
+1. **Obsessão por métricas técnicas.** Accuracy, precision, recall. Números que impressionam o time de engenharia mas não dizem nada sobre valor para o usuário. Carlos tinha 92% de accuracy e satisfação 1.8. As duas métricas coexistiram perfeitamente.
 
 2. **Soluções em busca de problemas.** "Vamos colocar IA em tudo." O time encontra um martelo novo e decide que tudo é prego. Chatbot para atendimento. IA para recomendar produtos. IA para analisar crédito. A tecnologia vem primeiro, o problema depois.
 
 3. **Ignorar limitações e contexto real de uso.** O modelo funciona no laboratório, nos testes A/B controlados, nos dados históricos. No mundo real, com usuários reais, com dados sujos, com casos de borda imprevistos, ele quebra. E ninguém planejou para isso.
 
-O dado de choque: De acordo com o relatório "The State of AI 2025" da McKinsey, 78% das empresas da Fortune 500 adotaram IA em pelo menos uma função de negócio, mas apenas 18% reportam impacto significativo no negócio (fonte: McKinsey Global Survey on AI, 2025, disponível em mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai). As empresas estão investindo, mas não estão colhendo.
+O dado de choque: De acordo com o relatório "The State of AI 2025" da McKinsey, 78% das organizações integram IA em pelo menos uma função de negócio, mas apenas 6% alcançam impacto significativo no resultado (McKinsey Global Survey on AI, 2025). As empresas estão investindo, mas não estão colhendo.
 
 Este livro não é sobre tecnologia, é sobre julgamento. E a *AI Trap* é o maior teste de julgamento que um PM pode enfrentar. O primeiro passo para passar nesse teste é entender onde sua organização está.
 
 ---
 
-## SEÇÃO 3: FRAMEWORK / COMPONENTES
+## Seção 3: Framework / Componentes
 
 "Para diagnosticar onde você está, você precisa de duas ferramentas: um mapa e um detector de armadilhas."
 
@@ -86,7 +86,7 @@ Este livro não é sobre tecnologia, é sobre julgamento. E a *AI Trap* é o mai
 
 Deixa eu te apresentar o framework que usei com mais de 30 empresas brasileiras nos últimos 3 anos. Chamo de *MATURE Maturity Model* (Maturity Assessment for Technology-User Readiness Evaluation). Cinco níveis. Cada nível diz como a empresa toma decisões de produto e, consequentemente, o que acontece quando ela tenta fazer IA.
 
-**M Nível 1: Mapear (Intuitivo)**
+**M Nível 1: Reativo (Mapear)**
 
 Decisões do chefe. Discovery desconhecida. Roadmap é uma lista de desejos do CEO.
 
@@ -94,15 +94,15 @@ O que acontece com IA: É moda. Projetos começam e morrem. Ninguém mede nada. 
 
 Exemplo real: Uma varejista brasileira contratou uma consultoria para implementar um sistema de recomendação por IA. Gastou R$ 500 mil. O sistema recomendava produtos que estavam em falta no estoque. O time não sabia que precisava integrar com o ERP. O projeto morreu em 4 meses.
 
-**A Nível 2: Alinhar (Reativo)**
+**A Nível 2: Feature Factory (Avaliar)**
 
 O time conversa com clientes mas não registra. Priorização por quem grita mais. A/B tests existem mas são raros e mal desenhados.
 
-O que acontece com IA: É reativa. Alguém no board leu sobre IA generativa e pediu um chatbot. O time constrói. O chatbot funciona tecnicamente. Ninguém pergunta se o usuário queria um chatbot. Métricas técnicas bonitas, NPS baixo.
+O que acontece com IA: É reativa. Alguém no board leu sobre IA generativa e pediu um chatbot. O time constrói. O chatbot funciona tecnicamente. Ninguém pergunta se o usuário queria um chatbot. Métricas técnicas bonitas, satisfação baixa.
 
 É exatamente onde Carlos estava. O banco digital dele estava no nível 2. O time sabia fazer discovery? Sabia. Fazia? Quando sobrava tempo. Priorizava com dados? Não. Priorizava com urgência do board.
 
-**T Nível 3: Testar (Experimental)**
+**T Nível 3: Data-Informed (Testar)**
 
 Múltiplas fontes de dados de usuário. Priorização tem critérios claros. Experimentação é frequente.
 
@@ -110,7 +110,7 @@ O que acontece com IA: Começa a ter propósito. O time pergunta: "qual problema
 
 Exemplo real: Uma plataforma de educação brasileira estava no nível 3. O time identificou que alunos abandonavam cursos por falta de engajamento. Testou três abordagens: notificações push, gamificação e recomendações personalizadas por IA. A IA venceu nos testes A/B. Mas o time não conectou a feature com a estratégia de retenção de longo prazo. O projeto funcionou tecnicamente, mas o impacto no churn foi marginal.
 
-**U Nível 4: Usar (Alinhado ao Usuário)**
+**U Nível 4: Product Operating Model (Usar)**
 
 *Product Trio* em fluxo contínuo. Experimentação diária. Produto é visto como sistema, não como feature.
 
@@ -118,13 +118,13 @@ O que acontece com IA: É ferramenta de augmentação. O time sabe quando usar I
 
 Exemplo real: Uma plataforma de delivery brasileira estava no nível 4. O time identificou que o maior problema não era prever demanda, mas alocar entregadores de forma eficiente. Construiu um sistema de IA que sugeria rotas, mas o entregador tinha a palavra final. O modelo era monitorado por tempo de entrega e satisfação do entregador, não por accuracy de previsão. Resultado: redução de 18% no tempo de entrega e aumento de 12% na satisfação dos entregadores.
 
-**R Nível 5: Evoluir (Excelência)**
+**R Nível 5: AI-Native (Refinar)**
 
 A empresa inteira entende estratégia de produto. Decisões são descentralizadas. Inovação é parte do dia a dia.
 
 O que acontece com IA: IA é parte natural do processo de produto. O time identifica oportunidades, valida com usuários, constrói com IA quando faz sentido. A tecnologia é invisível. O valor é o que importa.
 
-**E (Extensão):** A empresa atinge excelência replicável. O ciclo de aprendizado é contínuo. A IA não é um projeto, é um músculo.
+
 
 ### O AI Trap Framework (3 sintomas)
 
@@ -149,11 +149,11 @@ Se você respondeu "sim" para pelo menos dois sintomas, você está na *AI Trap*
 
 ---
 
-## SEÇÃO 4: CASOS REAIS
+## Seção 4: Casos Reais
 
 Três empresas brasileiras. Três níveis diferentes de maturidade. Três resultados diferentes com IA.
 
-### Caso 1: Banco Nova, Nível 2 (Alinhar), AI Trap confirmada
+### Caso 1: Banco Nova, Nível 2 (Avaliar), AI Trap confirmada
 
 **Situação Inicial:** O banco digital, chamarei de Banco Nova (nome fictício), estava no nível 2. Time de produto com 12 PMs. Discovery irregular. Priorização por urgência. O board pediu um chatbot com IA generativa. O time construiu em 8 meses.
 
@@ -185,7 +185,7 @@ Três empresas brasileiras. Três níveis diferentes de maturidade. Três result
 
 ---
 
-## SEÇÃO 5: SCRIPTS, COMO VENDER O DIAGNÓSTICO INTERNAMENTE
+## Seção 5: Scripts, como vender o diagnóstico internamente
 
 Você leu os casos. Sabe identificar a AI Trap. Agora a pergunta que tira o sono: como convencer o board, o CEO e o time de que "IA em tudo" é um erro, sem soar como a pessoa que está atrapalhando a inovação?
 
@@ -266,13 +266,13 @@ Lembre-se: você não está pedindo permissão para fazer discovery. Você está
 
 ---
 
-## SEÇÃO 6: MÉTRICAS DE SUCESSO
+## Seção 6: Métricas de Sucesso
 
 Como saber se você saiu da *AI Trap*? Três categorias de métricas.
 
 ### Valor para Usuário
 
-- **NPS do canal com IA vs. sem IA.** Se o NPS caiu, a IA está destruindo valor. Exemplo: Banco Nova tinha NPS 1.8 com IA vs. 74 sem IA. Depois da correção, NPS subiu para 78.
+- **NPS do canal com IA vs. sem IA.** Se o NPS caiu, a IA está destruindo valor. Exemplo: Banco Nova tinha satisfação 1.8 com IA vs. 74 sem IA. Depois da correção, NPS subiu para 78.
 - **Tempo de resolução.** A IA está acelerando ou atrasando? a empresa de logística reduziu o tempo de entrega em 20%.
 - **Taxa de escalonamento para humano.** Quanto mais o usuário precisa de ajuda humana, pior a IA. Ideal: menos de 20% de escalonamento.
 
@@ -290,7 +290,7 @@ Como saber se você saiu da *AI Trap*? Três categorias de métricas.
 
 ---
 
-## SEÇÃO 7: FECHAMENTO COM GANCHO
+## Seção 7: Fechamento com Gancho
 
 Você descobriu onde está. Talvez esteja no nível 2, como Carlos. Talvez no nível 3. Talvez, e isso é mais comum do que você imagina, esteja no nível 1 e nem saiba.
 
@@ -306,13 +306,13 @@ Se você ainda não sabe a resposta, não se preocupe. O próximo capítulo vai 
 
 ---
 
-# Capítulo 2: O Mapa de Maturidade — os 5 níveis que toda área atravessa
+# Capítulo 2: O Mapa de Maturidade, os 5 níveis que toda área atravessa
 
 ## Parte 1: Diagnóstico: Onde você está?
 
 ---
 
-## 1. CENA DE ABERTURA
+## 1. Cena de Abertura
 
 Era uma terça-feira de setembro de 2024, e Renata, Head de Produto de uma rede varejista com 200 lojas no Sudeste, estava na sala do CEO. Na mesa, um relatório de 40 páginas da consultoria que a empresa contratara por R$ 800 mil.
 
@@ -332,13 +332,13 @@ O CEO fechou o relatório. "O que você está sugerindo?"
 
 Essa conversa não aconteceu com um banco digital. Aconteceu com uma varejista. Poderia ter sido uma indústria, uma healthtech, uma logística. O padrão é o mesmo: times que confundem "ter orçamento para IA" com "estar pronto para IA".
 
-O Capítulo 1 te ensinou a identificar a AI Trap — quando a tecnologia entra antes do diagnóstico. Este capítulo te dá a ferramenta para fazer o diagnóstico certo: o Mapa de Maturidade.
+O Capítulo 1 te ensinou a identificar a AI Trap, quando a tecnologia entra antes do diagnóstico. Este capítulo te dá a ferramenta para fazer o diagnóstico certo: o Mapa de Maturidade.
 
-## 2. DEFINIÇÃO DO PROBLEMA
+## 2. Definição do Problema
 
 O problema não é falta de IA. É falta de diagnóstico honesto sobre onde o time realmente está.
 
-Em pesquisa com 50 líderes de produto brasileiros conduzida pela autora em 2025, 78% relataram testar IA em produção. Adoção não é maturidade.
+Em 2025, a maioria dos times de produto brasileiros que acompanho já testa IA em produção. Adoção não é maturidade.
 
 A confusão entre “ter IA” e “ser maduro em produto” é a causa raiz de projetos que queimam milhões e entregam zero valor.
 
@@ -354,11 +354,11 @@ Três sinais de que você está diagnosticando errado:
 
 O framework AI Trap, apresentado no Capítulo 1, mostrou o problema. Este capítulo mostra como medi-lo. Porque sem diagnóstico, qualquer mapa serve.
 
-Para isso, existe um framework que mapeia os 5 níveis que toda área atravessa. Ele se chama MATURE — uma adaptação do Product Excellence Maturity Model de Pawel Huryn para a realidade de times brasileiros.
+Para isso, existe um framework que mapeia os 5 níveis que toda área atravessa. Ele se chama MATURE, uma adaptação do Product Excellence Maturity Model de Pawel Huryn para a realidade de times brasileiros.
 
 Pawel Huryn define o Product Operating Model como “um sistema onde times empowered descobrem e entregam soluções que resolvem problemas reais dos usuários”. A maioria das empresas está em Feature Factory (Nível 2) mas acha que está em Product Operating Model (Nível 4). A diferença? Feature Factory entrega o que pediram. Product Operating Model entrega o que resolve.
 
-## 3. FRAMEWORK / COMPONENTES
+## 3. Framework / Componentes
 
 O framework MATURE não é sobre tecnologia. É sobre como o time toma decisões.
 
@@ -481,7 +481,7 @@ Antes de qualquer decisão sobre IA, o PM precisa mapear onde cada atividade do 
 
 O erro mais comum é implementar na zona red. Times investem milhões em automação que os usuários não querem, porque a tecnologia existe e parece “cool”. A Automation Matrix ajuda a evitar esse erro.
 
-## 4. GUIA PRÁTICO
+## 4. Guia Prático
 
 Você descobriu que seu time está no Nível 2. Ótimo. Agora o que fazer?
 
@@ -503,13 +503,13 @@ Você descobriu que seu time está no Nível 2. Ótimo. Agora o que fazer?
 2. **Implemente experimentação diária.** Teste uma hipótese por semana. Não precisa ser A/B. Pode ser um protótipo, uma entrevista, um teste de usabilidade.
 3. **Meça se o ritual mudou as decisões.** O time está priorizando com base em dados de uso ou ainda por “quem grita mais alto”? Se a resposta for a segunda, repita o ciclo.
 
-## 5. MÉTRICAS DE SUCESSO
+## 5. Métricas de Sucesso
 
 Para saber se você está subindo de nível, meça três categorias:
 
 ### Valor para Usuário
 
-- NPS de produto: Deve subir de 1.8 para 4.0+ em seis meses.
+- satisfação de produto: Deve subir de 1,8 para 4,0+ em seis meses.
 - Taxa de adoção: Percentual de usuários que usam a feature pelo menos uma vez por semana.
 - Satisfação de tarefa: “Conseguiu fazer o que queria?” Sim/Não.
 
@@ -532,7 +532,7 @@ Para saber se você está subindo de nível, meça três categorias:
 - NPS de atendimento digital acima de 50 (contra 1.8 do exemplo de abertura).
 - Zero features lançadas sem experimento prévio após 90 dias.
 
-## 6. FECHAMENTO COM GANCHO
+## 6. Fechamento com Gancho
 
 Você sabe onde está. Sabe para onde quer ir. Sabe como medir se está chegando.
 
@@ -550,7 +550,7 @@ Porque não adianta saber onde você está se você não sabe como evitar o bura
 
 ---
 
-# PARTE II — DECISÃO: O que fazer?
+# PARTE II: DECISÃO. O que fazer?
 
 > *Com o diagnóstico em mãos: construir, comprar, usar API ou open-source? E quanto custa?*
 
@@ -574,7 +574,7 @@ Silêncio.
 
 Carolina olhou para o relógio. 1 hora e 47 minutos de reunião. Zero decisão. Zero perguntas sobre o que os usuários realmente precisavam.
 
-Uma semana depois, o banco comprou a solução pronta. Três meses depois, o NPS do chatbot era 1,8. Os clientes odiavam. O time de engenharia, que queria construir, culpou a ferramenta. O time de negócios culpou a implementação. E Carolina? Carolina ficou com a sensação de que ninguém tinha feito a pergunta certa.
+Uma semana depois, o banco comprou a solução pronta. Três meses depois, o satisfação do chatbot era 1,8. Os clientes odiavam. O time de engenharia, que queria construir, culpou a ferramenta. O time de negócios culpou a implementação. E Carolina? Carolina ficou com a sensação de que ninguém tinha feito a pergunta certa.
 
 A decisão build vs buy não é técnica. É estratégica. E a maioria dos PMs não tem ferramentas para tomá-la.
 
@@ -604,7 +604,7 @@ Porque elas usam um critério só. As que acertam usam cinco. E ainda assim, tem
 
 > **Matriz B³: Build, Buy, Borrow**
 >
-> A Matriz B³ organiza as decisões em três caminhos, avaliados em 5 eixos: **Build** (construir com time e dados próprios), **Buy** (comprar API/SaaS pronto), **Borrow** (pegar algo que já existe e adaptar ao seu contexto — seja open-source, parceria ou fine-tuning). Você não constrói do zero, não compra caixa-preta. Você toma emprestado e molda.
+> A Matriz B³ organiza as decisões em três caminhos, avaliados em 5 eixos: **Build** (construir com time e dados próprios), **Buy** (comprar API/SaaS pronto), **Borrow** (pegar algo que já existe e adaptar ao seu contexto, seja open-source, parceria ou fine-tuning). Você não constrói do zero, não compra caixa-preta. Você toma emprestado e molda.
 
 **Framework: Matriz B³ (Build, Buy, Borrow)**
 **Autora:** Fernanda Faria, 2026
@@ -653,7 +653,7 @@ A maioria das empresas calcula só o custo de desenvolvimento. Esquece que const
 
 O fator 3 no desenvolvimento cobre o custo real de colocar em produção. O fator 5 na manutenção cobre o ciclo de vida do modelo (retreinamento, novos dados, mudanças de infraestrutura).
 
-> **⚠️ O fator câmbio (realidade brasileira):** Se sua decisão de Buy ou Borrow depende de API/SaaS precificada em dólar (OpenAI, Anthropic, Google), adicione uma margem de 30% a 100% no TCO para absorver variação cambial em 24 meses. Um custo de US$ 5.000/mês em API pode virar R$ 50.000/mês com o dólar a R$ 10. Isso não é exagero — é o que aconteceu entre 2024 e 2025. Se seu board não entende de câmbio, esse parágrafo é seu argumento.
+> **⚠️ O fator câmbio (realidade brasileira):** Se sua decisão de Buy ou Borrow depende de API/SaaS precificada em dólar (OpenAI, Anthropic, Google), adicione uma margem de 30% a 100% no TCO para absorver variação cambial em 24 meses. Um custo de US$ 5.000/mês em API vira R$ 30.000/mês com o dólar a R$ 6. Isso não é exagero, é o que aconteceu entre 2024 e 2025. Se seu board não entende de câmbio, esse parágrafo é seu argumento.
 
 **Dado:** O mercado global de IA era de US$ 390,9 bilhões em 2025, com projeção de US$ 3,5 trilhões até 2033 (Grand View Research, 2026). O custo de ficar de fora também é real. Mas o custo de construir errado é maior.
 
@@ -703,9 +703,9 @@ Depois de avaliar os 5 eixos, você escolhe um caminho:
 
 **O que estava errado:** O banco pulou a pergunta de diferenciação competitiva. Atendimento ao cliente é core? Sim. Mas chatbot de FAQ não é diferencial. É commodity. Todo banco tem. O que diferencia não é o chatbot, é a qualidade do atendimento humano quando o chatbot falha. O banco gastou milhões para construir algo que não ia mudar a experiência do cliente.
 
-**Como resolveu:** Depois de 9 meses e um NPS de 2,3, o banco abandonou o chatbot próprio. Comprou uma solução de terceiros em 4 semanas. Investiu a diferença em treinar a equipe de atendimento humano.
+**Como resolveu:** Depois de 9 meses e um satisfação de 2,3, o banco abandonou o chatbot próprio. Comprou uma solução de terceiros em 4 semanas. Investiu a diferença em treinar a equipe de atendimento humano.
 
-**Resultados:** NPS subiu para 4,2 em 3 meses. Custo de operação caiu 34%. Time de engenharia realocado para projetos core (análise de crédito, prevenção a fraudes).
+**Resultados:** satisfação subiu para 4,2 em 3 meses. Custo de operação caiu 34%. Time de engenharia realocado para projetos core (análise de crédito, prevenção a fraudes).
 
 #### Caso 2: O e-commerce que construiu o que não devia
 
@@ -774,7 +774,7 @@ Depois de avaliar os 5 eixos, você escolhe um caminho:
 | Custo por transação | Custo unitário de cada interação | Build: menor em escala. Buy: menor no início |
 
 **Valor para o Usuário:**
-- NPS da funcionalidade de IA (meta: > 4,0)
+- satisfação da funcionalidade de IA (meta: > 4,0)
 - Taxa de resolução no primeiro contato (para chatbots: > 60%)
 - Tempo de resposta (meta: < 2 segundos para interações síncronas)
 
@@ -988,7 +988,7 @@ Fonte: caso ilustrativo.
 
 ## Seção 5: O que seu CFO precisa saber sobre IA (em 5 minutos)
 
-Você não precisa virar engenheiro de ML. Mas existem 4 conceitos que todo executivo que aprova orçamento de IA deveria entender. Não pela tecnologia — pelo dinheiro.
+Você não precisa virar engenheiro de ML. Mas existem 4 conceitos que todo executivo que aprova orçamento de IA deveria entender. Não pela tecnologia, pelo dinheiro.
 
 ### Tokens: a unidade de custo que ninguém te conta
 
@@ -999,26 +999,26 @@ Toda API de IA cobra por **token**. Um token é ~¾ de uma palavra em português
 - Claude 3.5 Sonnet: ~US$ 3 por 1M entrada, US$ 15 por 1M saída
 - DeepSeek V3: ~US$ 0,27 por 1M entrada, US$ 1,10 por 1M saída
 
-**Na prática:** Um chatbot de atendimento que processa 50 mil conversas por mês, cada uma com ~2 mil tokens (entrada + saída), custa entre R$ 1.500 e R$ 15.000 por mês só em API — dependendo do modelo escolhido. Isso antes de adicionar custo de engenharia, infraestrutura e manutenção.
+**Na prática:** Um chatbot de atendimento que processa 50 mil conversas por mês, cada uma com ~2 mil tokens (entrada + saída), custa entre R$ 1.500 e R$ 15.000 por mês só em API, dependendo do modelo escolhido. Isso antes de adicionar custo de engenharia, infraestrutura e manutenção.
 
 ### Latência: velocidade tem preço
 
 Latência é o tempo entre a pergunta do usuário e a resposta do modelo. Modelos mais rápidos custam mais caro. Modelos mais baratos são mais lentos.
 
-**Na prática:** Se seu chatbot de atendimento demora 4 segundos para responder, o cliente desiste. Se você paga pelo modelo rápido (200ms), o custo por conversa dobra. A decisão não é técnica — é de produto: qual o valor de 3 segundos na experiência do seu cliente?
+**Na prática:** Se seu chatbot de atendimento demora 4 segundos para responder, o cliente desiste. Se você paga pelo modelo rápido (200ms), o custo por conversa dobra. A decisão não é técnica, é de produto: qual o valor de 3 segundos na experiência do seu cliente?
 
 ### Rate limits: o teto que você descobre na Black Friday
 
 Toda API tem um limite de requisições por minuto. Seu time testa com 10 usuários e funciona. Na Black Friday, com 10 mil usuários simultâneos, a API bloqueia. O cliente vê tela de erro. Seu NPS despenca.
 
-**Na prática:** Rate limit de 500 requisições por minuto parece alto até você ter 5 mil usuários fazendo perguntas ao mesmo tempo. O custo de aumentar esse limite é exponencial — e geralmente exige contrato enterprise.
+**Na prática:** Rate limit de 500 requisições por minuto parece alto até você ter 5 mil usuários fazendo perguntas ao mesmo tempo. O custo de aumentar esse limite é exponencial, e geralmente exige contrato enterprise.
 
 ### Inference vs Fine-tuning: alugar vs comprar
 
 - **Inference:** você usa o modelo pronto (GPT-4o, Claude). Paga por uso. Mais barato no início, mais caro em escala. Sem controle sobre o modelo.
 - **Fine-tuning:** você pega um modelo open-source (Llama, Mistral) e treina com seus dados. Custa mais caro no início (infraestrutura, time, tempo), mas em escala o custo por uso cai. Você controla o modelo.
 
-**Regra prática:** Se você processa menos de 1 milhão de requisições por mês, inference é mais barato. Acima disso, fine-tuning começa a valer a pena. Mas fine-tuning exige time — se você não tem engenheiro de ML, o custo real é o da contratação.
+**Regra prática:** Se você processa menos de 1 milhão de requisições por mês, inference é mais barato. Acima disso, fine-tuning começa a valer a pena. Mas fine-tuning exige time, se você não tem engenheiro de ML, o custo real é o da contratação.
 
 ---
 
@@ -1118,9 +1118,9 @@ No próximo capítulo, vamos explorar o outro lado da moeda: como construir uma 
 
 ---
 
-# PARTE III — TIME: Quem faz?
+# PARTE III: TIME. Quem faz?
 
-> *Quem fica, quem sai, quem se transforma — e o que o PM vira nesse mundo novo.*
+> *Quem fica, quem sai, quem se transforma, e o que o PM vira nesse mundo novo.*
 
 # Capítulo 5: Quem Fica, Quem Sai, Quem Se Transforma
 
@@ -1130,7 +1130,7 @@ Era uma quarta-feira de maio de 2025, e Rafael, AI Product Manager de um banco d
 
 Accuracy do chatbot: 92%.
 
-NPS do chatbot: 1.8.
+satisfação do chatbot: 1.8.
 
 Ele olhou para o time. Ninguém falou nada. O data scientist tinha passado três meses ajustando o modelo. O time de engenharia tinha implementado uma arquitetura nova de RAG. O time de produto tinha escrito 47 user stories para o fluxo de atendimento. E o resultado era aquele: um modelo tecnicamente impecável que os usuários odiavam.
 
@@ -1192,7 +1192,7 @@ O agente não sabia o que fazer com esses padrões. Ele só os encontrou. A limi
 
 O validador não precisa saber programar. Não precisa saber ajustar hiperparâmetros. Precisa saber uma coisa: taste.
 
-Taste é a capacidade de olhar para 47 padrões e dizer "esses 3 são os que importam, e aqui está o porquê". Em um mundo onde todos têm acesso aos mesmos modelos de IA, o diferencial não é a tecnologia, mas o julgamento sobre o que construir.
+Taste é a capacidade de olhar para 47 padrões e dizer "esses 3 são os que importam, e aqui está o porquê". Quando todo mundo tem acesso aos mesmos modelos de IA, o diferencial não é a tecnologia, mas o julgamento sobre o que construir.
 
 Exemplo real: o PM do banco digital que, após receber os 47 padrões do agente, decidiu ignorar 44 deles. Por que? Porque ele sabia que a empresa estava em um momento de retenção, não de aquisição. Os 44 padrões eram sobre aquisição: melhorar onboarding, simplificar cadastro, etc. Os 3 padrões que ele escolheu eram sobre retenção: usuários que não usavam o app há 30 dias, usuários que tinham saldo baixo, usuários que reclamavam de taxa. Ele ignorou dados que apontavam para uma direção porque o contexto de negócio apontava para outra.
 
@@ -1212,11 +1212,11 @@ Na prática, funciona assim: na segunda-feira, o agente envia um relatório com 
 
 Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que você classificou o padrão X como inconsistente?" Agente: "Porque ele contradiz o padrão Y identificado na semana passada, e a correlação é de -0.89." PM: "E se a mudança no algoritmo de recomendação da semana passada tiver alterado o comportamento do usuário?" Agente: "Não considerei essa variável. Vou recalcular."
 
-**Exemplo do banco digital:** O Explorador gerou 12 hipóteses sobre por que o NPS estava baixo. O Validador testou 4 em produção. O Sintetizador (Rafael) decidiu implementar a hipótese "explicações simples" porque o custo de implementação era baixo e o impacto potencial era alto, mesmo que não fosse a hipótese com maior significância estatística. A hipótese com maior significância era "escalação inteligente para humanos", mas o custo de implementação era 5x maior. Rafael sabia que o momento era de retenção, não de revolução. Decisão certa: NPS subiu de 1.8 para 4.2.
+**Exemplo do banco digital:** O Explorador gerou 12 hipóteses sobre por que a satisfação estava baixa. O Validador testou 4 em produção. O Sintetizador (Rafael) decidiu implementar a hipótese "explicações simples" porque o custo de implementação era baixo e o impacto potencial era alto, mesmo que não fosse a hipótese com maior chance de sucesso. A hipótese com maior chance de sucesso era "escalação inteligente para humanos", mas o custo de implementação era 5x maior. Rafael sabia que o momento era de retenção, não de revolução. Decisão certa: satisfação subiu de 1.8 para 4.2.
 
 **Por que é importante:** Porque nenhum dos dois, sozinho, toma a decisão certa. O agente tem dados sem contexto. O humano tem contexto sem dados. Juntos, eles sintetizam.
 
-**Dado sobre eficácia do formato híbrido:** Uma startup de mobilidade urbana implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era estatisticamente significativa.
+**Dado sobre eficácia do formato híbrido:** Uma startup de mobilidade urbana implementou o modelo THA e viu a taxa de acerto das decisões subir de 34% para 67% (caso ilustrativo). Um estudo interno da empresa mostrou que decisões tomadas apenas pelo agente tinham 23% de acerto. Decisões tomadas apenas pelo humano tinham 41% de acerto. Decisões tomadas pela dupla (agente + humano) tinham 67% de acerto. A diferença era grande o bastante para valer a pena.
 
 ---
 
@@ -1236,15 +1236,15 @@ Na terça-feira, o PM chega para a reunião de 30 minutos. "Agente, por que voc�
 
 ### Caso 1: Banco Digital
 
-**Situação Inicial:** Banco digital brasileiro com 8 milhões de usuários. Chatbot com accuracy de 92% e NPS de 1.8. 89% dos usuários pediam humano. Time de produto: 1 PM, 2 engenheiros de ML, 1 data scientist, 1 designer. Ninguém era responsável por "experiência do usuário com IA": cada um cuidava da sua parte.
+**Situação Inicial:** Banco digital brasileiro com 8 milhões de usuários. Chatbot com accuracy de 92% e satisfação de 1.8. 89% dos usuários pediam humano. Time de produto: 1 PM, 2 engenheiros de ML, 1 data scientist, 1 designer. Ninguém era responsável por "experiência do usuário com IA": cada um cuidava da sua parte.
 
 **O que estava errado:** O time estava organizado por função técnica, não por resultado. O engenheiro de ML otimizava accuracy. O PM escrevia PRDs para fluxos de atendimento. O designer desenhava telas. Ninguém olhava para o sistema completo: modelo + interface + contexto do usuário + momento da vida.
 
 **Como resolveu:** Implementaram o modelo THA. O agente (Explorador) passou a analisar 100% das conversas, não apenas amostras. Identificou que o problema não era o modelo entender errado, mas o modelo entender certo e responder errado. Exemplo: usuário diz "meu cartão foi clonado". Modelo entende "problema com cartão". Resposta: "Para reativar sua senha, siga esses passos." Accuracy técnica: 100%. Accuracy contextual: 0%.
 
-O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimizar resolução na primeira interação." Redesenhou o fluxo para que o modelo não apenas entendesse a intenção, mas também o contexto emocional. "Cartão clonado" não é "problema com cartão". É "emergência com urgência máxima".
+O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimizar resolução na primeira interação." Redesenhou o fluxo para que o modelo entendesse a intenção e o contexto emocional. "Cartão clonado" não é "problema com cartão". É "emergência com urgência máxima".
 
-**Resultados:** NPS foi de 1.8 para 4.2 em 6 meses. Taxa de resolução na primeira interação subiu de 23% para 71%. Percentual de usuários pedindo humano caiu de 89% para 34%. A mudança não foi técnica. Foi organizacional: o time passou a operar como THA.
+**Resultados:** satisfação foi de 1.8 para 4.2 em 6 meses. Taxa de resolução na primeira interação subiu de 23% para 71%. Percentual de usuários pedindo humano caiu de 89% para 34%. A mudança não foi técnica. Foi organizacional: o time passou a operar como THA.
 
 ---
 
@@ -1262,13 +1262,13 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 ### Caso 3: Um hospital (Saúde)
 
-**Situação Inicial:** Em 2024, um hospital implementou um sistema de IA para triagem de pacientes no pronto-socorro. O modelo tinha accuracy de 94% na classificação de urgência. Mas o NPS dos pacientes era baixo: 2.3. O time de produto era composto por 2 PMs, 3 engenheiros de ML, 1 médico e 1 designer. Ninguém era responsável pela experiência do paciente com o sistema de IA.
+**Situação Inicial:** Em 2024, um hospital implementou um sistema de IA para triagem de pacientes no pronto-socorro. O modelo tinha accuracy de 94% na classificação de urgência. Mas a satisfação dos pacientes era baixa: 2,3. O time de produto era composto por 2 PMs, 3 engenheiros de ML, 1 médico e 1 designer. Ninguém era responsável pela experiência do paciente com o sistema de IA.
 
 **O que estava errado:** O modelo classificava a urgência corretamente, mas não comunicava isso ao paciente de forma empática. Um paciente com dor no peito recebia a mensagem: "Sua urgência foi classificada como alta. Aguarde." Sem explicação, sem acolhimento. O modelo acertava a classificação, mas a experiência era péssima.
 
 **Como resolveu:** Implementaram o modelo THA. O agente (Explorador) analisou 5.000 interações e identificou que pacientes classificados como "urgência alta" tinham 3x mais chance de abandonar o pronto-socorro se não recebessem uma explicação empática em até 2 minutos. O PM (Validador) decidiu: "vamos redesenhar a comunicação do sistema, não a classificação". O agente e o PM (Sintetizador) definiram novos templates de mensagem que combinavam a classificação técnica com uma explicação simples e um tom acolhedor.
 
-**Resultados:** NPS subiu de 2.3 para 4.5 em 4 meses. Taxa de abandono caiu de 18% para 5%. O médico reportou que "os pacientes chegam mais calmos para o atendimento" (caso ilustrativo).
+**Resultados:** satisfação subiu de 2.3 para 4.5 em 4 meses. Taxa de abandono caiu de 18% para 5%. O médico reportou que "os pacientes chegam mais calmos para o atendimento" (caso ilustrativo).
 
 ---
 
@@ -1276,7 +1276,7 @@ O PM (Validador) decidiu: "vamos parar de otimizar accuracy e começar a otimiza
 
 Existe uma figura que o framework THA elimina sem piedade: o gerente cuja função principal era consolidar informação e repassar. Sabe aquele middle manager que passa 60% do tempo em reuniões de status, compilando slides do que o time fez, traduzindo métricas de engenharia pra linguagem de negócio?
 
-Esse papel some. Não porque é substituído por IA — mas porque ele nunca deveria ter existido.
+Esse papel some. Não porque é substituído por IA, mas porque ele nunca deveria ter existido.
 
 Quando o agente documenta automaticamente o que foi decidido, quando o dashboard mostra em tempo real o throughput do time, quando o Sintetizador já conecta métricas técnicas a métricas de negócio... o "gerente-informante" perde a função. Ele não agrega. Ele repassa.
 
@@ -1286,7 +1286,7 @@ Quando o agente documenta automaticamente o que foi decidido, quando o dashboard
 - Seu time funcionaria igual (ou melhor) sem você por 2 semanas
 - Você não consegue nomear 3 decisões reversíveis que tomou este mês
 
-Se 3 de 4 forem verdade, você é um gerente-informante. E tem 6 meses para virar Orquestrador — ou seu cargo some.
+Se 3 de 4 forem verdade, você é um gerente-informante. E tem 6 meses para virar Orquestrador, ou seu cargo some.
 
 **O que vira no lugar:** Quem era gerente-informante tem dois caminhos. Virar Orquestrador (assumir ownership de decisão, gerenciar o sistema híbrido humano-agente) ou virar Explorador sênior (profundidade técnica em vez de amplitude gerencial). O que não dá é ficar no meio.
 
@@ -1296,7 +1296,7 @@ Se 3 de 4 forem verdade, você é um gerente-informante. E tem 6 meses para vira
 
 "Tá, Fernanda, mas eu tenho 3 pessoas no meu time. Como aplico THA?"
 
-A resposta: você acumula. O framework não exige 3 pessoas diferentes — exige 3 funções diferentes. Em time pequeno, uma pessoa cobre mais de uma.
+A resposta: você acumula. O framework não exige 3 pessoas diferentes, exige 3 funções diferentes. Em time pequeno, uma pessoa cobre mais de uma.
 
 **Time de 3 pessoas (PM + 2 devs):**
 - **PM** = Sintetizador + 50% do Explorador (entrevistas, contexto externo)
@@ -1425,7 +1425,7 @@ Outro engenheiro completou: "O agente de dados gerou um relatório de churn que 
 
 Rafael olhou para o quadro. Dois agentes trabalhando. Resultados mistos. Bugs encontrados. Sugestões sem contexto. E ele, o PM, sem saber quem prioriza o que o agente sugere. Quem valida. Quem decide quando o agente erra.
 
-O banco digital tinha saído de um NPS de 1.8 para 4.2 em dois anos. Mas a dinâmica do time tinha mudado mais rápido do que a gestão conseguia acompanhar.
+O banco digital tinha saído de um satisfação de 1.8 para 4.2 em dois anos. Mas a dinâmica do time tinha mudado mais rápido do que a gestão conseguia acompanhar.
 
 Segundo a Stack Overflow Developer Survey 2025, 84% dos desenvolvedores usam ferramentas de IA no desenvolvimento (Stack Overflow, 2025). Pesquisa exploratória não publicada com 47 times de produto em empresas brasileiras (2024-2025) sugere que menos de 15% dos times têm papéis claros para agentes. Esse dado carece de validação estatística independente e é apresentado como observação da autora.
 
@@ -1459,17 +1459,17 @@ O que este capítulo resolve: um framework para redesenhar times de produto na e
 
 ## Seção 3: O que o PM PARA de fazer
 
-Antes de falar do que o PM *vira*, precisamos falar do que ele *deixa de ser*. Porque a parte mais difícil da transformação não é aprender o novo — é largar o velho.
+Antes de falar do que o PM *vira*, precisamos falar do que ele *deixa de ser*. Porque a parte mais difícil da transformação não é aprender o novo, é largar o velho.
 
 Aqui está o que some do seu dia a dia:
 
-**1. Microgerenciar tarefas repetitivas.** O agente escreve o primeiro draft do PRD. O agente compila as métricas do sprint. O agente documenta as decisões da reunião. Seu trabalho não é fazer — é revisar o que o agente fez e decidir se está bom. Você para de ser produtor e vira curador.
+**1. Microgerenciar tarefas repetitivas.** O agente escreve o primeiro draft do PRD. O agente compila as métricas do sprint. O agente documenta as decisões da reunião. Seu trabalho não é fazer, é revisar o que o agente fez e decidir se está bom. Você para de ser produtor e vira curador.
 
 **2. Ser o único validador de output.** Antes, toda feature passava pelo PM antes de ir pra produção. Agora, o agente valida critérios objetivos (testes passam? métricas dentro do range?) e só escala pro PM quando há ambiguidade. Você para de ser gargalo e vira exceção.
 
-**3. Priorizar sozinho com intuição pura.** O agente sugere priorização baseada em dados (impacto estimado, esforço, risco, dependências). Você ainda decide — mas com o agente mostrando o que os dados dizem. Você para de decidir no escuro e vira decisor informado.
+**3. Priorizar sozinho com intuição pura.** O agente sugere priorização baseada em dados (impacto estimado, esforço, risco, dependências). Você ainda decide, mas com o agente mostrando o que os dados dizem. Você para de decidir no escuro e vira decisor informado.
 
-**4. Descobrir problemas sozinho.** O agente monitora métricas 24/7, detecta anomalias, sugere hipóteses. Você não precisa mais "descobrir" que o NPS caiu — o agente te avisa. Você para de ser detetive e vira investigador sênior (o agente acha a cena do crime; você resolve o caso).
+**4. Descobrir problemas sozinho.** O agente monitora métricas 24/7, detecta anomalias, sugere hipóteses. Você não precisa mais "descobrir" que o NPS caiu, o agente te avisa. Você para de ser detetive e vira investigador sênior (o agente acha a cena do crime; você resolve o caso).
 
 **5. Escrever tudo do zero.** PRDs, briefings, relatórios de status, e-mails de alinhamento. O agente gera o primeiro draft. Você edita. Seu tempo de escrita cai 70%. Você para de ser redator e vira editor.
 
@@ -1477,7 +1477,7 @@ Se você se reconheceu em 3 ou mais desses itens: seu trabalho já mudou. Você 
 
 ---
 
-## Seção 4: PM Brain OS — seu sistema operacional de produto
+## Seção 4: PM Brain OS, seu sistema operacional de produto
 
 O PM Brain OS é o que substitui o HAT Model operacional. Pense nele como o sistema operacional que roda na sua cabeça (e na do agente). Três componentes:
 
@@ -1510,11 +1510,11 @@ Sem contexto, o agente é só um modelo de linguagem. Com contexto, ele é um te
 - **Contexto de time:** quem é responsável por quê, férias, capacidade do sprint
 - **Contexto de cliente:** feedback recente, tickets abertos, NPS por segmento
 
-Isso não é um documento — é um sistema. No Capítulo 8, você vai ver como operacionalizar essa memória compartilhada com rituais e ferramentas. Por enquanto, entenda o conceito: o agente é tão bom quanto o contexto que você dá pra ele.
+Isso não é um documento, é um sistema. No Capítulo 8, você vai ver como operacionalizar essa memória compartilhada com rituais e ferramentas. Por enquanto, entenda o conceito: o agente é tão bom quanto o contexto que você dá pra ele.
 
 ---
 
-## Seção 5: HAT Model — os papéis que operacionalizam o PM Brain OS
+## Seção 5: HAT Model, os papéis que operacionalizam o PM Brain OS
 
 Com o sistema operacional definido, o HAT Model (Human-Agent Team) organiza quem faz o quê.
 
@@ -1588,15 +1588,15 @@ O HAT Model não é teoria abstrata. É conhecimento prático baseado em impleme
 
 ## Seção 4: Casos Reais
 
-### Caso 1: Banco Digital, NPS de 1.8 para 4.2
+### Caso 1: Banco Digital, satisfação de 1.8 para 4.2
 
-**Situação Inicial.** Banco digital brasileiro com 5 milhões de clientes. Time de produto com 12 pessoas. NPS de 1.8. Reclamações constantes sobre tempo de resposta e qualidade das recomendações.
+**Situação Inicial.** Banco digital brasileiro com 5 milhões de clientes. Time de produto com 12 pessoas. satisfação de 1.8. Reclamações constantes sobre tempo de resposta e qualidade das recomendações.
 
 **O que estava errado.** O time tratava IA como ferramenta. Tinham um modelo de recomendação, mas ninguém validava as sugestões. O modelo recomendava produtos que o cliente já tinha. Resultado: taxa de cancelamento alta.
 
-**Como resolveu.** Implementaram o HAT Model. PM virou Strategist. Agente virou Executor. Designer virou Validator. Em 2 semanas, o time tinha papéis claros. Em 3 meses, o NPS subiu para 3.4. Em 6 meses, para 4.2.
+**Como resolveu.** Implementaram o HAT Model. PM virou Strategist. Agente virou Executor. Designer virou Validator. Em 2 semanas, o time tinha papéis claros. Em 3 meses, o satisfação subiu para 3.4. Em 6 meses, para 4.2.
 
-**Resultados.** NPS de 1.8 para 4.2 em 6 meses (dado ilustrativo baseado em observação da autora). Redução de 45% no tempo de resposta (dado ilustrativo). Aumento de 30% na taxa de conversão de recomendações (dado ilustrativo).
+**Resultados.** satisfação de 1.8 para 4.2 em 6 meses (dado ilustrativo baseado em observação da autora). Redução de 45% no tempo de resposta (dado ilustrativo). Aumento de 30% na taxa de conversão de recomendações (dado ilustrativo).
 
 ### Caso 2: E-commerce, Time focado em métricas técnicas
 
@@ -1616,7 +1616,7 @@ O HAT Model não é teoria abstrata. É conhecimento prático baseado em impleme
 
 **Como resolveu.** Criaram o papel de Escalator. Motorista podia ignorar a rota sugerida e explicar por quê. O feedback alimentava o Learner. Em 3 meses, a taxa de aceitação de rotas subiu de 60% para 85%.
 
-**Resultados.** Taxa de aceitação de 60% para 85% em 3 meses (dado ilustrativo). Redução de 12% no tempo médio de viagem (dado ilustrativo). Motoristas mais satisfeitos (NPS de motorista subiu de 2.8 para 3.9, dado ilustrativo).
+**Resultados.** Taxa de aceitação de 60% para 85% em 3 meses (dado ilustrativo). Redução de 12% no tempo médio de viagem (dado ilustrativo). Motoristas mais satisfeitos (satisfação de motorista subiu de 2.8 para 3.9, dado ilustrativo).
 
 ---
 
@@ -1700,7 +1700,7 @@ Se você não sabe a resposta, seu time híbrido está quebrado. E agora você s
 
 ---
 
-# PARTE IV — OPERAÇÃO: Como fazer rodar?
+# PARTE IV: OPERAÇÃO. Como fazer rodar?
 
 > *Time redesenhado, decisão tomada. Rituais, governança, cultura e ética.*
 
@@ -1710,7 +1710,7 @@ Se você não sabe a resposta, seu time híbrido está quebrado. E agora você s
 
 ### 1. Cena de Abertura
 
-Era uma quinta-feira de janeiro de 2024, e o head de produto do Banco Digital Brasileiro projetou o dashboard na sala de retrospectiva. O silêncio durou 10 segundos. O time inteiro olhava para o número: NPS de 1.8.
+Era uma quinta-feira de janeiro de 2024, e o head de produto do Banco Digital Brasileiro projetou o dashboard na sala de retrospectiva. O silêncio durou 10 segundos. O time inteiro olhava para o número: satisfação de 1.8.
 
 Isso não era erro de cálculo. O chatbot de atendimento tinha 92% de accuracy técnica. O modelo classificava corretamente intenções, resolvia problemas simples, respondia perguntas frequentes com precisão quase humana. No papel, era um sucesso. Na prática, 89% dos usuários pediam para falar com um humano nos primeiros 30 segundos de interação.
 
@@ -1762,7 +1762,7 @@ O acrônimo é OS, de *Operating System*. Observe, Schedule, Escalate, Review, I
 
 **O1: Observe. A métrica certa não é accuracy, é satisfação**
 
-O time do Banco Digital Brasileiro monitorava accuracy, precision e recall. Todas verdes. O NPS de 1.8 era invisível porque eles não olhavam para a métrica certa.
+O time do Banco Digital Brasileiro monitorava accuracy, precision e recall. Todas verdes. O satisfação de 1.8 era invisível porque eles não olhavam para a métrica certa.
 
 **A métrica de modelo mede o quão bem a IA executa a tarefa. A métrica de produto mede se a tarefa importa para o usuário.**
 
@@ -1801,7 +1801,7 @@ O agente não participa de reuniões. Mas suas decisões precisam ser revisadas.
 | Monthly análise | 2h | Mensal | Análise de tendências, revisão de métricas |
 | Quarterly audit | 4h | Trimestral | Revisão de casos-limite, alinhamento com estratégia |
 
-**Exemplo real:** O time de produto de um grande e-commerce brasileiro revisa semanalmente as recomendações de produtos rejeitadas pelos usuários. Cada rejeição é um dado. Cada padrão de rejeição é uma oportunidade de melhoria. Eles não esperam o usuário reclamar. Eles monitoram o comportamento do usuário em relação ao agente. Esse case, documentado na base de conhecimento do livro (2024), mostra como o Schedule transforma monitoramento reativo em governança proativa.
+**Exemplo real:** O time de produto de um grande e-commerce brasileiro revisa semanalmente as recomendações de produtos rejeitadas pelos usuários. Cada rejeição é um dado. Cada padrão de rejeição é uma oportunidade de melhoria. Eles não esperam o usuário reclamar. Eles monitoram o comportamento do usuário em relação ao agente. Esse caso ilustrativo mostra como o Schedule transforma monitoramento reativo em governança proativa.
 
 **Por que é importante:** Sem Schedule, o time só descobre problemas quando o usuário reclama. Ou pior: quando o agente causa um dano irreversível. O Schedule transforma monitoramento reativo em governança proativa.
 
@@ -1857,7 +1857,7 @@ O ciclo de melhoria contínua baseado em feedback humano é o que separa um agen
 
 **Exemplo completo: E-commerce brasileiro com recomendação de produtos**
 
-Um grande e-commerce brasileiro (case documentado na base de conhecimento do livro, 2024) enfrentava o problema: o algoritmo de recomendação otimizava taxa de clique com alta precisão técnica. Mas os usuários reclamavam de recomendações repetitivas e irrelevantes.
+Um grande e-commerce brasileiro (caso ilustrativo) enfrentava o problema: o algoritmo de recomendação otimizava taxa de clique com alta precisão técnica. Mas os usuários reclamavam de recomendações repetitivas e irrelevantes.
 
 O time aplicou o ciclo de iteração:
 
@@ -1865,7 +1865,7 @@ O time aplicou o ciclo de iteração:
 2. **Analisar:** Identificaram que o modelo ignorava contexto temporal (recomendava almoço para jantar), histórico recente (repetia recomendações vistas), e variedade (sempre os mesmos produtos)
 3. **Priorizar:** O erro mais danoso era a repetição: usuários desistiam de explorar porque viam sempre os mesmos itens
 4. **Corrigir:** Adicionaram contexto temporal (recomendação de almoço vs. jantar vs. lanche), implementaram "surpresa" (10% das recomendações aleatórias para explorar), mudaram métrica de otimização de CTR para NPS de recomendação
-5. **Validar:** NPS de recomendação subiu 18 pontos. Usuários relataram "descoberta" de novos produtos. Ticket médio aumentou 7%. (Fonte: base de conhecimento do livro, 2024)
+5. **Validar:** NPS de recomendação subiu 18 pontos. Usuários relataram "descoberta" de novos produtos. Ticket médio aumentou 7%. (caso ilustrativo)
 
 **A armadilha:** Times que iteram apenas com base em métricas técnicas (accuracy subiu 2%) mas ignoram métricas de experiência (NPS caiu 0.5). O ciclo de iteração precisa incluir ambos.
 
@@ -1873,9 +1873,9 @@ O time aplicou o ciclo de iteração:
 
 ### 4. Casos Reais
 
-**Caso 1: Banco Digital Brasileiro. Do NPS 1.8 ao 4.2**
+**Caso 1: Banco Digital Brasileiro. Do satisfação 1.8 ao 4.2**
 
-**Situação Inicial:** Chatbot com 92% de accuracy técnica. NPS de 1.8. 89% dos usuários pediam para falar com humano nos primeiros 30 segundos.
+**Situação Inicial:** Chatbot com 92% de accuracy técnica. satisfação de 1.8. 89% dos usuários pediam para falar com humano nos primeiros 30 segundos.
 
 **O que estava errado:**
 - Agente operava no nível 5 (autonomia total) quando deveria estar no nível 2
@@ -1890,7 +1890,7 @@ O time aplicou o ciclo de iteração:
 - Aumentou taxa de escalação para 40% nos casos complexos
 - Iniciou ciclo de iteração semanal baseado em feedback de usuários
 
-**Resultados:** Em 90 dias, o NPS subiu de 1.8 para 4.2. A taxa de usuários que pediam para falar com humano caiu de 89% para 34%. O tempo médio de resolução caiu de 12 minutos para 4 minutos. (Fonte: case interno documentado na base de conhecimento do livro, 2024)
+**Resultados:** Em 90 dias, o satisfação subiu de 1.8 para 4.2. A taxa de usuários que pediam para falar com humano caiu de 89% para 34%. O tempo médio de resolução caiu de 12 minutos para 4 minutos. (caso ilustrativo)
 
 ---
 
@@ -1969,7 +1969,7 @@ O time aplicou o ciclo de iteração:
 
 ### 6. Métricas de Sucesso
 
-Com base na experiência da autora em mais de 20 implementações de IA em produtos digitais, dois indicadores se destacam: taxa de escalação para humano abaixo de 30% (indicando que o agente resolve a maioria dos casos sem intervenção) e NPS acima de 4.0 (indicando que a experiência com o agente é positiva). Abaixo disso, o *Operating System* precisa ser revisado.
+Com base na experiência da autora em mais de 20 implementações de IA em produtos digitais, dois indicadores se destacam: taxa de escalação para humano abaixo de 30% (indicando que o agente resolve a maioria dos casos sem intervenção) e satisfação acima de 4.0 (indicando que a experiência com o agente é positiva). Abaixo disso, o *Operating System* precisa ser revisado.
 
 **Valor para Usuário**
 
@@ -1987,7 +1987,7 @@ Com base na experiência da autora em mais de 20 implementações de IA em produ
 
 ### 7. Fechamento e Gancho para o Capítulo 8
 
-O *Operating System* não é um framework opcional. É a condição para que a IA não destrua a experiência do usuário enquanto impressiona com métricas técnicas. O time do Banco Digital aprendeu isso na pele: 90 dias para subir o NPS de 1.8 para 4.2, mas 90 dias de dor de cabeça antes.
+O *Operating System* não é um framework opcional. É a condição para que a IA não destrua a experiência do usuário enquanto impressiona com métricas técnicas. O time do Banco Digital aprendeu isso na pele: 90 dias para subir o satisfação de 1.8 para 4.2, mas 90 dias de dor de cabeça antes.
 
 Se você implementar os 5 rituais (Observe, Schedule, Escalate, Review, Iterate), seu time terá governança para escalar. Mas tem um problema: quando você tem 2, 5, 10 agentes rodando ao mesmo tempo, o OS precisa ser replicado sem perder qualidade. No próximo capítulo, veremos como escalar esse *Operating System* para múltiplos agentes sem perder o controle. Spoiler: não é duplicando reuniões. 😉
 
@@ -2232,7 +2232,7 @@ A cultura que adota é a que protege. O resto é só branding.
 
 # EPÍLOGO: Seu Plano 30/60/90
 
-Você terminou o livro. Feche os olhos por 30 segundos. Pense na sua organização. Em que parte ela está? Abra a ferramenta da parte onde você está. Preencha. Faça uma coisa esta semana. Não 10. Uma. Este livro não foi escrito para ser lido — foi escrito para ser usado.
+Você terminou o livro. Feche os olhos por 30 segundos. Pense na sua organização. Em que parte ela está? Abra a ferramenta da parte onde você está. Preencha. Faça uma coisa esta semana. Não 10. Uma. Este livro não foi escrito para ser lido, foi escrito para ser usado.
 
 ---
 
